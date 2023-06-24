@@ -220,7 +220,7 @@ function ViewerLayout({
     <div>
       <Header
         menuOptions={menuOptions}
-        isReturnEnabled={!!appConfig.showStudyList}
+        isReturnEnabled={!!(appConfig.returnEnabled && appConfig.showStudyList)}
         onClickReturnButton={onClickReturnButton}
         WhiteLabeling={appConfig.whiteLabeling}
       >

@@ -7,6 +7,12 @@ window.config = {
     // Shows a custom route -access via http://localhost:3000/custom
     // helloPage: '@ohif/extension-default.customizationModule.helloPage',
   },
+  /**
+   * 二级页面 是否显示返回 StudyList 按钮
+   * @deprecated showStudyList = true 才显示
+   * @link extensions/default/src/ViewerLayout/index.tsx:223
+   */
+  returnEnabled: false,
   showStudyList: true,
   // some windows systems have issues with more than 3 web workers
   maxNumberOfWebWorkers: 3,
