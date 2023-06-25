@@ -53,7 +53,7 @@ function _askTrackMeasurements(uiViewportDialogService, viewportIndex) {
       resolve(result);
     };
 
-    uiViewportDialogService.show({
+    /*uiViewportDialogService.show({
       viewportIndex,
       id: 'measurement-tracking-prompt-begin-tracking',
       type: 'info',
@@ -64,7 +64,8 @@ function _askTrackMeasurements(uiViewportDialogService, viewportIndex) {
         uiViewportDialogService.hide();
         resolve(RESPONSE.CANCEL);
       },
-    });
+    });*/
+    onSubmit(RESPONSE.CANCEL);
   });
 }
 
