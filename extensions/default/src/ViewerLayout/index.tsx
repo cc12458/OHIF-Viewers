@@ -36,7 +36,7 @@ function ViewerLayout({
   ViewportGridComp,
   leftPanels = [],
   rightPanels = [],
-  leftPanelDefaultClosed = false,
+  leftPanelDefaultClosed = true,
   rightPanelDefaultClosed = false,
 }): React.FunctionComponent {
   const [appConfig] = useAppConfig();
@@ -213,7 +213,7 @@ function ViewerLayout({
   };
 
   const leftPanelComponents = leftPanels.map(getPanelData);
-  const rightPanelComponents = rightPanels.map(getPanelData);
+  const rightPanelComponents = /*rightPanels.map(getPanelData)*/ [];
   const viewportComponents = viewports.map(getViewportComponentData);
 
   return (

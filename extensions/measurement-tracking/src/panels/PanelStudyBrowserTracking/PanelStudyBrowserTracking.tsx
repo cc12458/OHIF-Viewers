@@ -369,6 +369,7 @@ function PanelStudyBrowserTracking({
   return (
     <StudyBrowser
       tabs={tabs}
+      showTabs={tabs.length > 1}
       servicesManager={servicesManager}
       activeTabName={activeTabName}
       expandedStudyInstanceUIDs={expandedStudyInstanceUIDs}
@@ -386,8 +387,8 @@ function PanelStudyBrowserTracking({
           SeriesInstanceUID: displaySet.SeriesInstanceUID,
         });
       }}
-      onClickThumbnail={() => {}}
-      onDoubleClickThumbnail={onDoubleClickThumbnailHandler}
+      onClickThumbnail={onDoubleClickThumbnailHandler}
+      onDoubleClickThumbnail={() => {}}
       activeDisplaySetInstanceUIDs={activeViewportDisplaySetInstanceUIDs}
     />
   );
@@ -681,7 +682,7 @@ function _createStudyBrowserTabs(
     },
   ];
 
-  return tabs;
+  return tabs.splice(0, 1);
 }
 
 function _findTabAndStudyOfDisplaySet(displaySetInstanceUID, tabs) {
