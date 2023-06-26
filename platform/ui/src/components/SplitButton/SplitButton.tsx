@@ -20,7 +20,7 @@ const baseClasses = {
     'h-full flex items-center justify-center rounded-tr-md rounded-br-md w-4 border-2 border-transparent group/secondary',
   SecondaryIcon: 'w-4 h-full stroke-1',
   Separator: 'border-l py-2.5',
-  Content: 'absolute z-10 top-0 mt-12',
+  Content: 'fixed z-10 top-0 mt-12',
 };
 
 const classes = {
@@ -114,14 +114,16 @@ const SplitButton = ({
           commands: item.commands,
         });
 
-        setState(state => ({
-          ...state,
-          primary: !isAction && isRadio ? { ...item, index } : state.primary,
-          isExpanded: false,
-          items: getSplitButtonItems(_items).filter(item =>
-            isRadio && !isAction ? item.index !== index : true
-          ),
-        }));
+        if (secondary) {
+          setState(state => ({
+            ...state,
+            primary: !isAction && isRadio ? { ...item, index } : state.primary,
+            isExpanded: false,
+            items: getSplitButtonItems(_items).filter(item =>
+              isRadio && !isAction ? item.index !== index : true
+            ),
+          }));
+        }
       },
     }));
 
@@ -211,46 +213,72 @@ const SplitButton = ({
                 data-cy={`${groupId}-split-button-primary`}
               />
             </div>
-            <div
-              className={classes.Separator({
-                ...state,
-                primary: { isActive: isPrimaryActive },
-              })}
-            ></div>
-            <div
-              className={classes.Secondary({
-                ...state,
-                primary: { isActive: isPrimaryActive },
-              })}
-              onClick={onSecondaryClickHandler}
-              data-cy={`${groupId}-split-button-secondary`}
-            >
-              <Tooltip
-                isDisabled={state.isExpanded || !secondary.tooltip}
-                content={secondary.tooltip}
-                className="h-full"
-              >
-                <Icon
-                  name={secondary.icon}
-                  className={classes.SecondaryIcon({
+            {/* 若配置 secondary 则维持下拉（原逻辑）  */}
+            {secondary && (
+              <>
+                <div
+                  className={classes.Separator({
                     ...state,
                     primary: { isActive: isPrimaryActive },
                   })}
-                />
-              </Tooltip>
-            </div>
+                ></div>
+                <div
+                  className={classes.Secondary({
+                    ...state,
+                    primary: { isActive: isPrimaryActive },
+                  })}
+                  onClick={onSecondaryClickHandler}
+                  data-cy={`${groupId}-split-button-secondary`}
+                >
+                  <Tooltip
+                    isDisabled={state.isExpanded || !secondary.tooltip}
+                    content={secondary.tooltip}
+                    className="h-full"
+                  >
+                    <Icon
+                      name={secondary.icon}
+                      className={classes.SecondaryIcon({
+                        ...state,
+                        primary: { isActive: isPrimaryActive },
+                      })}
+                    />
+                  </Tooltip>
+                </div>
+                {/* EXPANDED LIST OF OPTIONS */}
+                <div
+                  className={classes.Content({ ...state })}
+                  data-cy={`${groupId}-list-menu`}
+                >
+                  <ListMenu
+                    items={state.items}
+                    bState={bState}
+                    renderer={args => listItemRenderer({ ...args, t })}
+                  />
+                </div>
+              </>
+            )}
+            {/* 未配置 secondary 则 平铺选项  */}
+            {!secondary && (
+              <>
+                {state.items.map(item => (
+                  <div onClick={item.onClick}>
+                    <PrimaryButtonComponent
+                      key={item.id}
+                      {...item}
+                      bState={bState}
+                      isActive={primaryToolId === item.id}
+                      onInteraction={args =>
+                        toolbarService.recordInteraction(args)
+                      }
+                      servicesManager={servicesManager}
+                      data-tool={item.id}
+                      data-cy={`${groupId}-split-button-primary`}
+                    />
+                  </div>
+                ))}
+              </>
+            )}
           </div>
-        </div>
-        {/* EXPANDED LIST OF OPTIONS */}
-        <div
-          className={classes.Content({ ...state })}
-          data-cy={`${groupId}-list-menu`}
-        >
-          <ListMenu
-            items={state.items}
-            bState={bState}
-            renderer={args => listItemRenderer({ ...args, t })}
-          />
         </div>
       </div>
     </OutsideClickHandler>
@@ -282,13 +310,16 @@ SplitButton.propTypes = {
     type: PropTypes.oneOf(['tool', 'action', 'toggle']).isRequired,
     tooltip: PropTypes.string,
   }),
-  secondary: PropTypes.shape({
-    id: PropTypes.string,
-    icon: PropTypes.string,
-    label: PropTypes.string,
-    tooltip: PropTypes.string,
-    isActive: PropTypes.bool,
-  }),
+  secondary: PropTypes.oneOfType([
+    null,
+    PropTypes.shape({
+      id: PropTypes.string,
+      icon: PropTypes.string,
+      label: PropTypes.string,
+      tooltip: PropTypes.string,
+      isActive: PropTypes.bool,
+    }),
+  ]),
   renderer: PropTypes.func,
   items: PropTypes.arrayOf(
     PropTypes.shape({

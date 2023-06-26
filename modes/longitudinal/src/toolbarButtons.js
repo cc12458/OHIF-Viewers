@@ -108,12 +108,7 @@ const toolbarButtons = [
         ],
         'Length'
       ),
-      secondary: {
-        icon: 'chevron-down',
-        label: '',
-        isActive: true,
-        tooltip: 'More Measure Tools',
-      },
+      secondary: null,
       items: [
         _createToolButton(
           'Length',
@@ -375,12 +370,7 @@ const toolbarButtons = [
         ],
         'Reset'
       ),
-      secondary: {
-        icon: 'chevron-down',
-        label: '',
-        isActive: true,
-        tooltip: 'More Tools',
-      },
+      secondary: null,
       items: [
         _createActionButton(
           'Reset',

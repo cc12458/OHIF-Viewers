@@ -217,7 +217,7 @@ function ViewerLayout({
   const viewportComponents = viewports.map(getViewportComponentData);
 
   return (
-    <div>
+    <div className="flex flex-col" style={{height: '100vh'}}>
       <Header
         menuOptions={menuOptions}
         isReturnEnabled={!!(appConfig.returnEnabled && appConfig.showStudyList)}
@@ -225,14 +225,14 @@ function ViewerLayout({
         WhiteLabeling={appConfig.whiteLabeling}
       >
         <ErrorBoundary context="Primary Toolbar">
-          <div className="relative flex justify-center">
+          <div className="relative flex justify-center flex-wrap">
             <Toolbar servicesManager={servicesManager} />
           </div>
         </ErrorBoundary>
       </Header>
       <div
-        className="bg-black flex flex-row items-stretch w-full overflow-hidden flex-nowrap relative"
-        style={{ height: 'calc(100vh - 52px' }}
+        className="bg-black flex-auto flex flex-row items-stretch w-full overflow-hidden flex-nowrap relative"
+        // style={{ height: 'calc(100vh - 52px' }}
       >
         <React.Fragment>
           {showLoadingIndicator && (
