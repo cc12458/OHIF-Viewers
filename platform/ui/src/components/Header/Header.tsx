@@ -8,6 +8,7 @@ import Svg from '../Svg';
 import Icon from '../Icon';
 import IconButton from '../IconButton';
 import Dropdown from '../Dropdown';
+import Tooltip from '../Tooltip';
 
 function Header({
   children,
@@ -59,26 +60,45 @@ function Header({
           <span className="mr-3 text-lg text-common-light">
             {t('INVESTIGATIONAL USE ONLY')}
           </span>
-          <Dropdown id="options" showDropdownIcon={false} list={menuOptions}>
-            <IconButton
-              id={'options-settings-icon'}
-              variant="text"
-              color="inherit"
-              size="initial"
-              className="text-primary-active"
+          {menuOptions.length === 1 ? (
+            <div
+              style={{ height: '25px', marginRight: '4px' }}
+              onClick={menuOptions[0].onClick}
             >
-              <Icon name="settings" />
-            </IconButton>
-            <IconButton
-              id={'options-chevron-down-icon'}
-              variant="text"
-              color="inherit"
-              size="initial"
-              className="text-primary-active"
-            >
-              <Icon name="chevron-down" />
-            </IconButton>
-          </Dropdown>
+              <Tooltip content={menuOptions[0].title} position="bottom-right">
+                <IconButton
+                  id={'options-settings-icon'}
+                  variant="text"
+                  color="inherit"
+                  size="initial"
+                  className="text-primary-active"
+                >
+                  <Icon name={menuOptions[0].icon} />
+                </IconButton>
+              </Tooltip>
+            </div>
+          ) : (
+            <Dropdown id="options" showDropdownIcon={false} list={menuOptions}>
+              <IconButton
+                id={'options-settings-icon'}
+                variant="text"
+                color="inherit"
+                size="initial"
+                className="text-primary-active"
+              >
+                <Icon name="settings" />
+              </IconButton>
+              <IconButton
+                id={'options-chevron-down-icon'}
+                variant="text"
+                color="inherit"
+                size="initial"
+                className="text-primary-active"
+              >
+                <Icon name="chevron-down" />
+              </IconButton>
+            </Dropdown>
+          )}
         </div>
       </div>
     </NavBar>
