@@ -57,9 +57,9 @@ function Header({
         </div>
         <div className="flex items-center">{children}</div>
         <div className="flex items-center">
-          <span className="mr-3 text-lg text-common-light">
-            {t('INVESTIGATIONAL USE ONLY')}
-          </span>
+          {/*<span className="mr-3 text-lg text-common-light">*/}
+          {/*  {t('INVESTIGATIONAL USE ONLY')}*/}
+          {/*</span>*/}
           {menuOptions.length === 1 ? (
             <div
               style={{ height: '25px', marginRight: '4px' }}
