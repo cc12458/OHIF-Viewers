@@ -120,17 +120,10 @@ function modeFactory() {
 
       toolbarService.init(extensionManager);
       toolbarService.addButtons(toolbarButtons);
-      toolbarService.createButtonSection('primary', [
-        'MeasurementTools',
-        'Zoom',
-        'WindowLevel',
-        'Pan',
-        'Capture',
-        'Layout',
-        'MPR',
-        'Crosshairs',
-        'MoreTools',
-      ]);
+      toolbarService.createButtonSection(
+        'primary',
+        toolbarButtons.map(item => item.id)
+      );
 
       // // ActivatePanel event trigger for when a segmentation or measurement is added.
       // // Do not force activation so as to respect the state the user may have left the UI in.

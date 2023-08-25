@@ -217,7 +217,7 @@ function ViewerLayout({
   const viewportComponents = viewports.map(getViewportComponentData);
 
   return (
-    <div className="flex flex-col" style={{height: '100vh'}}>
+    <div className="flex flex-col" style={{ height: `${window.innerHeight}px` }}>
       <Header
         menuOptions={menuOptions}
         isReturnEnabled={!!(appConfig.returnEnabled && appConfig.showStudyList)}

@@ -1,0 +1,12 @@
+/* 自定义全局样式 */
+
+@media screen and (max-width: 500px) {
+    [role="tooltip"] > button {
+        padding: 2px !important;
+    }
+}
+
+[data-cy="MoreTools-list-menu"] {
+    max-height: 60%;
+    overflow: auto;
+}

@@ -29,6 +29,8 @@ import createRoutes from './routes';
 import appInit from './appInit.js';
 import OpenIdConnectRoutes from './utils/OpenIdConnectRoutes';
 
+import 'style.css';
+
 let commandsManager: CommandsManager,
   extensionManager: ExtensionManager,
   servicesManager: ServicesManager,
