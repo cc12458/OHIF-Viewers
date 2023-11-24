@@ -111,7 +111,8 @@ export default async function init({
     uiNotificationService.show({
       title: 'Cross Origin Isolation',
       message:
-        'Cross Origin Isolation is not enabled, read more about it here: https://docs.ohif.org/faq/',
+        'SharedArray Buffer not allowed, performance may be slower.\n' +
+        'Try ensuring page is cross-origin isolated to enable SharedArrayBuffer.',
       type: 'warning',
     });
   }
