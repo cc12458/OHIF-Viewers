@@ -1,7 +1,7 @@
 {
-  "name": "OHIF Viewer",
+  "name": "Image Viewer",
   "short_name": "Viewer",
-  "description": "OHIF Viewer",
+  "description": "Image Viewer",
   "dir": "auto",
   "lang": "en-US",
   "orientation": "any",

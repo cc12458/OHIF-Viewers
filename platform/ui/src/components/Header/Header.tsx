@@ -59,30 +59,14 @@ function Header({
         <div className="flex items-center">{children}</div>
         <div className="flex items-center">
           {/*<span className="text-common-light mr-3 text-lg">{t('INVESTIGATIONAL USE ONLY')}</span>*/}
-          {
-            menuOptions.length === 1 ? (
-              <div
-                style={{ height: '25px', marginRight: '4px' }}
-                onClick={menuOptions[0].onClick}
-              >
-                <Tooltip content={menuOptions[0].title} position="bottom-right">
-                  <IconButton
-                    id={'options-settings-icon'}
-                    variant="text"
-                    color="inherit"
-                    size="initial"
-                    className="text-primary-active"
-                  >
-                    <Icon name={menuOptions[0].icon} />
-                  </IconButton>
-                </Tooltip>
-              </div>
-            ) : (
-              <Dropdown
-                id="options"
-                showDropdownIcon={false}
-                list={menuOptions}
-                alignment="right"
+          {menuOptions.length === 1 ? (
+            <div
+              style={{ height: '25px', marginRight: '4px' }}
+              onClick={menuOptions[0].onClick}
+            >
+              <Tooltip
+                content={menuOptions[0].title}
+                position="bottom-right"
               >
                 <IconButton
                   id={'options-settings-icon'}
@@ -91,20 +75,37 @@ function Header({
                   size="initial"
                   className="text-primary-active"
                 >
-                  <Icon name="settings" />
+                  <Icon name={menuOptions[0].icon} />
                 </IconButton>
-                <IconButton
-                  id={'options-chevron-down-icon'}
-                  variant="text"
-                  color="inherit"
-                  size="initial"
-                  className="text-primary-active"
-                >
-                  <Icon name="chevron-down" />
-                </IconButton>
-              </Dropdown>
-            )
-          }
+              </Tooltip>
+            </div>
+          ) : (
+            <Dropdown
+              id="options"
+              showDropdownIcon={false}
+              list={menuOptions}
+              alignment="right"
+            >
+              <IconButton
+                id={'options-settings-icon'}
+                variant="text"
+                color="inherit"
+                size="initial"
+                className="text-primary-active"
+              >
+                <Icon name="settings" />
+              </IconButton>
+              <IconButton
+                id={'options-chevron-down-icon'}
+                variant="text"
+                color="inherit"
+                size="initial"
+                className="text-primary-active"
+              >
+                <Icon name="chevron-down" />
+              </IconButton>
+            </Dropdown>
+          )}
         </div>
       </div>
     </NavBar>

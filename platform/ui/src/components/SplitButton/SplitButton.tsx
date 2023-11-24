@@ -18,7 +18,7 @@ const baseClasses = {
     'h-full flex items-center justify-center rounded-tr-md rounded-br-md w-4 border-2 border-transparent group/secondary',
   SecondaryIcon: 'w-4 h-full stroke-1',
   Separator: 'border-l py-2.5',
-  Content: 'absolute z-10 top-0 mt-12',
+  Content: 'fixed z-10 top-0 mt-12',
 };
 
 const classes = {

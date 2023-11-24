@@ -398,7 +398,7 @@ function WorkList({
   const commitHash = process.env.COMMIT_HASH;
 
   const menuOptions = [
-    {
+    /*{
       title: t('Header:About'),
       icon: 'info',
       onClick: () =>
@@ -407,7 +407,7 @@ function WorkList({
           title: 'About OHIF Viewer',
           contentProps: { versionNumber, commitHash },
         }),
-    },
+    },*/
     {
       title: t('Header:Preferences'),
       icon: 'settings',

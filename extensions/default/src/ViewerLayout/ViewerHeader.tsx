@@ -47,7 +47,7 @@ function ViewerHeader({ hotkeysManager, extensionManager, servicesManager }) {
   const commitHash = process.env.COMMIT_HASH;
 
   const menuOptions = [
-    {
+    /*{
       title: t('Header:About'),
       icon: 'info',
       onClick: () =>
@@ -56,7 +56,7 @@ function ViewerHeader({ hotkeysManager, extensionManager, servicesManager }) {
           title: 'About OHIF Viewer',
           contentProps: { versionNumber, commitHash },
         }),
-    },
+    },*/
     {
       title: t('Header:Preferences'),
       icon: 'settings',
@@ -102,12 +102,15 @@ function ViewerHeader({ hotkeysManager, extensionManager, servicesManager }) {
   return (
     <Header
       menuOptions={menuOptions}
-      isReturnEnabled={!!appConfig.showStudyList}
+      isReturnEnabled={!!appConfig.showStudyList && !appConfig.forbidReturn}
       onClickReturnButton={onClickReturnButton}
       WhiteLabeling={appConfig.whiteLabeling}
     >
       <ErrorBoundary context="Primary Toolbar">
-        <div className="relative flex justify-center">
+        <div
+          className="relative flex flex-wrap justify-center"
+          style={{ paddingRight: '40px' }}
+        >
           <Toolbar servicesManager={servicesManager} />
         </div>
       </ErrorBoundary>

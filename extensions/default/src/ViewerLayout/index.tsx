@@ -6,6 +6,7 @@ import { ServicesManager, HangingProtocolService, CommandsManager } from '@ohif/
 import { useAppConfig } from '@state';
 import ViewerHeader from './ViewerHeader';
 import SidePanelWithServices from '../Components/SidePanelWithServices';
+import { useWindowSize } from "../utils/useWindowSize";
 
 function ViewerLayout({
   // From Extension Module Params
@@ -20,8 +21,9 @@ function ViewerLayout({
   rightPanels = [],
   leftPanelDefaultClosed = true,
   rightPanelDefaultClosed = false,
-}): React.FunctionComponent {
+}): React.JSX.Element {
   const [appConfig] = useAppConfig();
+  const windowSize  = useWindowSize();
 
   const { hangingProtocolService } = servicesManager.services;
   const [showLoadingIndicator, setShowLoadingIndicator] = useState(appConfig.showLoadingIndicator);
@@ -101,19 +103,22 @@ function ViewerLayout({
   };
 
   const leftPanelComponents = leftPanels.map(getPanelData);
-  const rightPanelComponents = rightPanels.map(getPanelData);
+  const rightPanelComponents = []; /*rightPanels.map(getPanelData)*/
   const viewportComponents = viewports.map(getViewportComponentData);
 
   return (
-    <div>
+    <div
+      className="flex flex-col"
+      style={{ height: `${windowSize.height}px` }}
+    >
       <ViewerHeader
         hotkeysManager={hotkeysManager}
         extensionManager={extensionManager}
         servicesManager={servicesManager}
       />
       <div
-        className="relative flex w-full flex-row flex-nowrap items-stretch overflow-hidden bg-black"
-        style={{ height: 'calc(100vh - 52px' }}
+        className="relative flex w-full flex-auto flex-row flex-nowrap items-stretch overflow-hidden bg-black"
+        // style={{ height: 'calc(100vh - 52px' }}
       >
         <React.Fragment>
           {showLoadingIndicator && <LoadingIndicatorProgress className="h-full w-full bg-black" />}

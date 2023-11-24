@@ -55,7 +55,7 @@ const Tooltip = ({ content, isSticky, position, className, tight, children, isDi
       onFocus={handleMouseOver}
       onMouseOut={handleMouseOut}
       onBlur={handleMouseOut}
-      role="tooltip"
+      /*role="tooltip"*/
     >
       {children}
       <div
