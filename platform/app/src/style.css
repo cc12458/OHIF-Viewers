@@ -9,4 +9,5 @@
 [data-cy="MoreTools-list-menu"] {
     max-height: 60%;
     overflow: auto;
+    transform: translateX(-88px);
 }

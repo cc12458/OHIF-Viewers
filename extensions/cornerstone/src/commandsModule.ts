@@ -121,6 +121,8 @@ function commandsModule({
     deleteMeasurement: ({ uid }) => {
       if (uid) {
         measurementServiceSource.remove(uid);
+      } else {
+        measurementService.clearMeasurements();
       }
     },
 

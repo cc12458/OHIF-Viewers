@@ -17,6 +17,8 @@ function Header({
   onClickReturnButton,
   isSticky,
   WhiteLabeling,
+  hideLeft = false,
+  hideRight = false,
   ...props
 }): ReactNode {
   const { t } = useTranslation('Header');
@@ -35,38 +37,59 @@ function Header({
       isSticky={isSticky}
     >
       <div className="flex flex-1 justify-between">
-        <div className="flex items-center">
-          {/* // TODO: Should preserve filter/sort
+        {!hideLeft && (
+          <div className="flex items-center">
+            {/* // TODO: Should preserve filter/sort
               // Either injected service? Or context (like react router's `useLocation`?) */}
-          <div
-            className={classNames(
-              'mr-3 inline-flex items-center',
-              isReturnEnabled && 'cursor-pointer'
-            )}
-            onClick={onClickReturn}
-          >
-            {isReturnEnabled && (
-              <Icon
-                name="chevron-left"
-                className="text-primary-active w-8"
-              />
-            )}
-            <div className="ml-4">
-              {WhiteLabeling?.createLogoComponentFn?.(React, props) || <Svg name="logo-ohif" />}
+            <div
+              className={classNames(
+                'mr-3 inline-flex items-center',
+                isReturnEnabled && 'cursor-pointer'
+              )}
+              onClick={onClickReturn}
+            >
+              {isReturnEnabled && (
+                <Icon
+                  name="chevron-left"
+                  className="text-primary-active w-8"
+                />
+              )}
+              <div className="ml-4">
+                {WhiteLabeling?.createLogoComponentFn?.(React, props) || <Svg name="logo-ohif" />}
+              </div>
             </div>
           </div>
-        </div>
-        <div className="flex items-center">{children}</div>
-        <div className="flex items-center">
-          {/*<span className="text-common-light mr-3 text-lg">{t('INVESTIGATIONAL USE ONLY')}</span>*/}
-          {menuOptions.length === 1 ? (
-            <div
-              style={{ height: '25px', marginRight: '4px' }}
-              onClick={menuOptions[0].onClick}
-            >
-              <Tooltip
-                content={menuOptions[0].title}
-                position="bottom-right"
+        )}
+        <div className="flex flex-auto items-center justify-center">{children}</div>
+        {!hideRight && (
+          <div className="flex items-center">
+            {/*<span className="text-common-light mr-3 text-lg">{t('INVESTIGATIONAL USE ONLY')}</span>*/}
+            {menuOptions.length === 1 ? (
+              <div
+                style={{ height: '25px', marginRight: '4px' }}
+                onClick={menuOptions[0].onClick}
+              >
+                <Tooltip
+                  content={menuOptions[0].title}
+                  position="bottom-right"
+                >
+                  <IconButton
+                    id={'options-settings-icon'}
+                    variant="text"
+                    color="inherit"
+                    size="initial"
+                    className="text-primary-active"
+                  >
+                    <Icon name={menuOptions[0].icon} />
+                  </IconButton>
+                </Tooltip>
+              </div>
+            ) : (
+              <Dropdown
+                id="options"
+                showDropdownIcon={false}
+                list={menuOptions}
+                alignment="right"
               >
                 <IconButton
                   id={'options-settings-icon'}
@@ -75,38 +98,21 @@ function Header({
                   size="initial"
                   className="text-primary-active"
                 >
-                  <Icon name={menuOptions[0].icon} />
+                  <Icon name="settings" />
                 </IconButton>
-              </Tooltip>
-            </div>
-          ) : (
-            <Dropdown
-              id="options"
-              showDropdownIcon={false}
-              list={menuOptions}
-              alignment="right"
-            >
-              <IconButton
-                id={'options-settings-icon'}
-                variant="text"
-                color="inherit"
-                size="initial"
-                className="text-primary-active"
-              >
-                <Icon name="settings" />
-              </IconButton>
-              <IconButton
-                id={'options-chevron-down-icon'}
-                variant="text"
-                color="inherit"
-                size="initial"
-                className="text-primary-active"
-              >
-                <Icon name="chevron-down" />
-              </IconButton>
-            </Dropdown>
-          )}
-        </div>
+                <IconButton
+                  id={'options-chevron-down-icon'}
+                  variant="text"
+                  color="inherit"
+                  size="initial"
+                  className="text-primary-active"
+                >
+                  <Icon name="chevron-down" />
+                </IconButton>
+              </Dropdown>
+            )}
+          </div>
+        )}
       </div>
     </NavBar>
   );
@@ -125,6 +131,9 @@ Header.propTypes = {
   isSticky: PropTypes.bool,
   onClickReturnButton: PropTypes.func,
   WhiteLabeling: PropTypes.object,
+
+  hideLeft: PropTypes.bool,
+  hideRight: PropTypes.bool,
 };
 
 Header.defaultProps = {

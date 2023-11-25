@@ -15,14 +15,14 @@ const defaultContextMenu = {
             },
           ],
         },
-        {
+        /*{
           label: 'Add Label',
           commands: [
             {
               commandName: 'setMeasurementLabel',
             },
           ],
-        },
+        },*/
       ],
     },
   ],

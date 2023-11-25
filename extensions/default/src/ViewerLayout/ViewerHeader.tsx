@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useLocation } from 'react-router';
@@ -8,6 +8,7 @@ import i18n from '@ohif/i18n';
 import { hotkeys } from '@ohif/core';
 import { useAppConfig } from '@state';
 import Toolbar from '../Toolbar/Toolbar';
+import { useWindowSize } from '../utils/useWindowSize';
 
 const { availableLanguages, defaultLanguage, currentLanguage } = i18n;
 
@@ -99,18 +100,30 @@ function ViewerHeader({ hotkeysManager, extensionManager, servicesManager }) {
     });
   }
 
+  const { width } = useWindowSize();
+  const [hideLeft, setHideLeft] = useState(false);
+  const [hideRight, setHideRight] = useState(false);
+  useEffect(() => {
+    const [left, right] = Array.isArray(hide) ? hide : hide ? [570, 425] : [];
+    if (left) {
+      setHideLeft(width < left);
+    }
+    if (right) {
+      setHideRight(width < right);
+    }
+  }, [width]);
+
   return (
     <Header
       menuOptions={menuOptions}
       isReturnEnabled={!!appConfig.showStudyList && !appConfig.forbidReturn}
       onClickReturnButton={onClickReturnButton}
       WhiteLabeling={appConfig.whiteLabeling}
+      hideLeft={hideLeft}
+      hideRight={hideRight}
     >
       <ErrorBoundary context="Primary Toolbar">
-        <div
-          className="relative flex flex-wrap justify-center"
-          style={{ paddingRight: '40px' }}
-        >
+        <div className="relative flex flex-wrap justify-center">
           <Toolbar servicesManager={servicesManager} />
         </div>
       </ErrorBoundary>

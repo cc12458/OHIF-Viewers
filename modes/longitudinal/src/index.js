@@ -86,13 +86,13 @@ function modeFactory({ modeConfiguration }) {
 
       const activateTool = () => {
         toolbarService.recordInteraction({
-          groupId: 'WindowLevel',
+          groupId: 'StackScroll',
           interactionType: 'tool',
           commands: [
             {
               commandName: 'setToolActive',
               commandOptions: {
-                toolName: 'WindowLevel',
+                toolName: 'StackScroll',
               },
               context: 'CORNERSTONE',
             },
@@ -110,6 +110,22 @@ function modeFactory({ modeConfiguration }) {
         toolGroupService.EVENTS.VIEWPORT_ADDED,
         activateTool
       ));
+
+      if (window.innerWidth < 350) {
+        const zoomIndex = toolbarButtons.findIndex(item => item.id === 'Zoom');
+        const moreIndex = toolbarButtons.findIndex(item => item.id === 'MoreTools');
+        if (zoomIndex !== -1 && moreIndex !== -1) {
+          const more = toolbarButtons[moreIndex];
+          const [zoom] = toolbarButtons.splice(zoomIndex, 1);
+          let itemIndex = more.props.items.findIndex(item => item.id === 'Angle');
+          itemIndex = itemIndex === -1 ? more.props.items.length : itemIndex + 1;
+          more.props.items.splice(itemIndex, 0, {
+            id: zoom.id,
+            tooltip: 'Zoom',
+            ...zoom.props,
+          });
+        }
+      }
 
       toolbarService.init(extensionManager);
       toolbarService.addButtons(toolbarButtons);
