@@ -106,65 +106,70 @@ const ViewportActionBar = ({
 
   useResizeObserver(componentRootElem, resizeCallback);
 
+  const show = false;
   return (
-    <div
-      ref={componentRootElemRef}
-      className="pointer-events-auto flex h-8 shrink-0 select-none items-center overflow-visible whitespace-nowrap px-2 text-base"
-      onDoubleClick={onDoubleClick}
-    >
-      {getStatusComponent()}
-      {!!label?.length && <span className="text-aqua-pale text-large ml-1">{label}</span>}
-      <div className={separatorClasses}></div>
-      <span
-        data-cy="studyDate"
-        ref={studyDateElemRef}
-        className={studyDateClasses()}
-      >
-        {studyDate}
-      </span>
-      {showSeriesDesc && (
-        <>
+    <>
+      {show && (
+        <div
+          ref={componentRootElemRef}
+          className="pointer-events-auto flex h-8 shrink-0 select-none items-center overflow-visible whitespace-nowrap px-2 text-base"
+          onDoubleClick={onDoubleClick}
+        >
+          {getStatusComponent()}
+          {!!label?.length && <span className="text-aqua-pale text-large ml-1">{label}</span>}
           <div className={separatorClasses}></div>
           <span
-            ref={seriesDescElemRef}
-            className={`text-aqua-pale mr-1 ${textEllipsisClasses}`}
+            data-cy="studyDate"
+            ref={studyDateElemRef}
+            className={studyDateClasses()}
           >
-            {seriesDescription}
+            {studyDate}
           </span>
-        </>
+          {showSeriesDesc && (
+            <>
+              <div className={separatorClasses}></div>
+              <span
+                ref={seriesDescElemRef}
+                className={`text-aqua-pale mr-1 ${textEllipsisClasses}`}
+              >
+                {seriesDescription}
+              </span>
+            </>
+          )}
+          {showArrows && (
+            <>
+              <Icon
+                className={`ml-auto ${arrowClasses}`}
+                name="chevron-prev"
+                onClick={() => onArrowsClick('left')}
+              />
+              <Icon
+                className={arrowClasses}
+                name="chevron-next"
+                onClick={() => onArrowsClick('right')}
+              />
+            </>
+          )}
+          <div
+            className={patientInfoClasses()}
+            onClick={onPatientInfoClick}
+          >
+            <PatientInfo
+              showPatientInfoRef={showPatientInfoElemRef}
+              isOpen={showPatientInfo}
+              patientName={patientName}
+              patientSex={patientSex}
+              patientAge={patientAge}
+              MRN={MRN}
+              thickness={thickness}
+              thicknessUnits={thicknessUnits}
+              spacing={spacing}
+              scanner={scanner}
+            />
+          </div>
+        </div>
       )}
-      {showArrows && (
-        <>
-          <Icon
-            className={`ml-auto ${arrowClasses}`}
-            name="chevron-prev"
-            onClick={() => onArrowsClick('left')}
-          />
-          <Icon
-            className={arrowClasses}
-            name="chevron-next"
-            onClick={() => onArrowsClick('right')}
-          />
-        </>
-      )}
-      <div
-        className={patientInfoClasses()}
-        onClick={onPatientInfoClick}
-      >
-        <PatientInfo
-          showPatientInfoRef={showPatientInfoElemRef}
-          isOpen={showPatientInfo}
-          patientName={patientName}
-          patientSex={patientSex}
-          patientAge={patientAge}
-          MRN={MRN}
-          thickness={thickness}
-          thicknessUnits={thicknessUnits}
-          spacing={spacing}
-          scanner={scanner}
-        />
-      </div>
-    </div>
+    </>
   );
 };
 
