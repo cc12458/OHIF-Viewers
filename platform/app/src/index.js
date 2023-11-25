@@ -16,8 +16,9 @@ import { history } from './utils/history';
  * pluginImports.js imports all of the modes and extensions and adds them
  * to the window for processing.
  */
-import { modes as defaultModes, extensions as defaultExtensions } from './pluginImports';
+import { extensions as defaultExtensions, modes as defaultModes } from './pluginImports';
 import loadDynamicConfig from './loadDynamicConfig';
+import loadVConsole from './loadVConsole';
 
 loadDynamicConfig(window.config).then(config_json => {
   // Reset Dynamic config if defined
@@ -41,4 +42,16 @@ loadDynamicConfig(window.config).then(config_json => {
   ReactDOM.render(app, document.getElementById('root'));
 });
 
+loadVConsole(window.config)
+  .then(instance => {
+    window.debug = options => {
+      new instance.constructor(options);
+      instance.destroy();
+      instance = null;
+    };
+  })
+  .catch(error => {
+    console.error(`调试工具加载错误 ${error.message}`);
+  });
+window.debug = options => loadVConsole({ debug: true, options });
 export { history };
