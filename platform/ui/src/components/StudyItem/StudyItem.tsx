@@ -18,6 +18,7 @@ const StudyItem = ({
 }) => {
   return (
     <div
+      id="ohif-study-item"
       className={classnames(
         isActive ? 'bg-secondary-dark' : 'hover:bg-secondary-main bg-black',
         baseClasses

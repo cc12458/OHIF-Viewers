@@ -18,6 +18,7 @@ function PanelStudyBrowserTracking({
   getStudiesForPatientByMRN,
   requestDisplaySetCreationForStudy,
   dataSource,
+  onClose,
 }) {
   const { displaySetService, uiDialogService, hangingProtocolService, uiNotificationService } =
     servicesManager.services;
@@ -48,6 +49,15 @@ function PanelStudyBrowserTracking({
         viewportId,
         displaySetInstanceUID
       );
+      try {
+        const { clickToClosePanel = false } = window['config'] ?? {};
+        if (typeof clickToClosePanel === 'boolean') {
+          clickToClosePanel && onClose?.();
+        } else if (clickToClosePanel > window.innerWidth) {
+          onClose?.();
+        }
+        // eslint-disable-next-line no-empty
+      } catch (e) {}
     } catch (error) {
       console.warn(error);
       uiNotificationService.show({
@@ -357,6 +367,8 @@ PanelStudyBrowserTracking.propTypes = {
   getImageSrc: PropTypes.func.isRequired,
   getStudiesForPatientByMRN: PropTypes.func.isRequired,
   requestDisplaySetCreationForStudy: PropTypes.func.isRequired,
+  /* 关闭面板 */
+  onClose: PropTypes.func,
 };
 
 export default PanelStudyBrowserTracking;

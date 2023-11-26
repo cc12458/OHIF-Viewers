@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import React, { CSSProperties, useCallback, useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
+import './index.css';
+
 import Icon from '../Icon';
 import Tooltip from '../Tooltip';
 
@@ -294,6 +296,7 @@ const SidePanel = ({ side, className, activeTabIndex: activeTabIndexProp, tabs, 
   const getOneTabComponent = () => {
     return (
       <div
+        id={`side-panel-${side}`}
         className={classnames(
           'text-primary-active flex grow cursor-pointer justify-center self-center text-[13px]'
         )}
@@ -321,13 +324,18 @@ const SidePanel = ({ side, className, activeTabIndex: activeTabIndexProp, tabs, 
 
   return (
     <div
+      id={`image-side-panel-${side}`}
       className={classnames(className, baseClasses, classesMap[openStatus][side])}
       style={style}
     >
       {panelOpen ? (
         <>
-          {getOpenStateComponent()}
-          <ActiveComponent />
+          {side !== 'bottom' && getOpenStateComponent()}
+          <ActiveComponent
+            onClose={() => {
+              updatePanelOpen(false);
+            }}
+          />
         </>
       ) : (
         <React.Fragment>{getCloseStateComponent()}</React.Fragment>
@@ -342,7 +350,7 @@ SidePanel.defaultProps = {
 };
 
 SidePanel.propTypes = {
-  side: PropTypes.oneOf(['left', 'right']).isRequired,
+  side: PropTypes.oneOf(['left', 'right', 'bottom']).isRequired,
   className: PropTypes.string,
   activeTabIndex: PropTypes.number,
   tabs: PropTypes.oneOfType([

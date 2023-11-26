@@ -4,7 +4,7 @@ import { PanelService, ServicesManager } from '@ohif/core';
 
 export type SidePanelWithServicesProps = {
   servicesManager: ServicesManager;
-  side: 'left' | 'right';
+  side: 'left' | 'right' | 'bottom';
   className: string;
   activeTabIndex: number;
   tabs: any;

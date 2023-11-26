@@ -51,3 +51,24 @@
 .invisible-scrollbar::-webkit-scrollbar-thumb:window-inactive {
   @apply hidden;
 }
+
+/* INVISIBLE SCROLLBAR */
+#image-side-panel-bottom #ohif-thumbnail-list {
+  scrollbar-width: none;
+}
+
+#image-side-panel-bottom #ohif-thumbnail-list::-webkit-scrollbar {
+  @apply hidden;
+}
+
+#image-side-panel-bottom #ohif-thumbnail-list::-webkit-scrollbar-track {
+  @apply hidden;
+}
+
+#image-side-panel-bottom #ohif-thumbnail-list::-webkit-scrollbar-thumb {
+  @apply hidden;
+}
+
+#image-side-panel-bottom #ohif-thumbnail-list::-webkit-scrollbar-thumb:window-inactive {
+  @apply hidden;
+}

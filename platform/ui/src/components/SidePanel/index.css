@@ -1,0 +1,61 @@
+#image-side-panel-bottom {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 12rem !important;
+    max-width: 100% !important;
+}
+
+#image-side-panel-bottom > .flex-col {
+    flex-direction: row
+}
+
+#image-side-panel-bottom #ohif-study-item {
+    flex: none;
+    max-width: 200px;
+}
+
+@media only screen and (max-width: 1023px) {
+    #image-side-panel-bottom #ohif-study-item {
+        display: none;
+        max-width: 240px;
+    }
+}
+
+#image-side-panel-bottom #ohif-thumbnail-list {
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    /*margin-bottom: -1rem;*/
+    min-height: 8rem;
+    scrollbar-width: none!important;
+}
+
+#image-side-panel-bottom #ohif-thumbnail-list > div {
+    flex: 0 0 8rem;
+    padding: 8px;
+    min-width: 8rem;
+    min-height: 8rem;
+    box-sizing: content-box;
+}
+
+#image-side-panel-bottom #ohif-thumbnail-list .group {
+    padding: 0;
+    margin: 0;
+}
+
+#image-side-panel-bottom #ohif-thumbnail-list .group > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#image-side-panel-bottom #ohif-thumbnail-list .group > div > div:not(.min-h-32) {
+    flex: none;
+}
+
+#image-side-panel-bottom #ohif-thumbnail-list .min-h-32 {
+    flex: auto;
+    min-width: 4rem;
+    min-height: 4rem;
+    /*max-width: 12rem;*/
+}

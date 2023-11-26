@@ -6,7 +6,7 @@ import { ServicesManager, HangingProtocolService, CommandsManager } from '@ohif/
 import { useAppConfig } from '@state';
 import ViewerHeader from './ViewerHeader';
 import SidePanelWithServices from '../Components/SidePanelWithServices';
-import { useWindowSize } from "../utils/useWindowSize";
+import { useWindowSize } from '../utils/useWindowSize';
 
 function ViewerLayout({
   // From Extension Module Params
@@ -23,7 +23,7 @@ function ViewerLayout({
   rightPanelDefaultClosed = false,
 }): React.JSX.Element {
   const [appConfig] = useAppConfig();
-  const windowSize  = useWindowSize();
+  const windowSize = useWindowSize();
 
   const { hangingProtocolService } = servicesManager.services;
   const [showLoadingIndicator, setShowLoadingIndicator] = useState(appConfig.showLoadingIndicator);
@@ -41,6 +41,27 @@ function ViewerLayout({
       document.body.classList.remove('overflow-hidden');
     };
   }, []);
+
+  const [defaultClosed, setClosed] = useState(leftPanelDefaultClosed);
+  const [useBottomPanel, setBottomPanel] = useState(false);
+  useEffect(() => {
+    switch (appConfig.panelMode) {
+      case 'left':
+        setBottomPanel(false);
+        break;
+      case 'bottom':
+        setBottomPanel(true);
+        break;
+      case 'auto':
+      default:
+        if (windowSize.height > 0.75 * windowSize.width) {
+          setBottomPanel(true);
+        } else {
+          setBottomPanel(false);
+          setClosed(windowSize.width < 1024);
+        }
+    }
+  }, [windowSize]);
 
   const getComponent = id => {
     const entry = extensionManager.getModuleEntry(id);
@@ -123,11 +144,11 @@ function ViewerLayout({
         <React.Fragment>
           {showLoadingIndicator && <LoadingIndicatorProgress className="h-full w-full bg-black" />}
           {/* LEFT SIDEPANELS */}
-          {leftPanelComponents.length ? (
+          {!useBottomPanel && leftPanelComponents.length ? (
             <ErrorBoundary context="Left Panel">
               <SidePanelWithServices
                 side="left"
-                activeTabIndex={leftPanelDefaultClosed ? null : 0}
+                activeTabIndex={defaultClosed ? null : 0}
                 tabs={leftPanelComponents}
                 servicesManager={servicesManager}
               />
@@ -157,6 +178,18 @@ function ViewerLayout({
           ) : null}
         </React.Fragment>
       </div>
+      <React.Fragment>
+        {useBottomPanel && leftPanelComponents.length ? (
+          <ErrorBoundary context="bottom Panel">
+            <SidePanelWithServices
+              side="bottom"
+              activeTabIndex={0}
+              tabs={leftPanelComponents}
+              servicesManager={servicesManager}
+            />
+          </ErrorBoundary>
+        ) : null}
+      </React.Fragment>
     </div>
   );
 }

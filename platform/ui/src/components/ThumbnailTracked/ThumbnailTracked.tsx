@@ -66,7 +66,7 @@ const ThumbnailTracked = ({
       )}
       id={`thumbnail-${displaySetInstanceUID}`}
     >
-      <div className="flex-2 flex flex-col items-center">
+      {/*<div className="flex-2 flex flex-col items-center">
         <div
           className={classnames(
             'relative mb-2 flex cursor-pointer flex-col items-center justify-start p-2',
@@ -119,7 +119,7 @@ const ThumbnailTracked = ({
             />
           </div>
         )}
-      </div>
+      </div>*/}
       <Thumbnail
         displaySetInstanceUID={displaySetInstanceUID}
         imageSrc={imageSrc}
