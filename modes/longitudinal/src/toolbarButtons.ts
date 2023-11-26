@@ -170,17 +170,28 @@ const toolbarButtons: Button[] = [
       commands: _createSetToolActiveCommands('Zoom'),
     },
   },
-  // 连续播放
+  // 刷新
   {
-    id: 'Cine',
+    id: 'Reset',
     type: 'ohif.action',
     props: {
-      type: 'tool',
-      icon: 'tool-cine',
-      label: 'Cine',
+      type: 'action',
+      icon: 'tool-reset',
+      label: 'Reset View',
       commands: [
         {
-          commandName: 'toggleCine',
+          commandName: 'resetViewport',
+          commandOptions: {},
+          context: 'CORNERSTONE',
+        },
+        {
+          commandName: 'deleteMeasurement',
+          commandOptions: {},
+          context: 'CORNERSTONE',
+        },
+        {
+          commandName: 'cleanUpCrosshairs',
+          commandOptions: {},
           context: 'CORNERSTONE',
         },
       ],
@@ -193,28 +204,17 @@ const toolbarButtons: Button[] = [
     props: {
       isRadio: true, // ?
       groupId: 'MoreTools',
-      primary: _createActionButton(
-        'Reset',
-        'tool-reset',
-        'Reset View',
+      primary: _createToggleButton(
+        'cine',
+        'tool-cine',
+        'Cine',
         [
           {
-            commandName: 'resetViewport',
-            commandOptions: {},
-            context: 'CORNERSTONE',
-          },
-          {
-            commandName: 'deleteMeasurement',
-            commandOptions: {},
-            context: 'CORNERSTONE',
-          },
-          {
-            commandName: 'cleanUpCrosshairs',
-            commandOptions: {},
+            commandName: 'toggleCine',
             context: 'CORNERSTONE',
           },
         ],
-        'Reset'
+        'Cine'
       ),
       secondary: {
         icon: 'chevron-down',
@@ -223,29 +223,18 @@ const toolbarButtons: Button[] = [
         tooltip: 'More Tools',
       },
       items: [
-        // 重置
-        _createActionButton(
-          'Reset',
-          'tool-reset',
-          'Reset View',
+        // 连续播放
+        _createToggleButton(
+          'cine',
+          'tool-cine',
+          'Cine',
           [
             {
-              commandName: 'resetViewport',
-              commandOptions: {},
-              context: 'CORNERSTONE',
-            },
-            {
-              commandName: 'deleteMeasurement',
-              commandOptions: {},
-              context: 'CORNERSTONE',
-            },
-            {
-              commandName: 'cleanUpCrosshairs',
-              commandOptions: {},
+              commandName: 'toggleCine',
               context: 'CORNERSTONE',
             },
           ],
-          'Reset'
+          'Cine'
         ),
         // 长度测量
         _createToolButton(
