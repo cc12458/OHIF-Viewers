@@ -5,7 +5,7 @@ import { useDrag } from 'react-dnd';
 import Icon from '../Icon';
 import Tooltip from '../Tooltip';
 import Typography from '../Typography';
-import DisplaySetMessageListTooltip from '../DisplaySetMessageListTooltip';
+// import DisplaySetMessageListTooltip from '../DisplaySetMessageListTooltip';
 
 const ThumbnailNoImage = ({
   displaySetInstanceUID,
@@ -72,10 +72,10 @@ const ThumbnailNoImage = ({
               </div>
             </Tooltip>
             <span className="ml-4 text-base text-blue-300">{seriesDate}</span>
-            <DisplaySetMessageListTooltip
+            {/*<DisplaySetMessageListTooltip
               messages={messages}
               id={`display-set-tooltip-${displaySetInstanceUID}`}
-            />
+            />*/}
           </div>
           <div className="flex flex-row">
             {canReject && (

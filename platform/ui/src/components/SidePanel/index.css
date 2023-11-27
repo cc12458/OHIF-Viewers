@@ -59,3 +59,7 @@
     min-height: 4rem;
     /*max-width: 12rem;*/
 }
+
+#image-side-panel-bottom #ohif-thumbnail-list div[draggable="true"] > .flex-col > .flex-row {
+    flex-direction: column;
+}

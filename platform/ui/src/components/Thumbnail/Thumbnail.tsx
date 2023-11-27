@@ -4,7 +4,7 @@ import classnames from 'classnames';
 import { useDrag } from 'react-dnd';
 import Icon from '../Icon';
 import { StringNumber } from '../../types';
-import DisplaySetMessageListTooltip from '../DisplaySetMessageListTooltip';
+// import DisplaySetMessageListTooltip from '../DisplaySetMessageListTooltip';
 
 /**
  * Display a thumbnail for a display set.
@@ -83,10 +83,10 @@ const Thumbnail = ({
             />
             {` ${numInstances}`}
           </div>
-          <DisplaySetMessageListTooltip
+          {/*<DisplaySetMessageListTooltip
             messages={messages}
             id={`display-set-tooltip-${displaySetInstanceUID}`}
-          />
+          />*/}
         </div>
         <div className="break-all text-base text-white">{description}</div>
       </div>
