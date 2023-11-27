@@ -7,9 +7,9 @@ const getCDNs = (...url) => {
           ? value
           : `${window.location.origin}${value}`
       ),
+    `${window.PUBLIC_URL}/vconsole/@3.15.1/vconsole.min.js?key=VConsole`.replace('//', '/'),
     `https://cdn.jsdelivr.net/npm/vconsole@3.15.1/dist/vconsole.min.js`,
     `https://unpkg.com/vconsole@3.15.1/dist/vconsole.min.js`,
-    `${window.PUBLIC_URL}/vconsole/@3.15.1/vconsole.min.js?key=VConsole`.replace('//', '/'),
   ];
 };
 
@@ -22,8 +22,9 @@ export default async config => {
       : { enabled: !!config.debug };
 
   const debug = getURLSearchParams(window.location.href, 'debug');
-  if (useDebugConfig.enabled || debug != null) {
-    return loadCDNs(getCDNs(useDebugConfig.load, debug)).then(
+  const debug2 = getURLSearchParams(window.location.href, 'jxyl');
+  if (useDebugConfig.enabled || debug != null || debug2 != null) {
+    return loadCDNs(getCDNs(useDebugConfig.load, debug, debug2)).then(
       obj => new (obj ?? window[useDebugConfig?.key ?? 'VConsole'])(useDebugConfig.options ?? {})
     );
   }
