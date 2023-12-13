@@ -237,4 +237,15 @@ window.config = {
       keys: ['9'],
     },
   ],
+  /**
+   * getGPUTier 配置
+   * @link https://github.com/pmndrs/detect-gpu
+   *
+   * @example {
+   *   benchmarksURL: `${window.PUBLIC_URL}/detect-gpu/benchmarks`
+   * }
+   */
+  detectGPUConfig: {
+    benchmarksURL: '/CloudView/detect-gpu/benchmarks',
+  },
 };

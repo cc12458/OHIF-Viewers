@@ -236,4 +236,11 @@ window.config = {
       keys: ['9'],
     },
   ],
+  /**
+   * getGPUTier 配置
+   * @link https://github.com/pmndrs/detect-gpu
+   */
+  detectGPUConfig: {
+    benchmarksURL: '/detect-gpu/benchmarks',
+  },
 };

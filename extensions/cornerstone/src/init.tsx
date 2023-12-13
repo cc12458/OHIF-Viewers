@@ -62,6 +62,7 @@ export default async function init({
       preferSizeOverAccuracy: Boolean(appConfig.use16BitDataType),
       useNorm16Texture: Boolean(appConfig.use16BitDataType),
     },
+    detectGPUConfig: appConfig.detectGPUConfig || {},
   });
 
   // For debugging e2e tests that are failing on CI
