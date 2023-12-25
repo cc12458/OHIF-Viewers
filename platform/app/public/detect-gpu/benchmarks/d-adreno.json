@@ -1,9 +1,8 @@
 [
-  "5.0.37",
+  "4.0.50",
   [
     "qualcomm adreno 540",
     "540",
-    "540 adreno qualcomm",
     0,
     [
       [
@@ -16,7 +15,6 @@
   [
     "qualcomm adreno 540 gpu",
     "540",
-    "540 adreno gpu qualcomm",
     0,
     [
       [
@@ -29,7 +27,6 @@
   [
     "qualcomm adreno 618 gpu",
     "618",
-    "618 adreno gpu qualcomm",
     0,
     [
       [
@@ -42,7 +39,6 @@
   [
     "qualcomm adreno 630 gpu",
     "630",
-    "630 adreno gpu qualcomm",
     0,
     [
       [
@@ -55,7 +51,6 @@
   [
     "qualcomm adreno 675 gpu",
     "675",
-    "675 adreno gpu qualcomm",
     0,
     [
       [
@@ -68,20 +63,18 @@
   [
     "qualcomm adreno 680 gpu",
     "680",
-    "680 adreno gpu qualcomm",
     0,
     [
       [
         2880,
         1920,
-        23
+        25
       ]
     ]
   ],
   [
     "qualcomm adreno 685 gpu",
     "685",
-    "685 adreno gpu qualcomm",
     0,
     [
       [
@@ -99,7 +92,6 @@
   [
     "qualcomm adreno 690 gpu",
     "690",
-    "690 adreno gpu qualcomm",
     0,
     [
       [
@@ -112,7 +104,6 @@
   [
     "qualcomm adreno 8cx gen 3",
     "8",
-    "3 8cx adreno gen qualcomm",
     0,
     [
       [

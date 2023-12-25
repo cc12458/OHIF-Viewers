@@ -1,9 +1,8 @@
 [
-  "5.0.37",
+  "4.0.50",
   [
     "intel intel hd graphics for atom x5",
     "5",
-    "atom for graphics hd intel x5",
     0,
     [
       [
@@ -161,7 +160,6 @@
   [
     "intel intel hd graphics for baytrail",
     "hdfor",
-    "baytrail for graphics hd intel",
     0,
     [
       [
@@ -289,7 +287,6 @@
   [
     "intel mesa dri intel bay trail",
     "dribay",
-    "bay dri intel mesa trail",
     0,
     [
       [
@@ -303,7 +300,6 @@
   [
     "intel mesa dri intel hd",
     "drihd",
-    "dri hd intel mesa",
     0,
     [
       [
@@ -335,7 +331,6 @@
   [
     "intel mesa dri intel hd graphics 400",
     "400",
-    "400 dri graphics hd intel mesa",
     0,
     [
       [
@@ -379,7 +374,6 @@
   [
     "intel mesa dri intel hd graphics 510",
     "510",
-    "510 dri graphics hd intel mesa",
     0,
     [
       [
@@ -399,7 +393,6 @@
   [
     "intel mesa dri intel hd graphics 515",
     "515",
-    "515 dri graphics hd intel mesa",
     0,
     [
       [
@@ -437,7 +430,6 @@
   [
     "intel mesa dri intel hd graphics 520",
     "520",
-    "520 dri graphics hd intel mesa",
     0,
     [
       [
@@ -451,7 +443,6 @@
   [
     "intel mesa dri intel hd graphics 5500",
     "5500",
-    "5500 dri graphics hd intel mesa",
     0,
     [
       [
@@ -477,7 +468,6 @@
   [
     "intel mesa dri intel hd graphics 615",
     "615",
-    "615 dri graphics hd intel mesa",
     0,
     [
       [
@@ -503,7 +493,6 @@
   [
     "intel mesa dri intel kabylake gt2",
     "2",
-    "dri gt2 intel kabylake mesa",
     0,
     [
       [

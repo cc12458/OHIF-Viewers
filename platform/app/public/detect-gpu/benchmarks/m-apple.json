@@ -1,9 +1,8 @@
 [
-  "5.0.37",
+  "4.0.50",
   [
     "apple a10 gpu",
     "10",
-    "a10 apple gpu",
     0,
     [
       [
@@ -29,7 +28,6 @@
   [
     "apple a11 gpu",
     "11",
-    "a11 apple gpu",
     0,
     [
       [
@@ -49,20 +47,19 @@
   [
     "apple a12 gpu",
     "12",
-    "a12 apple gpu",
     0,
     [
       [
         1792,
         828,
-        60,
+        65,
         "apple iphone xr"
       ],
       [
         2436,
         1125,
         60,
-        "apple iphone xs max"
+        "apple iphone xs"
       ],
       [
         2208,
@@ -75,7 +72,6 @@
   [
     "apple a13 gpu",
     "13",
-    "a13 apple gpu",
     0,
     [
       [
@@ -107,7 +103,6 @@
   [
     "apple a14 gpu",
     "14",
-    "a14 apple gpu",
     0,
     [
       [
@@ -119,7 +114,7 @@
       [
         2436,
         1125,
-        61,
+        60,
         "apple iphone 12"
       ],
       [
@@ -133,13 +128,12 @@
   [
     "apple a15 gpu",
     "15",
-    "a15 apple gpu",
     0,
     [
       [
         1334,
         750,
-        118,
+        60,
         "apple iphone se (2022)"
       ],
       [
@@ -158,20 +152,19 @@
         2778,
         1284,
         60,
-        "apple iphone 13 pro max"
+        "apple iphone 14 plus"
       ]
     ]
   ],
   [
     "apple a16 gpu",
     "16",
-    "a16 apple gpu",
     0,
     [
       [
         2532,
         1170,
-        60,
+        59,
         "apple iphone 14 pro"
       ],
       [
@@ -185,7 +178,6 @@
   [
     "apple a7 gpu",
     "7",
-    "a7 apple gpu",
     0,
     [
       [
@@ -199,7 +191,6 @@
   [
     "apple a8 gpu",
     "8",
-    "a8 apple gpu",
     0,
     [
       [
@@ -225,7 +216,6 @@
   [
     "apple a9 gpu",
     "9",
-    "a9 apple gpu",
     0,
     [
       [

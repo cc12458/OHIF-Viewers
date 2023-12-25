@@ -1,9 +1,8 @@
 [
-  "5.0.37",
+  "4.0.50",
   [
     "nvidia %nvidia_dev.13d7.0580.1028%",
     "13",
-    "%nvidia_dev 0580 1028% 13d7 nvidia",
     0,
     [
       [
@@ -16,7 +15,6 @@
   [
     "nvidia a10-2b",
     "10",
-    "a10-2b nvidia",
     0,
     [
       [
@@ -27,22 +25,8 @@
     ]
   ],
   [
-    "nvidia a10-4q",
-    "10",
-    "a10-4q nvidia",
-    0,
-    [
-      [
-        1920,
-        1080,
-        60
-      ]
-    ]
-  ],
-  [
     "nvidia a100-pcie-40gb",
     "100",
-    "a100-pcie-40gb nvidia",
     0,
     [
       [
@@ -55,7 +39,6 @@
   [
     "nvidia a16-2b",
     "16",
-    "a16-2b nvidia",
     0,
     [
       [
@@ -68,7 +51,6 @@
   [
     "nvidia a40",
     "40",
-    "a40 nvidia",
     0,
     [
       [
@@ -79,22 +61,8 @@
     ]
   ],
   [
-    "nvidia a40-1b",
-    "40",
-    "a40-1b nvidia",
-    0,
-    [
-      [
-        1920,
-        1080,
-        36
-      ]
-    ]
-  ],
-  [
     "nvidia a40-8q",
     "40",
-    "a40-8q nvidia",
     0,
     [
       [
@@ -107,7 +75,6 @@
   [
     "nvidia ashley",
     "",
-    "ashley nvidia",
     0,
     [
       [
@@ -120,7 +87,6 @@
   [
     "nvidia asus geforce gt 430",
     "430",
-    "430 asus geforce gt nvidia",
     0,
     [
       [
@@ -133,7 +99,6 @@
   [
     "nvidia asus geforce gt 440",
     "440",
-    "440 asus geforce gt nvidia",
     0,
     [
       [
@@ -146,7 +111,6 @@
   [
     "nvidia asus geforce gt 520",
     "520",
-    "520 asus geforce gt nvidia",
     0,
     [
       [
@@ -159,7 +123,6 @@
   [
     "nvidia asus geforce gt 610",
     "610",
-    "610 asus geforce gt nvidia",
     0,
     [
       [
@@ -172,7 +135,6 @@
   [
     "nvidia asus geforce gt 630",
     "630",
-    "630 asus geforce gt nvidia",
     0,
     [
       [
@@ -185,7 +147,6 @@
   [
     "nvidia asus geforce gt 640",
     "640",
-    "640 asus geforce gt nvidia",
     0,
     [
       [
@@ -198,7 +159,6 @@
   [
     "nvidia asus geforce gt 710",
     "710",
-    "710 asus geforce gt nvidia",
     0,
     [
       [
@@ -211,7 +171,6 @@
   [
     "nvidia asus geforce gt 730",
     "730",
-    "730 asus geforce gt nvidia",
     0,
     [
       [
@@ -229,7 +188,6 @@
   [
     "nvidia asus geforce gts 450",
     "450",
-    "450 asus geforce gts nvidia",
     0,
     [
       [
@@ -242,7 +200,6 @@
   [
     "nvidia asus geforce gtx 1060",
     "1060",
-    "1060 asus geforce gtx nvidia",
     0,
     [
       [
@@ -255,7 +212,6 @@
   [
     "nvidia asus geforce gtx 1080",
     "1080",
-    "1080 asus geforce gtx nvidia",
     0,
     [
       [
@@ -268,7 +224,6 @@
   [
     "nvidia asus geforce gtx 460",
     "460",
-    "460 asus geforce gtx nvidia",
     0,
     [
       [
@@ -281,7 +236,6 @@
   [
     "nvidia asus geforce gtx 480",
     "480",
-    "480 asus geforce gtx nvidia",
     0,
     [
       [
@@ -294,7 +248,6 @@
   [
     "nvidia asus geforce gtx 550 ti",
     "550",
-    "550 asus geforce gtx nvidia ti",
     0,
     [
       [
@@ -307,7 +260,6 @@
   [
     "nvidia asus geforce gtx 560",
     "560",
-    "560 asus geforce gtx nvidia",
     0,
     [
       [
@@ -320,7 +272,6 @@
   [
     "nvidia asus geforce gtx 560 se",
     "560",
-    "560 asus geforce gtx nvidia se",
     0,
     [
       [
@@ -333,7 +284,6 @@
   [
     "nvidia asus geforce gtx 560 ti",
     "560",
-    "560 asus geforce gtx nvidia ti",
     0,
     [
       [
@@ -346,7 +296,6 @@
   [
     "nvidia asus geforce gtx 570",
     "570",
-    "570 asus geforce gtx nvidia",
     0,
     [
       [
@@ -359,7 +308,6 @@
   [
     "nvidia asus geforce gtx 570 hd",
     "570",
-    "570 asus geforce gtx hd nvidia",
     0,
     [
       [
@@ -372,7 +320,6 @@
   [
     "nvidia asus geforce gtx 580",
     "580",
-    "580 asus geforce gtx nvidia",
     0,
     [
       [
@@ -385,7 +332,6 @@
   [
     "nvidia asus geforce gtx 660",
     "660",
-    "660 asus geforce gtx nvidia",
     0,
     [
       [
@@ -398,7 +344,6 @@
   [
     "nvidia asus geforce gtx 670",
     "670",
-    "670 asus geforce gtx nvidia",
     0,
     [
       [
@@ -411,7 +356,6 @@
   [
     "nvidia asus geforce gtx 750 ti",
     "750",
-    "750 asus geforce gtx nvidia ti",
     0,
     [
       [
@@ -429,7 +373,6 @@
   [
     "nvidia asus geforce gtx 760",
     "760",
-    "760 asus geforce gtx nvidia",
     0,
     [
       [
@@ -447,7 +390,6 @@
   [
     "nvidia asus geforce gtx 770",
     "770",
-    "770 asus geforce gtx nvidia",
     0,
     [
       [
@@ -460,7 +402,6 @@
   [
     "nvidia asus geforce gtx 780",
     "780",
-    "780 asus geforce gtx nvidia",
     0,
     [
       [
@@ -473,7 +414,6 @@
   [
     "nvidia asus geforce gtx 950",
     "950",
-    "950 asus geforce gtx nvidia",
     0,
     [
       [
@@ -486,7 +426,6 @@
   [
     "nvidia asus geforce gtx 960",
     "960",
-    "960 asus geforce gtx nvidia",
     0,
     [
       [
@@ -504,7 +443,6 @@
   [
     "nvidia asus geforce gtx 970",
     "970",
-    "970 asus geforce gtx nvidia",
     0,
     [
       [
@@ -517,7 +455,6 @@
   [
     "nvidia asus geforce gtx 980 ti",
     "980",
-    "980 asus geforce gtx nvidia ti",
     0,
     [
       [
@@ -530,7 +467,6 @@
   [
     "nvidia chip model",
     "",
-    "chip model nvidia",
     0,
     [
       [
@@ -543,7 +479,6 @@
   [
     "nvidia colorful geforce gtx 960",
     "960",
-    "960 colorful geforce gtx nvidia",
     0,
     [
       [
@@ -556,7 +491,6 @@
   [
     "nvidia dell nvs 5200m",
     "5200",
-    "5200m dell nvidia nvs",
     0,
     [
       [
@@ -569,7 +503,6 @@
   [
     "nvidia dell quadro 2000m",
     "2000",
-    "2000m dell nvidia quadro",
     0,
     [
       [
@@ -582,7 +515,6 @@
   [
     "nvidia device",
     "",
-    "device nvidia",
     0,
     [
       [
@@ -595,7 +527,6 @@
   [
     "nvidia eizo med-xn83",
     "83",
-    "eizo med-xn83 nvidia",
     0,
     [
       [
@@ -613,7 +544,6 @@
   [
     "nvidia elitegroup geforce gtx 460",
     "460",
-    "460 elitegroup geforce gtx nvidia",
     0,
     [
       [
@@ -626,7 +556,6 @@
   [
     "nvidia evga geforce gt 545",
     "545",
-    "545 evga geforce gt nvidia",
     0,
     [
       [
@@ -639,7 +568,6 @@
   [
     "nvidia evga geforce gt 640",
     "640",
-    "640 evga geforce gt nvidia",
     0,
     [
       [
@@ -652,7 +580,6 @@
   [
     "nvidia evga geforce gt 710",
     "710",
-    "710 evga geforce gt nvidia",
     0,
     [
       [
@@ -670,7 +597,6 @@
   [
     "nvidia evga geforce gt 730",
     "730",
-    "730 evga geforce gt nvidia",
     0,
     [
       [
@@ -683,7 +609,6 @@
   [
     "nvidia evga geforce gt 740",
     "740",
-    "740 evga geforce gt nvidia",
     0,
     [
       [
@@ -696,7 +621,6 @@
   [
     "nvidia evga geforce gtx 1050 ti",
     "1050",
-    "1050 evga geforce gtx nvidia ti",
     0,
     [
       [
@@ -714,7 +638,6 @@
   [
     "nvidia evga geforce gtx 1070",
     "1070",
-    "1070 evga geforce gtx nvidia",
     0,
     [
       [
@@ -727,7 +650,6 @@
   [
     "nvidia evga geforce gtx 1080 ti",
     "1080",
-    "1080 evga geforce gtx nvidia ti",
     0,
     [
       [
@@ -740,7 +662,6 @@
   [
     "nvidia evga geforce gtx 560 ti",
     "560",
-    "560 evga geforce gtx nvidia ti",
     0,
     [
       [
@@ -753,7 +674,6 @@
   [
     "nvidia evga geforce gtx 570",
     "570",
-    "570 evga geforce gtx nvidia",
     0,
     [
       [
@@ -766,7 +686,6 @@
   [
     "nvidia evga geforce gtx 580",
     "580",
-    "580 evga geforce gtx nvidia",
     0,
     [
       [
@@ -779,7 +698,6 @@
   [
     "nvidia evga geforce gtx 650",
     "650",
-    "650 evga geforce gtx nvidia",
     0,
     [
       [
@@ -797,7 +715,6 @@
   [
     "nvidia evga geforce gtx 650 ti",
     "650",
-    "650 evga geforce gtx nvidia ti",
     0,
     [
       [
@@ -815,7 +732,6 @@
   [
     "nvidia evga geforce gtx 650 ti boost",
     "650",
-    "650 boost evga geforce gtx nvidia ti",
     0,
     [
       [
@@ -828,7 +744,6 @@
   [
     "nvidia evga geforce gtx 660 ti",
     "660",
-    "660 evga geforce gtx nvidia ti",
     0,
     [
       [
@@ -841,7 +756,6 @@
   [
     "nvidia evga geforce gtx 680",
     "680",
-    "680 evga geforce gtx nvidia",
     0,
     [
       [
@@ -854,7 +768,6 @@
   [
     "nvidia evga geforce gtx 750 ti",
     "750",
-    "750 evga geforce gtx nvidia ti",
     0,
     [
       [
@@ -867,7 +780,6 @@
   [
     "nvidia evga geforce gtx 760",
     "760",
-    "760 evga geforce gtx nvidia",
     0,
     [
       [
@@ -885,7 +797,6 @@
   [
     "nvidia evga geforce gtx 780",
     "780",
-    "780 evga geforce gtx nvidia",
     0,
     [
       [
@@ -898,7 +809,6 @@
   [
     "nvidia evga geforce gtx 960",
     "960",
-    "960 evga geforce gtx nvidia",
     0,
     [
       [
@@ -916,7 +826,6 @@
   [
     "nvidia evga geforce gtx 970",
     "970",
-    "970 evga geforce gtx nvidia",
     0,
     [
       [
@@ -929,7 +838,6 @@
   [
     "nvidia evga geforce gtx 980",
     "980",
-    "980 evga geforce gtx nvidia",
     0,
     [
       [
@@ -942,7 +850,6 @@
   [
     "nvidia evga geforce gtx 980 ti",
     "980",
-    "980 evga geforce gtx nvidia ti",
     0,
     [
       [
@@ -955,7 +862,6 @@
   [
     "nvidia ga104gl [rtx a4000]",
     "104",
-    " a4000 ga104gl nvidia rtx",
     0,
     [
       [
@@ -968,7 +874,6 @@
   [
     "nvidia gainward geforce gt 630",
     "630",
-    "630 gainward geforce gt nvidia",
     0,
     [
       [
@@ -981,7 +886,6 @@
   [
     "nvidia gainward geforce gts 450",
     "450",
-    "450 gainward geforce gts nvidia",
     0,
     [
       [
@@ -994,7 +898,6 @@
   [
     "nvidia gainward geforce gtx 460",
     "460",
-    "460 gainward geforce gtx nvidia",
     0,
     [
       [
@@ -1007,7 +910,6 @@
   [
     "nvidia gainward geforce gtx 550 ti",
     "550",
-    "550 gainward geforce gtx nvidia ti",
     0,
     [
       [
@@ -1020,7 +922,6 @@
   [
     "nvidia gainward geforce gtx 560 ti",
     "560",
-    "560 gainward geforce gtx nvidia ti",
     0,
     [
       [
@@ -1033,7 +934,6 @@
   [
     "nvidia gainward geforce gtx 570",
     "570",
-    "570 gainward geforce gtx nvidia",
     0,
     [
       [
@@ -1046,7 +946,6 @@
   [
     "nvidia gainward geforce gtx 750 ti",
     "750",
-    "750 gainward geforce gtx nvidia ti",
     0,
     [
       [
@@ -1059,7 +958,6 @@
   [
     "nvidia geforce 210",
     "210",
-    "210 geforce nvidia",
     0,
     [
       [
@@ -1072,7 +970,6 @@
   [
     "nvidia geforce 410m",
     "410",
-    "410m geforce nvidia",
     0,
     [
       [
@@ -1090,20 +987,18 @@
   [
     "nvidia geforce 510",
     "510",
-    "510 geforce nvidia",
     0,
     [
       [
-        1920,
-        1080,
-        13
+        1280,
+        960,
+        20
       ]
     ]
   ],
   [
     "nvidia geforce 605",
     "605",
-    "605 geforce nvidia",
     0,
     [
       [
@@ -1121,7 +1016,6 @@
   [
     "nvidia geforce 610m",
     "610",
-    "610m geforce nvidia",
     0,
     [
       [
@@ -1134,7 +1028,6 @@
   [
     "nvidia geforce 610m/710m/810m/820m / gt 620m/625m/630m/720m",
     "610",
-    " 610m 620m 625m 630m 710m 720m 810m 820m geforce gt nvidia",
     0,
     [
       [
@@ -1147,7 +1040,6 @@
   [
     "nvidia geforce 615",
     "615",
-    "615 geforce nvidia",
     0,
     [
       [
@@ -1160,7 +1052,6 @@
   [
     "nvidia geforce 705m",
     "705",
-    "705m geforce nvidia",
     0,
     [
       [
@@ -1173,7 +1064,6 @@
   [
     "nvidia geforce 710a",
     "710",
-    "710a geforce nvidia",
     0,
     [
       [
@@ -1186,7 +1076,6 @@
   [
     "nvidia geforce 710m",
     "710",
-    "710m geforce nvidia",
     0,
     [
       [
@@ -1199,7 +1088,6 @@
   [
     "nvidia geforce 730a",
     "730",
-    "730a geforce nvidia",
     0,
     [
       [
@@ -1212,7 +1100,6 @@
   [
     "nvidia geforce 800m",
     "800",
-    "800m geforce nvidia",
     0,
     [
       [
@@ -1225,7 +1112,6 @@
   [
     "nvidia geforce 810m",
     "810",
-    "810m geforce nvidia",
     0,
     [
       [
@@ -1243,7 +1129,6 @@
   [
     "nvidia geforce 820a",
     "820",
-    "820a geforce nvidia",
     0,
     [
       [
@@ -1256,7 +1141,6 @@
   [
     "nvidia geforce 820m",
     "820",
-    "820m geforce nvidia",
     0,
     [
       [
@@ -1274,7 +1158,6 @@
   [
     "nvidia geforce 830a",
     "830",
-    "830a geforce nvidia",
     0,
     [
       [
@@ -1287,7 +1170,6 @@
   [
     "nvidia geforce 830m",
     "830",
-    "830m geforce nvidia",
     0,
     [
       [
@@ -1300,7 +1182,6 @@
   [
     "nvidia geforce 8400 gs",
     "8400",
-    "8400 geforce gs nvidia",
     0,
     [
       [
@@ -1313,7 +1194,6 @@
   [
     "nvidia geforce 8400 gs rev. 3",
     "8400",
-    " 3 8400 geforce gs nvidia rev",
     0,
     [
       [
@@ -1326,7 +1206,6 @@
   [
     "nvidia geforce 840a",
     "840",
-    "840a geforce nvidia",
     0,
     [
       [
@@ -1339,7 +1218,6 @@
   [
     "nvidia geforce 840m",
     "840",
-    "840m geforce nvidia",
     0,
     [
       [
@@ -1352,7 +1230,6 @@
   [
     "nvidia geforce 845m",
     "845",
-    "845m geforce nvidia",
     0,
     [
       [
@@ -1365,7 +1242,6 @@
   [
     "nvidia geforce 8600 gt",
     "8600",
-    "8600 geforce gt nvidia",
     1,
     [
       [
@@ -1378,7 +1254,6 @@
   [
     "nvidia geforce 8600 gts",
     "8600",
-    "8600 geforce gts nvidia",
     1,
     [
       [
@@ -1391,7 +1266,6 @@
   [
     "nvidia geforce 910m",
     "910",
-    "910m geforce nvidia",
     0,
     [
       [
@@ -1409,20 +1283,23 @@
   [
     "nvidia geforce 920m",
     "920",
-    "920m geforce nvidia",
     0,
     [
       [
         1366,
         768,
         60
+      ],
+      [
+        1920,
+        1080,
+        39
       ]
     ]
   ],
   [
     "nvidia geforce 920mx",
     "920",
-    "920mx geforce nvidia",
     0,
     [
       [
@@ -1440,7 +1317,6 @@
   [
     "nvidia geforce 9300 / nforce 730i",
     "9300",
-    " 730i 9300 geforce nforce nvidia",
     0,
     [
       [
@@ -1453,7 +1329,6 @@
   [
     "nvidia geforce 930a",
     "930",
-    "930a geforce nvidia",
     0,
     [
       [
@@ -1466,20 +1341,18 @@
   [
     "nvidia geforce 930m",
     "930",
-    "930m geforce nvidia",
     0,
     [
       [
         1366,
         768,
-        40
+        60
       ]
     ]
   ],
   [
     "nvidia geforce 930mx",
     "930",
-    "930mx geforce nvidia",
     0,
     [
       [
@@ -1497,7 +1370,6 @@
   [
     "nvidia geforce 9400 gt",
     "9400",
-    "9400 geforce gt nvidia",
     1,
     [
       [
@@ -1510,7 +1382,6 @@
   [
     "nvidia geforce 940a",
     "940",
-    "940a geforce nvidia",
     0,
     [
       [
@@ -1523,7 +1394,6 @@
   [
     "nvidia geforce 940m",
     "940",
-    "940m geforce nvidia",
     0,
     [
       [
@@ -1536,9 +1406,13 @@
   [
     "nvidia geforce 940mx",
     "940",
-    "940mx geforce nvidia",
     0,
     [
+      [
+        1366,
+        768,
+        60
+      ],
       [
         1920,
         1080,
@@ -1549,7 +1423,6 @@
   [
     "nvidia geforce 945m",
     "945",
-    "945m geforce nvidia",
     0,
     [
       [
@@ -1562,7 +1435,6 @@
   [
     "nvidia geforce 9600 gt",
     "9600",
-    "9600 geforce gt nvidia",
     0,
     [
       [
@@ -1575,7 +1447,6 @@
   [
     "nvidia geforce 9600m gt",
     "9600",
-    "9600m geforce gt nvidia",
     1,
     [
       [
@@ -1588,7 +1459,6 @@
   [
     "nvidia geforce 9800 gt",
     "9800",
-    "9800 geforce gt nvidia",
     0,
     [
       [
@@ -1601,7 +1471,6 @@
   [
     "nvidia geforce 9800 gtx / 9800 gtx+",
     "9800",
-    " 9800 geforce gtx gtx+ nvidia",
     0,
     [
       [
@@ -1614,7 +1483,6 @@
   [
     "nvidia geforce gpu",
     "gpu",
-    "geforce gpu nvidia",
     0,
     [
       [
@@ -1627,20 +1495,18 @@
   [
     "nvidia geforce gt 1010",
     "1010",
-    "1010 geforce gt nvidia",
     0,
     [
       [
         1920,
         1080,
-        54
+        135
       ]
     ]
   ],
   [
     "nvidia geforce gt 1030",
     "1030",
-    "1030 geforce gt nvidia",
     0,
     [
       [
@@ -1653,7 +1519,6 @@
   [
     "nvidia geforce gt 1030 opengl engine",
     "1030",
-    "1030 engine geforce gt nvidia opengl",
     0,
     [
       [
@@ -1666,7 +1531,6 @@
   [
     "nvidia geforce gt 120",
     "120",
-    "120 geforce gt nvidia",
     1,
     [
       [
@@ -1679,7 +1543,6 @@
   [
     "nvidia geforce gt 240",
     "240",
-    "240 geforce gt nvidia",
     0,
     [
       [
@@ -1692,7 +1555,6 @@
   [
     "nvidia geforce gt 320m",
     "320",
-    "320m geforce gt nvidia",
     0,
     [
       [
@@ -1705,7 +1567,6 @@
   [
     "nvidia geforce gt 415m",
     "415",
-    "415m geforce gt nvidia",
     0,
     [
       [
@@ -1718,7 +1579,6 @@
   [
     "nvidia geforce gt 420",
     "420",
-    "420 geforce gt nvidia",
     0,
     [
       [
@@ -1736,7 +1596,6 @@
   [
     "nvidia geforce gt 420m",
     "420",
-    "420m geforce gt nvidia",
     0,
     [
       [
@@ -1749,7 +1608,6 @@
   [
     "nvidia geforce gt 425m",
     "425",
-    "425m geforce gt nvidia",
     0,
     [
       [
@@ -1767,7 +1625,6 @@
   [
     "nvidia geforce gt 430",
     "430",
-    "430 geforce gt nvidia",
     0,
     [
       [
@@ -1780,7 +1637,6 @@
   [
     "nvidia geforce gt 435m",
     "435",
-    "435m geforce gt nvidia",
     0,
     [
       [
@@ -1798,7 +1654,6 @@
   [
     "nvidia geforce gt 440",
     "440",
-    "440 geforce gt nvidia",
     0,
     [
       [
@@ -1821,7 +1676,6 @@
   [
     "nvidia geforce gt 445m",
     "445",
-    "445m geforce gt nvidia",
     0,
     [
       [
@@ -1834,7 +1688,6 @@
   [
     "nvidia geforce gt 520",
     "520",
-    "520 geforce gt nvidia",
     0,
     [
       [
@@ -1852,7 +1705,6 @@
   [
     "nvidia geforce gt 520m",
     "520",
-    "520m geforce gt nvidia",
     0,
     [
       [
@@ -1865,7 +1717,6 @@
   [
     "nvidia geforce gt 520mx",
     "520",
-    "520mx geforce gt nvidia",
     0,
     [
       [
@@ -1878,7 +1729,6 @@
   [
     "nvidia geforce gt 525m",
     "525",
-    "525m geforce gt nvidia",
     0,
     [
       [
@@ -1896,7 +1746,6 @@
   [
     "nvidia geforce gt 530",
     "530",
-    "530 geforce gt nvidia",
     0,
     [
       [
@@ -1909,7 +1758,6 @@
   [
     "nvidia geforce gt 540m",
     "540",
-    "540m geforce gt nvidia",
     0,
     [
       [
@@ -1922,7 +1770,6 @@
   [
     "nvidia geforce gt 545",
     "545",
-    "545 geforce gt nvidia",
     0,
     [
       [
@@ -1935,7 +1782,6 @@
   [
     "nvidia geforce gt 550m",
     "550",
-    "550m geforce gt nvidia",
     0,
     [
       [
@@ -1953,7 +1799,6 @@
   [
     "nvidia geforce gt 555m",
     "555",
-    "555m geforce gt nvidia",
     0,
     [
       [
@@ -1966,7 +1811,6 @@
   [
     "nvidia geforce gt 555m/635m",
     "555",
-    "555m 635m geforce gt nvidia",
     0,
     [
       [
@@ -1979,7 +1823,6 @@
   [
     "nvidia geforce gt 610",
     "610",
-    "610 geforce gt nvidia",
     0,
     [
       [
@@ -1997,7 +1840,6 @@
   [
     "nvidia geforce gt 620",
     "620",
-    "620 geforce gt nvidia",
     0,
     [
       [
@@ -2010,7 +1852,6 @@
   [
     "nvidia geforce gt 620 oem",
     "620",
-    "620 geforce gt nvidia oem",
     0,
     [
       [
@@ -2028,7 +1869,6 @@
   [
     "nvidia geforce gt 620m",
     "620",
-    "620m geforce gt nvidia",
     0,
     [
       [
@@ -2046,7 +1886,6 @@
   [
     "nvidia geforce gt 620m/630m/635m/640m le",
     "620",
-    "620m 630m 635m 640m geforce gt le nvidia",
     0,
     [
       [
@@ -2059,7 +1898,6 @@
   [
     "nvidia geforce gt 625",
     "625",
-    "625 geforce gt nvidia",
     0,
     [
       [
@@ -2072,7 +1910,6 @@
   [
     "nvidia geforce gt 625m",
     "625",
-    "625m geforce gt nvidia",
     0,
     [
       [
@@ -2085,7 +1922,6 @@
   [
     "nvidia geforce gt 630",
     "630",
-    "630 geforce gt nvidia",
     0,
     [
       [
@@ -2096,7 +1932,7 @@
       [
         1920,
         1080,
-        28
+        36
       ],
       [
         1920,
@@ -2108,7 +1944,6 @@
   [
     "nvidia geforce gt 630 oem",
     "630",
-    "630 geforce gt nvidia oem",
     0,
     [
       [
@@ -2121,7 +1956,6 @@
   [
     "nvidia geforce gt 630 opengl engine",
     "630",
-    "630 engine geforce gt nvidia opengl",
     0,
     [
       [
@@ -2134,7 +1968,6 @@
   [
     "nvidia geforce gt 630 rev. 2",
     "630",
-    " 2 630 geforce gt nvidia rev",
     0,
     [
       [
@@ -2147,7 +1980,6 @@
   [
     "nvidia geforce gt 630m",
     "630",
-    "630m geforce gt nvidia",
     0,
     [
       [
@@ -2160,7 +1992,6 @@
   [
     "nvidia geforce gt 635",
     "635",
-    "635 geforce gt nvidia",
     0,
     [
       [
@@ -2173,7 +2004,6 @@
   [
     "nvidia geforce gt 635m",
     "635",
-    "635m geforce gt nvidia",
     0,
     [
       [
@@ -2186,7 +2016,6 @@
   [
     "nvidia geforce gt 640",
     "640",
-    "640 geforce gt nvidia",
     0,
     [
       [
@@ -2199,7 +2028,6 @@
   [
     "nvidia geforce gt 640 oem",
     "640",
-    "640 geforce gt nvidia oem",
     0,
     [
       [
@@ -2217,7 +2045,6 @@
   [
     "nvidia geforce gt 640 opengl engine",
     "640",
-    "640 engine geforce gt nvidia opengl",
     0,
     [
       [
@@ -2230,7 +2057,6 @@
   [
     "nvidia geforce gt 640 rev. 2",
     "640",
-    " 2 640 geforce gt nvidia rev",
     0,
     [
       [
@@ -2248,7 +2074,6 @@
   [
     "nvidia geforce gt 640m",
     "640",
-    "640m geforce gt nvidia",
     0,
     [
       [
@@ -2271,7 +2096,6 @@
   [
     "nvidia geforce gt 640m le",
     "640",
-    "640m geforce gt le nvidia",
     0,
     [
       [
@@ -2284,7 +2108,6 @@
   [
     "nvidia geforce gt 640m mac",
     "640",
-    "640m geforce gt mac nvidia",
     0,
     [
       [
@@ -2302,7 +2125,6 @@
   [
     "nvidia geforce gt 640m opengl engine",
     "640",
-    "640m engine geforce gt nvidia opengl",
     0,
     [
       [
@@ -2315,7 +2137,6 @@
   [
     "nvidia geforce gt 645m",
     "645",
-    "645m geforce gt nvidia",
     0,
     [
       [
@@ -2328,7 +2149,6 @@
   [
     "nvidia geforce gt 650m",
     "650",
-    "650m geforce gt nvidia",
     0,
     [
       [
@@ -2346,7 +2166,6 @@
   [
     "nvidia geforce gt 650m mac",
     "650",
-    "650m geforce gt mac nvidia",
     0,
     [
       [
@@ -2355,9 +2174,14 @@
         56
       ],
       [
+        1680,
+        1050,
+        54
+      ],
+      [
         1920,
         1080,
-        54
+        57
       ],
       [
         2880,
@@ -2369,7 +2193,6 @@
   [
     "nvidia geforce gt 650m opengl engine",
     "650",
-    "650m engine geforce gt nvidia opengl",
     0,
     [
       [
@@ -2387,7 +2210,6 @@
   [
     "nvidia geforce gt 705",
     "705",
-    "705 geforce gt nvidia",
     0,
     [
       [
@@ -2400,7 +2222,6 @@
   [
     "nvidia geforce gt 710",
     "710",
-    "710 geforce gt nvidia",
     0,
     [
       [
@@ -2413,7 +2234,6 @@
   [
     "nvidia geforce gt 710b",
     "710",
-    "710b geforce gt nvidia",
     0,
     [
       [
@@ -2426,7 +2246,6 @@
   [
     "nvidia geforce gt 710m",
     "710",
-    "710m geforce gt nvidia",
     0,
     [
       [
@@ -2439,7 +2258,6 @@
   [
     "nvidia geforce gt 720",
     "720",
-    "720 geforce gt nvidia",
     0,
     [
       [
@@ -2462,7 +2280,6 @@
   [
     "nvidia geforce gt 720 opengl engine",
     "720",
-    "720 engine geforce gt nvidia opengl",
     0,
     [
       [
@@ -2475,7 +2292,6 @@
   [
     "nvidia geforce gt 720m",
     "720",
-    "720m geforce gt nvidia",
     0,
     [
       [
@@ -2488,7 +2304,6 @@
   [
     "nvidia geforce gt 730",
     "730",
-    "730 geforce gt nvidia",
     0,
     [
       [
@@ -2501,7 +2316,6 @@
   [
     "nvidia geforce gt 730a",
     "730",
-    "730a geforce gt nvidia",
     0,
     [
       [
@@ -2514,7 +2328,6 @@
   [
     "nvidia geforce gt 730m",
     "730",
-    "730m geforce gt nvidia",
     0,
     [
       [
@@ -2527,20 +2340,18 @@
   [
     "nvidia geforce gt 735m",
     "735",
-    "735m geforce gt nvidia",
     0,
     [
       [
         1920,
         1080,
-        39
+        13
       ]
     ]
   ],
   [
     "nvidia geforce gt 740",
     "740",
-    "740 geforce gt nvidia",
     0,
     [
       [
@@ -2558,7 +2369,6 @@
   [
     "nvidia geforce gt 740 opengl engine",
     "740",
-    "740 engine geforce gt nvidia opengl",
     0,
     [
       [
@@ -2571,7 +2381,6 @@
   [
     "nvidia geforce gt 740m",
     "740",
-    "740m geforce gt nvidia",
     0,
     [
       [
@@ -2584,7 +2393,6 @@
   [
     "nvidia geforce gt 745m",
     "745",
-    "745m geforce gt nvidia",
     0,
     [
       [
@@ -2597,7 +2405,6 @@
   [
     "nvidia geforce gt 750m",
     "750",
-    "750m geforce gt nvidia",
     0,
     [
       [
@@ -2610,7 +2417,6 @@
   [
     "nvidia geforce gt 750m mac",
     "750",
-    "750m geforce gt mac nvidia",
     0,
     [
       [
@@ -2621,14 +2427,13 @@
       [
         2880,
         1800,
-        31
+        28
       ]
     ]
   ],
   [
     "nvidia geforce gt 755m",
     "755",
-    "755m geforce gt nvidia",
     0,
     [
       [
@@ -2641,7 +2446,6 @@
   [
     "nvidia geforce gt 755m mac",
     "755",
-    "755m geforce gt mac nvidia",
     0,
     [
       [
@@ -2654,7 +2458,6 @@
   [
     "nvidia geforce gt 755m opengl engine",
     "755",
-    "755m engine geforce gt nvidia opengl",
     0,
     [
       [
@@ -2667,7 +2470,6 @@
   [
     "nvidia geforce gt 820m",
     "820",
-    "820m geforce gt nvidia",
     0,
     [
       [
@@ -2680,7 +2482,6 @@
   [
     "nvidia geforce gts 250",
     "250",
-    "250 geforce gts nvidia",
     0,
     [
       [
@@ -2693,7 +2494,6 @@
   [
     "nvidia geforce gts 450",
     "450",
-    "450 geforce gts nvidia",
     0,
     [
       [
@@ -2709,14 +2509,13 @@
       [
         1920,
         1080,
-        54
+        55
       ]
     ]
   ],
   [
     "nvidia geforce gts 450 rev. 2",
     "450",
-    " 2 450 geforce gts nvidia rev",
     0,
     [
       [
@@ -2729,14 +2528,8 @@
   [
     "nvidia geforce gtx 1050",
     "1050",
-    "1050 geforce gtx nvidia",
     0,
     [
-      [
-        1280,
-        1024,
-        60
-      ],
       [
         1920,
         1080,
@@ -2745,9 +2538,20 @@
     ]
   ],
   [
+    "nvidia geforce gtx 1050 3gb",
+    "1050",
+    0,
+    [
+      [
+        1280,
+        1024,
+        60
+      ]
+    ]
+  ],
+  [
     "nvidia geforce gtx 1050 mobile",
     "1050",
-    "1050 geforce gtx mobile nvidia",
     0,
     [
       [
@@ -2760,7 +2564,6 @@
   [
     "nvidia geforce gtx 1050 opengl engine",
     "1050",
-    "1050 engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -2773,7 +2576,6 @@
   [
     "nvidia geforce gtx 1050 ti",
     "1050",
-    "1050 geforce gtx nvidia ti",
     0,
     [
       [
@@ -2786,7 +2588,6 @@
   [
     "nvidia geforce gtx 1050 ti mobile",
     "1050",
-    "1050 geforce gtx mobile nvidia ti",
     0,
     [
       [
@@ -2799,7 +2600,6 @@
   [
     "nvidia geforce gtx 1050 ti opengl engine",
     "1050",
-    "1050 engine geforce gtx nvidia opengl ti",
     0,
     [
       [
@@ -2812,7 +2612,6 @@
   [
     "nvidia geforce gtx 1050 ti with max-q design",
     "1050",
-    "1050 design geforce gtx max-q nvidia ti with",
     0,
     [
       [
@@ -2835,18 +2634,12 @@
   [
     "nvidia geforce gtx 1050 with max-q design",
     "1050",
-    "1050 design geforce gtx max-q nvidia with",
     0,
     [
       [
         1920,
         1080,
         60
-      ],
-      [
-        2560,
-        1080,
-        57
       ],
       [
         3840,
@@ -2858,13 +2651,12 @@
   [
     "nvidia geforce gtx 1060",
     "1060",
-    "1060 geforce gtx nvidia",
     0,
     [
       [
         1920,
         1080,
-        55
+        60
       ],
       [
         3840,
@@ -2874,9 +2666,80 @@
     ]
   ],
   [
+    "nvidia geforce gtx 1060 3gb",
+    "1060",
+    0,
+    [
+      [
+        1920,
+        1080,
+        60
+      ]
+    ]
+  ],
+  [
+    "nvidia geforce gtx 1060 3gb opengl engine",
+    "1060",
+    0,
+    [
+      [
+        1920,
+        1080,
+        60
+      ]
+    ]
+  ],
+  [
+    "nvidia geforce gtx 1060 5gb",
+    "1060",
+    0,
+    [
+      [
+        1920,
+        1080,
+        55
+      ]
+    ]
+  ],
+  [
+    "nvidia geforce gtx 1060 6gb",
+    "1060",
+    0,
+    [
+      [
+        1920,
+        1080,
+        60
+      ]
+    ]
+  ],
+  [
+    "nvidia geforce gtx 1060 6gb opengl engine",
+    "1060",
+    0,
+    [
+      [
+        1920,
+        1080,
+        75
+      ]
+    ]
+  ],
+  [
     "nvidia geforce gtx 1060 mobile",
     "1060",
-    "1060 geforce gtx mobile nvidia",
+    0,
+    [
+      [
+        1920,
+        1080,
+        422
+      ]
+    ]
+  ],
+  [
+    "nvidia geforce gtx 1060 mobile 6gb",
+    "1060",
     0,
     [
       [
@@ -2887,22 +2750,8 @@
     ]
   ],
   [
-    "nvidia geforce gtx 1060 opengl engine",
-    "1060",
-    "1060 engine geforce gtx nvidia opengl",
-    0,
-    [
-      [
-        1920,
-        1080,
-        60
-      ]
-    ]
-  ],
-  [
     "nvidia geforce gtx 1060 with max-q design",
     "1060",
-    "1060 design geforce gtx max-q nvidia with",
     0,
     [
       [
@@ -2913,9 +2762,8 @@
     ]
   ],
   [
-    "nvidia geforce gtx 1060se",
+    "nvidia geforce gtx 1060se 3gb",
     "1060",
-    "1060se geforce gtx nvidia",
     0,
     [
       [
@@ -2928,7 +2776,6 @@
   [
     "nvidia geforce gtx 1070",
     "1070",
-    "1070 geforce gtx nvidia",
     0,
     [
       [
@@ -2941,7 +2788,6 @@
   [
     "nvidia geforce gtx 1070 a17",
     "1070",
-    "1070 a17 geforce gtx nvidia",
     0,
     [
       [
@@ -2954,7 +2800,6 @@
   [
     "nvidia geforce gtx 1070 mobile",
     "1070",
-    "1070 geforce gtx mobile nvidia",
     0,
     [
       [
@@ -2967,7 +2812,6 @@
   [
     "nvidia geforce gtx 1070 opengl engine",
     "1070",
-    "1070 engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -2980,7 +2824,6 @@
   [
     "nvidia geforce gtx 1070 ti",
     "1070",
-    "1070 geforce gtx nvidia ti",
     0,
     [
       [
@@ -2998,7 +2841,6 @@
   [
     "nvidia geforce gtx 1070 ti opengl engine",
     "1070",
-    "1070 engine geforce gtx nvidia opengl ti",
     0,
     [
       [
@@ -3011,7 +2853,6 @@
   [
     "nvidia geforce gtx 1070 with max-q design",
     "1070",
-    "1070 design geforce gtx max-q nvidia with",
     0,
     [
       [
@@ -3024,7 +2865,6 @@
   [
     "nvidia geforce gtx 1070 with maxq design",
     "1070",
-    "1070 design geforce gtx maxq nvidia with",
     0,
     [
       [
@@ -3042,7 +2882,6 @@
   [
     "nvidia geforce gtx 1080",
     "1080",
-    "1080 geforce gtx nvidia",
     0,
     [
       [
@@ -3065,7 +2904,6 @@
   [
     "nvidia geforce gtx 1080 mobile",
     "1080",
-    "1080 geforce gtx mobile nvidia",
     0,
     [
       [
@@ -3078,7 +2916,6 @@
   [
     "nvidia geforce gtx 1080 opengl engine",
     "1080",
-    "1080 engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -3091,7 +2928,6 @@
   [
     "nvidia geforce gtx 1080 ti",
     "1080",
-    "1080 geforce gtx nvidia ti",
     0,
     [
       [
@@ -3104,7 +2940,6 @@
   [
     "nvidia geforce gtx 1080 ti opengl engine",
     "1080",
-    "1080 engine geforce gtx nvidia opengl ti",
     0,
     [
       [
@@ -3117,7 +2952,6 @@
   [
     "nvidia geforce gtx 1080 with max-q design",
     "1080",
-    "1080 design geforce gtx max-q nvidia with",
     0,
     [
       [
@@ -3130,7 +2964,6 @@
   [
     "nvidia geforce gtx 1180",
     "1180",
-    "1180 geforce gtx nvidia",
     0,
     [
       [
@@ -3143,7 +2976,6 @@
   [
     "nvidia geforce gtx 1630",
     "1630",
-    "1630 geforce gtx nvidia",
     0,
     [
       [
@@ -3156,20 +2988,18 @@
   [
     "nvidia geforce gtx 1650",
     "1650",
-    "1650 geforce gtx nvidia",
     0,
     [
       [
         1920,
         1080,
-        392
+        380
       ]
     ]
   ],
   [
     "nvidia geforce gtx 1650 mobile / max-q",
     "1650",
-    " 1650 geforce gtx max-q mobile nvidia",
     0,
     [
       [
@@ -3182,7 +3012,6 @@
   [
     "nvidia geforce gtx 1650 super",
     "1650",
-    "1650 geforce gtx nvidia super",
     0,
     [
       [
@@ -3195,7 +3024,6 @@
   [
     "nvidia geforce gtx 1650 ti",
     "1650",
-    "1650 geforce gtx nvidia ti",
     0,
     [
       [
@@ -3213,7 +3041,6 @@
   [
     "nvidia geforce gtx 1650 ti mobile",
     "1650",
-    "1650 geforce gtx mobile nvidia ti",
     0,
     [
       [
@@ -3226,16 +3053,15 @@
   [
     "nvidia geforce gtx 1650 ti with max-q design",
     "1650",
-    "1650 design geforce gtx max-q nvidia ti with",
     0,
     [
       [
-        3839,
-        2160,
-        60
+        1920,
+        1080,
+        120
       ],
       [
-        3840,
+        3839,
         2160,
         60
       ]
@@ -3244,7 +3070,6 @@
   [
     "nvidia geforce gtx 1650 with max-q design",
     "1650",
-    "1650 design geforce gtx max-q nvidia with",
     0,
     [
       [
@@ -3262,7 +3087,6 @@
   [
     "nvidia geforce gtx 1660",
     "1660",
-    "1660 geforce gtx nvidia",
     0,
     [
       [
@@ -3275,7 +3099,6 @@
   [
     "nvidia geforce gtx 1660 super",
     "1660",
-    "1660 geforce gtx nvidia super",
     0,
     [
       [
@@ -3288,13 +3111,12 @@
   [
     "nvidia geforce gtx 1660 ti",
     "1660",
-    "1660 geforce gtx nvidia ti",
     0,
     [
       [
         1920,
         1080,
-        144
+        546
       ],
       [
         3840,
@@ -3306,7 +3128,6 @@
   [
     "nvidia geforce gtx 1660 ti mobile",
     "1660",
-    "1660 geforce gtx mobile nvidia ti",
     0,
     [
       [
@@ -3319,7 +3140,6 @@
   [
     "nvidia geforce gtx 1660 ti with max-q design",
     "1660",
-    "1660 design geforce gtx max-q nvidia ti with",
     0,
     [
       [
@@ -3332,7 +3152,6 @@
   [
     "nvidia geforce gtx 280",
     "280",
-    "280 geforce gtx nvidia",
     0,
     [
       [
@@ -3345,7 +3164,6 @@
   [
     "nvidia geforce gtx 295",
     "295",
-    "295 geforce gtx nvidia",
     0,
     [
       [
@@ -3358,7 +3176,6 @@
   [
     "nvidia geforce gtx 460",
     "460",
-    "460 geforce gtx nvidia",
     0,
     [
       [
@@ -3371,7 +3188,6 @@
   [
     "nvidia geforce gtx 460 oem",
     "460",
-    "460 geforce gtx nvidia oem",
     0,
     [
       [
@@ -3389,7 +3205,6 @@
   [
     "nvidia geforce gtx 460 opengl engine",
     "460",
-    "460 engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -3402,7 +3217,6 @@
   [
     "nvidia geforce gtx 460 se",
     "460",
-    "460 geforce gtx nvidia se",
     0,
     [
       [
@@ -3420,7 +3234,6 @@
   [
     "nvidia geforce gtx 460 v2",
     "460",
-    "460 geforce gtx nvidia v2",
     0,
     [
       [
@@ -3443,7 +3256,6 @@
   [
     "nvidia geforce gtx 460m",
     "460",
-    "460m geforce gtx nvidia",
     0,
     [
       [
@@ -3456,7 +3268,6 @@
   [
     "nvidia geforce gtx 465",
     "465",
-    "465 geforce gtx nvidia",
     0,
     [
       [
@@ -3474,7 +3285,6 @@
   [
     "nvidia geforce gtx 470",
     "470",
-    "470 geforce gtx nvidia",
     0,
     [
       [
@@ -3492,7 +3302,6 @@
   [
     "nvidia geforce gtx 470m",
     "470",
-    "470m geforce gtx nvidia",
     0,
     [
       [
@@ -3505,7 +3314,6 @@
   [
     "nvidia geforce gtx 480",
     "480",
-    "480 geforce gtx nvidia",
     0,
     [
       [
@@ -3528,7 +3336,6 @@
   [
     "nvidia geforce gtx 480 opengl engine",
     "480",
-    "480 engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -3541,7 +3348,6 @@
   [
     "nvidia geforce gtx 550 ti",
     "550",
-    "550 geforce gtx nvidia ti",
     0,
     [
       [
@@ -3559,7 +3365,6 @@
   [
     "nvidia geforce gtx 550 ti opengl engine",
     "550",
-    "550 engine geforce gtx nvidia opengl ti",
     0,
     [
       [
@@ -3572,7 +3377,6 @@
   [
     "nvidia geforce gtx 555",
     "555",
-    "555 geforce gtx nvidia",
     0,
     [
       [
@@ -3585,7 +3389,6 @@
   [
     "nvidia geforce gtx 560",
     "560",
-    "560 geforce gtx nvidia",
     0,
     [
       [
@@ -3598,7 +3401,6 @@
   [
     "nvidia geforce gtx 560 se",
     "560",
-    "560 geforce gtx nvidia se",
     0,
     [
       [
@@ -3611,7 +3413,6 @@
   [
     "nvidia geforce gtx 560 ti",
     "560",
-    "560 geforce gtx nvidia ti",
     0,
     [
       [
@@ -3624,7 +3425,6 @@
   [
     "nvidia geforce gtx 560 ti 448 cores",
     "560",
-    "448 560 cores geforce gtx nvidia ti",
     0,
     [
       [
@@ -3642,7 +3442,6 @@
   [
     "nvidia geforce gtx 560 ti oem",
     "560",
-    "560 geforce gtx nvidia oem ti",
     0,
     [
       [
@@ -3655,7 +3454,6 @@
   [
     "nvidia geforce gtx 560 ti opengl engine",
     "560",
-    "560 engine geforce gtx nvidia opengl ti",
     0,
     [
       [
@@ -3668,7 +3466,6 @@
   [
     "nvidia geforce gtx 560m",
     "560",
-    "560m geforce gtx nvidia",
     0,
     [
       [
@@ -3681,7 +3478,6 @@
   [
     "nvidia geforce gtx 570",
     "570",
-    "570 geforce gtx nvidia",
     0,
     [
       [
@@ -3694,7 +3490,6 @@
   [
     "nvidia geforce gtx 570 opengl engine",
     "570",
-    "570 engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -3707,7 +3502,6 @@
   [
     "nvidia geforce gtx 570 rev. 2",
     "570",
-    " 2 570 geforce gtx nvidia rev",
     0,
     [
       [
@@ -3725,7 +3519,6 @@
   [
     "nvidia geforce gtx 570m",
     "570",
-    "570m geforce gtx nvidia",
     0,
     [
       [
@@ -3743,7 +3536,6 @@
   [
     "nvidia geforce gtx 580",
     "580",
-    "580 geforce gtx nvidia",
     0,
     [
       [
@@ -3756,7 +3548,6 @@
   [
     "nvidia geforce gtx 580 opengl engine",
     "580",
-    "580 engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -3769,7 +3560,6 @@
   [
     "nvidia geforce gtx 580m",
     "580",
-    "580m geforce gtx nvidia",
     0,
     [
       [
@@ -3782,7 +3572,6 @@
   [
     "nvidia geforce gtx 590",
     "590",
-    "590 geforce gtx nvidia",
     0,
     [
       [
@@ -3795,7 +3584,6 @@
   [
     "nvidia geforce gtx 645",
     "645",
-    "645 geforce gtx nvidia",
     0,
     [
       [
@@ -3813,7 +3601,6 @@
   [
     "nvidia geforce gtx 645 opengl engine",
     "645",
-    "645 engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -3826,7 +3613,6 @@
   [
     "nvidia geforce gtx 650",
     "650",
-    "650 geforce gtx nvidia",
     0,
     [
       [
@@ -3839,7 +3625,6 @@
   [
     "nvidia geforce gtx 650 oem",
     "650",
-    "650 geforce gtx nvidia oem",
     0,
     [
       [
@@ -3852,7 +3637,6 @@
   [
     "nvidia geforce gtx 650 opengl engine",
     "650",
-    "650 engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -3865,7 +3649,6 @@
   [
     "nvidia geforce gtx 650 ti",
     "650",
-    "650 geforce gtx nvidia ti",
     0,
     [
       [
@@ -3878,9 +3661,13 @@
   [
     "nvidia geforce gtx 650 ti boost",
     "650",
-    "650 boost geforce gtx nvidia ti",
     0,
     [
+      [
+        1280,
+        1024,
+        60
+      ],
       [
         1600,
         1200,
@@ -3896,7 +3683,6 @@
   [
     "nvidia geforce gtx 650 ti opengl engine",
     "650",
-    "650 engine geforce gtx nvidia opengl ti",
     0,
     [
       [
@@ -3909,20 +3695,18 @@
   [
     "nvidia geforce gtx 660",
     "660",
-    "660 geforce gtx nvidia",
     0,
     [
       [
         1920,
         1080,
-        111
+        60
       ]
     ]
   ],
   [
     "nvidia geforce gtx 660 oem",
     "660",
-    "660 geforce gtx nvidia oem",
     0,
     [
       [
@@ -3935,7 +3719,6 @@
   [
     "nvidia geforce gtx 660 ti",
     "660",
-    "660 geforce gtx nvidia ti",
     0,
     [
       [
@@ -3948,7 +3731,6 @@
   [
     "nvidia geforce gtx 660 ti opengl engine",
     "660",
-    "660 engine geforce gtx nvidia opengl ti",
     0,
     [
       [
@@ -3961,7 +3743,6 @@
   [
     "nvidia geforce gtx 660m",
     "660",
-    "660m geforce gtx nvidia",
     0,
     [
       [
@@ -3979,7 +3760,6 @@
   [
     "nvidia geforce gtx 660m mac",
     "660",
-    "660m geforce gtx mac nvidia",
     0,
     [
       [
@@ -3992,7 +3772,6 @@
   [
     "nvidia geforce gtx 660m opengl engine",
     "660",
-    "660m engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -4005,14 +3784,8 @@
   [
     "nvidia geforce gtx 670",
     "670",
-    "670 geforce gtx nvidia",
     0,
     [
-      [
-        1280,
-        720,
-        60
-      ],
       [
         1920,
         1080,
@@ -4023,7 +3796,6 @@
   [
     "nvidia geforce gtx 670 opengl engine",
     "670",
-    "670 engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -4036,7 +3808,6 @@
   [
     "nvidia geforce gtx 670m",
     "670",
-    "670m geforce gtx nvidia",
     0,
     [
       [
@@ -4049,7 +3820,6 @@
   [
     "nvidia geforce gtx 670mx",
     "670",
-    "670mx geforce gtx nvidia",
     0,
     [
       [
@@ -4062,7 +3832,6 @@
   [
     "nvidia geforce gtx 675m",
     "675",
-    "675m geforce gtx nvidia",
     0,
     [
       [
@@ -4075,7 +3844,6 @@
   [
     "nvidia geforce gtx 675mx",
     "675",
-    "675mx geforce gtx nvidia",
     0,
     [
       [
@@ -4098,7 +3866,6 @@
   [
     "nvidia geforce gtx 675mx mac",
     "675",
-    "675mx geforce gtx mac nvidia",
     0,
     [
       [
@@ -4111,7 +3878,6 @@
   [
     "nvidia geforce gtx 675mx opengl engine",
     "675",
-    "675mx engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -4124,14 +3890,8 @@
   [
     "nvidia geforce gtx 680",
     "680",
-    "680 geforce gtx nvidia",
     0,
     [
-      [
-        1680,
-        1050,
-        60
-      ],
       [
         1920,
         1080,
@@ -4142,7 +3902,6 @@
   [
     "nvidia geforce gtx 680 opengl engine",
     "680",
-    "680 engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -4155,7 +3914,6 @@
   [
     "nvidia geforce gtx 680m",
     "680",
-    "680m geforce gtx nvidia",
     0,
     [
       [
@@ -4173,7 +3931,6 @@
   [
     "nvidia geforce gtx 680m opengl engine",
     "680",
-    "680m engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -4186,7 +3943,6 @@
   [
     "nvidia geforce gtx 680mx",
     "680",
-    "680mx geforce gtx nvidia",
     0,
     [
       [
@@ -4199,7 +3955,6 @@
   [
     "nvidia geforce gtx 680mx opengl engine",
     "680",
-    "680mx engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -4212,7 +3967,6 @@
   [
     "nvidia geforce gtx 690",
     "690",
-    "690 geforce gtx nvidia",
     0,
     [
       [
@@ -4230,7 +3984,6 @@
   [
     "nvidia geforce gtx 745",
     "745",
-    "745 geforce gtx nvidia",
     0,
     [
       [
@@ -4248,7 +4001,6 @@
   [
     "nvidia geforce gtx 750",
     "750",
-    "750 geforce gtx nvidia",
     0,
     [
       [
@@ -4261,7 +4013,6 @@
   [
     "nvidia geforce gtx 750 opengl engine",
     "750",
-    "750 engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -4274,7 +4025,6 @@
   [
     "nvidia geforce gtx 750 ti",
     "750",
-    "750 geforce gtx nvidia ti",
     0,
     [
       [
@@ -4287,18 +4037,12 @@
   [
     "nvidia geforce gtx 760",
     "760",
-    "760 geforce gtx nvidia",
     0,
     [
       [
-        1360,
-        768,
-        60
-      ],
-      [
         1920,
         1080,
-        60
+        59
       ],
       [
         1920,
@@ -4310,7 +4054,6 @@
   [
     "nvidia geforce gtx 760 oem",
     "760",
-    "760 geforce gtx nvidia oem",
     0,
     [
       [
@@ -4323,7 +4066,6 @@
   [
     "nvidia geforce gtx 760 opengl engine",
     "760",
-    "760 engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -4336,7 +4078,6 @@
   [
     "nvidia geforce gtx 760 ti",
     "760",
-    "760 geforce gtx nvidia ti",
     0,
     [
       [
@@ -4354,7 +4095,6 @@
   [
     "nvidia geforce gtx 760 ti oem",
     "760",
-    "760 geforce gtx nvidia oem ti",
     0,
     [
       [
@@ -4367,7 +4107,6 @@
   [
     "nvidia geforce gtx 760 ti opengl engine",
     "760",
-    "760 engine geforce gtx nvidia opengl ti",
     0,
     [
       [
@@ -4380,7 +4119,6 @@
   [
     "nvidia geforce gtx 760a",
     "760",
-    "760a geforce gtx nvidia",
     0,
     [
       [
@@ -4393,7 +4131,6 @@
   [
     "nvidia geforce gtx 760m",
     "760",
-    "760m geforce gtx nvidia",
     0,
     [
       [
@@ -4406,7 +4143,6 @@
   [
     "nvidia geforce gtx 765m",
     "765",
-    "765m geforce gtx nvidia",
     0,
     [
       [
@@ -4424,7 +4160,6 @@
   [
     "nvidia geforce gtx 765m by nick[d]vb",
     "765",
-    "765m by d geforce gtx nick nvidia vb",
     0,
     [
       [
@@ -4437,7 +4172,6 @@
   [
     "nvidia geforce gtx 765m opengl engine",
     "765",
-    "765m engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -4450,7 +4184,6 @@
   [
     "nvidia geforce gtx 770",
     "770",
-    "770 geforce gtx nvidia",
     0,
     [
       [
@@ -4468,7 +4201,6 @@
   [
     "nvidia geforce gtx 770 mac",
     "770",
-    "770 geforce gtx mac nvidia",
     0,
     [
       [
@@ -4481,7 +4213,6 @@
   [
     "nvidia geforce gtx 770 opengl engine",
     "770",
-    "770 engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -4494,7 +4225,6 @@
   [
     "nvidia geforce gtx 770m",
     "770",
-    "770m geforce gtx nvidia",
     0,
     [
       [
@@ -4512,7 +4242,6 @@
   [
     "nvidia geforce gtx 770m by nick[d]vb",
     "770",
-    "770m by d geforce gtx nick nvidia vb",
     0,
     [
       [
@@ -4525,7 +4254,6 @@
   [
     "nvidia geforce gtx 770m opengl engine",
     "770",
-    "770m engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -4538,7 +4266,6 @@
   [
     "nvidia geforce gtx 775m by idopt mac",
     "775",
-    "775m by geforce gtx idopt mac nvidia",
     0,
     [
       [
@@ -4551,7 +4278,6 @@
   [
     "nvidia geforce gtx 775m mac",
     "775",
-    "775m geforce gtx mac nvidia",
     0,
     [
       [
@@ -4564,7 +4290,6 @@
   [
     "nvidia geforce gtx 775m opengl engine",
     "775",
-    "775m engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -4577,20 +4302,18 @@
   [
     "nvidia geforce gtx 780",
     "780",
-    "780 geforce gtx nvidia",
     0,
     [
       [
         1920,
         1080,
-        60
+        159
       ]
     ]
   ],
   [
     "nvidia geforce gtx 780 by st3phl3",
     "780",
-    "780 by geforce gtx nvidia st3phl3",
     0,
     [
       [
@@ -4603,7 +4326,6 @@
   [
     "nvidia geforce gtx 780 mac",
     "780",
-    "780 geforce gtx mac nvidia",
     0,
     [
       [
@@ -4621,18 +4343,12 @@
   [
     "nvidia geforce gtx 780 rev. 2",
     "780",
-    " 2 780 geforce gtx nvidia rev",
     0,
     [
       [
         1920,
         1080,
         144
-      ],
-      [
-        1920,
-        1200,
-        60
       ],
       [
         2560,
@@ -4643,13 +4359,17 @@
         3840,
         2160,
         58
+      ],
+      [
+        5120,
+        2880,
+        58
       ]
     ]
   ],
   [
     "nvidia geforce gtx 780 ti",
     "780",
-    "780 geforce gtx nvidia ti",
     0,
     [
       [
@@ -4667,7 +4387,6 @@
   [
     "nvidia geforce gtx 780 ti opengl engine",
     "780",
-    "780 engine geforce gtx nvidia opengl ti",
     0,
     [
       [
@@ -4680,7 +4399,6 @@
   [
     "nvidia geforce gtx 780m",
     "780",
-    "780m geforce gtx nvidia",
     0,
     [
       [
@@ -4698,7 +4416,6 @@
   [
     "nvidia geforce gtx 780m by nick[d]vb",
     "780",
-    "780m by d geforce gtx nick nvidia vb",
     0,
     [
       [
@@ -4716,7 +4433,6 @@
   [
     "nvidia geforce gtx 780m mac",
     "780",
-    "780m geforce gtx mac nvidia",
     0,
     [
       [
@@ -4729,7 +4445,6 @@
   [
     "nvidia geforce gtx 780m opengl engine",
     "780",
-    "780m engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -4742,7 +4457,6 @@
   [
     "nvidia geforce gtx 850a",
     "850",
-    "850a geforce gtx nvidia",
     0,
     [
       [
@@ -4755,7 +4469,6 @@
   [
     "nvidia geforce gtx 850m",
     "850",
-    "850m geforce gtx nvidia",
     0,
     [
       [
@@ -4768,7 +4481,6 @@
   [
     "nvidia geforce gtx 860m",
     "860",
-    "860m geforce gtx nvidia",
     0,
     [
       [
@@ -4781,7 +4493,6 @@
   [
     "nvidia geforce gtx 860m opengl engine",
     "860",
-    "860m engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -4794,7 +4505,6 @@
   [
     "nvidia geforce gtx 870m",
     "870",
-    "870m geforce gtx nvidia",
     0,
     [
       [
@@ -4812,7 +4522,6 @@
   [
     "nvidia geforce gtx 880m",
     "880",
-    "880m geforce gtx nvidia",
     0,
     [
       [
@@ -4830,7 +4539,6 @@
   [
     "nvidia geforce gtx 880m opengl engine",
     "880",
-    "880m engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -4843,7 +4551,6 @@
   [
     "nvidia geforce gtx 950",
     "950",
-    "950 geforce gtx nvidia",
     0,
     [
       [
@@ -4856,7 +4563,6 @@
   [
     "nvidia geforce gtx 950 opengl engine",
     "950",
-    "950 engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -4869,7 +4575,6 @@
   [
     "nvidia geforce gtx 950a",
     "950",
-    "950a geforce gtx nvidia",
     0,
     [
       [
@@ -4887,7 +4592,6 @@
   [
     "nvidia geforce gtx 950m",
     "950",
-    "950m geforce gtx nvidia",
     0,
     [
       [
@@ -4900,7 +4604,6 @@
   [
     "nvidia geforce gtx 960",
     "960",
-    "960 geforce gtx nvidia",
     0,
     [
       [
@@ -4913,7 +4616,6 @@
   [
     "nvidia geforce gtx 960a",
     "960",
-    "960a geforce gtx nvidia",
     0,
     [
       [
@@ -4926,7 +4628,6 @@
   [
     "nvidia geforce gtx 960m",
     "960",
-    "960m geforce gtx nvidia",
     0,
     [
       [
@@ -4939,7 +4640,6 @@
   [
     "nvidia geforce gtx 965m",
     "965",
-    "965m geforce gtx nvidia",
     0,
     [
       [
@@ -4962,7 +4662,6 @@
   [
     "nvidia geforce gtx 965m opengl engine",
     "965",
-    "965m engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -4975,7 +4674,6 @@
   [
     "nvidia geforce gtx 970",
     "970",
-    "970 geforce gtx nvidia",
     0,
     [
       [
@@ -4988,7 +4686,6 @@
   [
     "nvidia geforce gtx 970 opengl engine",
     "970",
-    "970 engine geforce gtx nvidia opengl",
     0,
     [
       [
@@ -5001,17 +4698,11 @@
   [
     "nvidia geforce gtx 970m",
     "970",
-    "970m geforce gtx nvidia",
     0,
     [
       [
         1920,
         1080,
-        60
-      ],
-      [
-        3200,
-        1800,
         60
       ]
     ]
@@ -5019,7 +4710,6 @@
   [
     "nvidia geforce gtx 980",
     "980",
-    "980 geforce gtx nvidia",
     0,
     [
       [
@@ -5032,7 +4722,6 @@
   [
     "nvidia geforce gtx 980 ti",
     "980",
-    "980 geforce gtx nvidia ti",
     0,
     [
       [
@@ -5050,7 +4739,6 @@
   [
     "nvidia geforce gtx 980 ti opengl engine",
     "980",
-    "980 engine geforce gtx nvidia opengl ti",
     0,
     [
       [
@@ -5063,7 +4751,6 @@
   [
     "nvidia geforce gtx 980m",
     "980",
-    "980m geforce gtx nvidia",
     0,
     [
       [
@@ -5081,7 +4768,6 @@
   [
     "nvidia geforce gtx titan",
     "gtx",
-    "geforce gtx nvidia titan",
     0,
     [
       [
@@ -5104,7 +4790,6 @@
   [
     "nvidia geforce gtx titan black",
     "gtx",
-    "black geforce gtx nvidia titan",
     0,
     [
       [
@@ -5132,7 +4817,6 @@
   [
     "nvidia geforce gtx titan black opengl engine",
     "gtx",
-    "black engine geforce gtx nvidia opengl titan",
     0,
     [
       [
@@ -5145,7 +4829,6 @@
   [
     "nvidia geforce gtx titan opengl engine",
     "gtx",
-    "engine geforce gtx nvidia opengl titan",
     0,
     [
       [
@@ -5158,7 +4841,6 @@
   [
     "nvidia geforce gtx titan x",
     "gtxx",
-    "geforce gtx nvidia titan x",
     0,
     [
       [
@@ -5181,7 +4863,6 @@
   [
     "nvidia geforce gtx titan xp",
     "gtxxp",
-    "geforce gtx nvidia titan xp",
     0,
     [
       [
@@ -5199,7 +4880,6 @@
   [
     "nvidia geforce gtx titan z",
     "gtxz",
-    "geforce gtx nvidia titan z",
     0,
     [
       [
@@ -5222,7 +4902,6 @@
   [
     "nvidia geforce gtx780m by nikey22",
     "780",
-    "by geforce gtx780m nikey22 nvidia",
     0,
     [
       [
@@ -5235,7 +4914,6 @@
   [
     "nvidia geforce gtx870m by nikey22",
     "870",
-    "by geforce gtx870m nikey22 nvidia",
     0,
     [
       [
@@ -5248,7 +4926,6 @@
   [
     "nvidia geforce gtx880m",
     "880",
-    "geforce gtx880m nvidia",
     0,
     [
       [
@@ -5261,7 +4938,6 @@
   [
     "nvidia geforce gtx880m by nikey22",
     "880",
-    "by geforce gtx880m nikey22 nvidia",
     0,
     [
       [
@@ -5274,7 +4950,6 @@
   [
     "nvidia geforce gtx880m opengl engine",
     "880",
-    "engine geforce gtx880m nvidia opengl",
     0,
     [
       [
@@ -5287,7 +4962,6 @@
   [
     "nvidia geforce mx110",
     "110",
-    "geforce mx110 nvidia",
     0,
     [
       [
@@ -5305,7 +4979,6 @@
   [
     "nvidia geforce mx130",
     "130",
-    "geforce mx130 nvidia",
     0,
     [
       [
@@ -5318,7 +4991,6 @@
   [
     "nvidia geforce mx150",
     "150",
-    "geforce mx150 nvidia",
     0,
     [
       [
@@ -5331,7 +5003,6 @@
   [
     "nvidia geforce mx230",
     "230",
-    "geforce mx230 nvidia",
     0,
     [
       [
@@ -5344,7 +5015,6 @@
   [
     "nvidia geforce mx250",
     "250",
-    "geforce mx250 nvidia",
     0,
     [
       [
@@ -5357,7 +5027,6 @@
   [
     "nvidia geforce mx330",
     "330",
-    "geforce mx330 nvidia",
     0,
     [
       [
@@ -5375,7 +5044,6 @@
   [
     "nvidia geforce mx350",
     "350",
-    "geforce mx350 nvidia",
     0,
     [
       [
@@ -5388,7 +5056,6 @@
   [
     "nvidia geforce mx450",
     "450",
-    "geforce mx450 nvidia",
     0,
     [
       [
@@ -5401,20 +5068,18 @@
   [
     "nvidia geforce mx550",
     "550",
-    "geforce mx550 nvidia",
     0,
     [
       [
         3840,
         2400,
-        21
+        5
       ]
     ]
   ],
   [
     "nvidia geforce mx570 a",
     "570",
-    "a geforce mx570 nvidia",
     0,
     [
       [
@@ -5427,7 +5092,6 @@
   [
     "nvidia geforce pre-release graphics device",
     "pre",
-    "device geforce graphics nvidia pre-release",
     0,
     [
       [
@@ -5440,7 +5104,6 @@
   [
     "nvidia geforce pre-release tesla c2075 opengl engine",
     "2075",
-    "c2075 engine geforce nvidia opengl pre-release tesla",
     0,
     [
       [
@@ -5453,7 +5116,6 @@
   [
     "nvidia geforce pre-release titan x opengl engine",
     "prex",
-    "engine geforce nvidia opengl pre-release titan x",
     0,
     [
       [
@@ -5466,7 +5128,6 @@
   [
     "nvidia geforce pre-release titan xp collectors edition opengl e",
     "prexpe",
-    "collectors e edition geforce nvidia opengl pre-release titan xp",
     0,
     [
       [
@@ -5479,7 +5140,6 @@
   [
     "nvidia geforce pre-release titan xp opengl engine",
     "prexp",
-    "engine geforce nvidia opengl pre-release titan xp",
     0,
     [
       [
@@ -5492,20 +5152,23 @@
   [
     "nvidia geforce rtx 2050",
     "2050",
-    "2050 geforce nvidia rtx",
     0,
     [
       [
-        1920,
-        1080,
-        144
+        2560,
+        1600,
+        120
+      ],
+      [
+        2880,
+        1800,
+        90
       ]
     ]
   ],
   [
     "nvidia geforce rtx 2060",
     "2060",
-    "2060 geforce nvidia rtx",
     0,
     [
       [
@@ -5518,7 +5181,6 @@
   [
     "nvidia geforce rtx 2060 max-q",
     "2060",
-    "2060 geforce max-q nvidia rtx",
     0,
     [
       [
@@ -5531,7 +5193,6 @@
   [
     "nvidia geforce rtx 2060 mobile",
     "2060",
-    "2060 geforce mobile nvidia rtx",
     0,
     [
       [
@@ -5544,7 +5205,6 @@
   [
     "nvidia geforce rtx 2060 rev. a",
     "2060",
-    " 2060 a geforce nvidia rev rtx",
     0,
     [
       [
@@ -5557,7 +5217,6 @@
   [
     "nvidia geforce rtx 2060 super",
     "2060",
-    "2060 geforce nvidia rtx super",
     0,
     [
       [
@@ -5575,20 +5234,18 @@
   [
     "nvidia geforce rtx 2060 with max-q design",
     "2060",
-    "2060 design geforce max-q nvidia rtx with",
     0,
     [
       [
         1920,
         1080,
-        144
+        88
       ]
     ]
   ],
   [
     "nvidia geforce rtx 2070",
     "2070",
-    "2070 geforce nvidia rtx",
     0,
     [
       [
@@ -5606,7 +5263,6 @@
   [
     "nvidia geforce rtx 2070 mobile",
     "2070",
-    "2070 geforce mobile nvidia rtx",
     0,
     [
       [
@@ -5619,7 +5275,6 @@
   [
     "nvidia geforce rtx 2070 mobile / max-q",
     "2070",
-    " 2070 geforce max-q mobile nvidia rtx",
     0,
     [
       [
@@ -5632,7 +5287,6 @@
   [
     "nvidia geforce rtx 2070 mobile / max-q refresh",
     "2070",
-    " 2070 geforce max-q mobile nvidia refresh rtx",
     0,
     [
       [
@@ -5645,7 +5299,6 @@
   [
     "nvidia geforce rtx 2070 rev. a",
     "2070",
-    " 2070 a geforce nvidia rev rtx",
     0,
     [
       [
@@ -5658,7 +5311,6 @@
   [
     "nvidia geforce rtx 2070 super",
     "2070",
-    "2070 geforce nvidia rtx super",
     0,
     [
       [
@@ -5671,7 +5323,6 @@
   [
     "nvidia geforce rtx 2070 super with max-q design",
     "2070",
-    "2070 design geforce max-q nvidia rtx super with",
     0,
     [
       [
@@ -5684,20 +5335,18 @@
   [
     "nvidia geforce rtx 2070 with max-q design",
     "2070",
-    "2070 design geforce max-q nvidia rtx with",
     0,
     [
       [
         1920,
         1080,
-        144
+        240
       ]
     ]
   ],
   [
     "nvidia geforce rtx 2080",
     "2080",
-    "2080 geforce nvidia rtx",
     0,
     [
       [
@@ -5715,7 +5364,6 @@
   [
     "nvidia geforce rtx 2080 mobile",
     "2080",
-    "2080 geforce mobile nvidia rtx",
     0,
     [
       [
@@ -5728,7 +5376,6 @@
   [
     "nvidia geforce rtx 2080 rev. a",
     "2080",
-    " 2080 a geforce nvidia rev rtx",
     0,
     [
       [
@@ -5741,7 +5388,6 @@
   [
     "nvidia geforce rtx 2080 super",
     "2080",
-    "2080 geforce nvidia rtx super",
     0,
     [
       [
@@ -5754,7 +5400,6 @@
   [
     "nvidia geforce rtx 2080 super mobile / max-q",
     "2080",
-    " 2080 geforce max-q mobile nvidia rtx super",
     0,
     [
       [
@@ -5767,20 +5412,18 @@
   [
     "nvidia geforce rtx 2080 super with max-q design",
     "2080",
-    "2080 design geforce max-q nvidia rtx super with",
     0,
     [
       [
         1920,
         1080,
-        466
+        300
       ]
     ]
   ],
   [
     "nvidia geforce rtx 2080 ti",
     "2080",
-    "2080 geforce nvidia rtx ti",
     0,
     [
       [
@@ -5793,7 +5436,6 @@
   [
     "nvidia geforce rtx 2080 ti rev. a",
     "2080",
-    " 2080 a geforce nvidia rev rtx ti",
     0,
     [
       [
@@ -5806,7 +5448,6 @@
   [
     "nvidia geforce rtx 2080 with max-q design",
     "2080",
-    "2080 design geforce max-q nvidia rtx with",
     0,
     [
       [
@@ -5819,20 +5460,18 @@
   [
     "nvidia geforce rtx 3050",
     "3050",
-    "3050 geforce nvidia rtx",
     0,
     [
       [
         1920,
         1080,
-        554
+        553
       ]
     ]
   ],
   [
     "nvidia geforce rtx 3050 laptop gpu",
     "3050",
-    "3050 geforce gpu laptop nvidia rtx",
     0,
     [
       [
@@ -5845,7 +5484,6 @@
   [
     "nvidia geforce rtx 3050 ti laptop gpu",
     "3050",
-    "3050 geforce gpu laptop nvidia rtx ti",
     0,
     [
       [
@@ -5858,7 +5496,6 @@
   [
     "nvidia geforce rtx 3060",
     "3060",
-    "3060 geforce nvidia rtx",
     0,
     [
       [
@@ -5871,7 +5508,6 @@
   [
     "nvidia geforce rtx 3060 laptop gpu",
     "3060",
-    "3060 geforce gpu laptop nvidia rtx",
     0,
     [
       [
@@ -5884,7 +5520,6 @@
   [
     "nvidia geforce rtx 3060 lite hash rate",
     "3060",
-    "3060 geforce hash lite nvidia rate rtx",
     0,
     [
       [
@@ -5897,7 +5532,6 @@
   [
     "nvidia geforce rtx 3060 mobile / max-q",
     "3060",
-    " 3060 geforce max-q mobile nvidia rtx",
     0,
     [
       [
@@ -5910,20 +5544,18 @@
   [
     "nvidia geforce rtx 3060 ti",
     "3060",
-    "3060 geforce nvidia rtx ti",
     0,
     [
       [
         1920,
         1080,
-        837
+        779
       ]
     ]
   ],
   [
     "nvidia geforce rtx 3070",
     "3070",
-    "3070 geforce nvidia rtx",
     0,
     [
       [
@@ -5941,20 +5573,23 @@
   [
     "nvidia geforce rtx 3070 laptop gpu",
     "3070",
-    "3070 geforce gpu laptop nvidia rtx",
     0,
     [
       [
         1920,
         1080,
-        597
+        360
+      ],
+      [
+        2560,
+        1440,
+        165
       ]
     ]
   ],
   [
     "nvidia geforce rtx 3070 mobile / max-q",
     "3070",
-    " 3070 geforce max-q mobile nvidia rtx",
     0,
     [
       [
@@ -5967,25 +5602,28 @@
   [
     "nvidia geforce rtx 3070 ti",
     "3070",
-    "3070 geforce nvidia rtx ti",
     0,
     [
       [
         1920,
         1080,
-        884
+        802
       ]
     ]
   ],
   [
     "nvidia geforce rtx 3070 ti laptop gpu",
     "3070",
-    "3070 geforce gpu laptop nvidia rtx ti",
     0,
     [
       [
         2560,
         1440,
+        240
+      ],
+      [
+        2560,
+        1600,
         165
       ]
     ]
@@ -5993,7 +5631,6 @@
   [
     "nvidia geforce rtx 3080",
     "3080",
-    "3080 geforce nvidia rtx",
     0,
     [
       [
@@ -6011,13 +5648,12 @@
   [
     "nvidia geforce rtx 3080 laptop gpu",
     "3080",
-    "3080 geforce gpu laptop nvidia rtx",
     0,
     [
       [
         1920,
         1080,
-        360
+        359
       ],
       [
         2560,
@@ -6027,9 +5663,8 @@
     ]
   ],
   [
-    "nvidia geforce rtx 3080 mobile / max-q/16gb",
+    "nvidia geforce rtx 3080 mobile / max-q 8gb/16gb",
     "3080",
-    " 16gb 3080 geforce max-q mobile nvidia rtx",
     0,
     [
       [
@@ -6042,7 +5677,6 @@
   [
     "nvidia geforce rtx 3080 ti",
     "3080",
-    "3080 geforce nvidia rtx ti",
     0,
     [
       [
@@ -6060,7 +5694,6 @@
   [
     "nvidia geforce rtx 3080 ti laptop gpu",
     "3080",
-    "3080 geforce gpu laptop nvidia rtx ti",
     0,
     [
       [
@@ -6078,14 +5711,8 @@
   [
     "nvidia geforce rtx 3090",
     "3090",
-    "3090 geforce nvidia rtx",
     0,
     [
-      [
-        1920,
-        1080,
-        613
-      ],
       [
         2560,
         1440,
@@ -6094,170 +5721,36 @@
       [
         3840,
         2160,
-        797
+        474
       ]
     ]
   ],
   [
     "nvidia geforce rtx 3090 ti",
     "3090",
-    "3090 geforce nvidia rtx ti",
     0,
     [
       [
-        3840,
-        2160,
-        60
-      ]
-    ]
-  ],
-  [
-    "nvidia geforce rtx 4050 laptop gpu",
-    "4050",
-    "4050 geforce gpu laptop nvidia rtx",
-    0,
-    [
-      [
-        1920,
-        1080,
-        678
-      ]
-    ]
-  ],
-  [
-    "nvidia geforce rtx 4060",
-    "4060",
-    "4060 geforce nvidia rtx",
-    0,
-    [
-      [
-        1920,
-        1080,
-        60
-      ]
-    ]
-  ],
-  [
-    "nvidia geforce rtx 4060 laptop gpu",
-    "4060",
-    "4060 geforce gpu laptop nvidia rtx",
-    0,
-    [
-      [
-        1920,
-        1080,
-        144
-      ]
-    ]
-  ],
-  [
-    "nvidia geforce rtx 4060 ti",
-    "4060",
-    "4060 geforce nvidia rtx ti",
-    0,
-    [
-      [
-        1920,
-        1080,
-        165
-      ],
-      [
-        2560,
+        3440,
         1440,
         144
-      ]
-    ]
-  ],
-  [
-    "nvidia geforce rtx 4070",
-    "4070",
-    "4070 geforce nvidia rtx",
-    0,
-    [
-      [
-        1920,
-        1080,
-        895
       ],
       [
         3840,
         2160,
         60
-      ]
-    ]
-  ],
-  [
-    "nvidia geforce rtx 4070 laptop gpu",
-    "4070",
-    "4070 geforce gpu laptop nvidia rtx",
-    0,
-    [
-      [
-        2560,
-        1600,
-        240
-      ]
-    ]
-  ],
-  [
-    "nvidia geforce rtx 4070 ti",
-    "4070",
-    "4070 geforce nvidia rtx ti",
-    0,
-    [
-      [
-        1920,
-        1080,
-        961
-      ],
-      [
-        2560,
-        1440,
-        1217
-      ]
-    ]
-  ],
-  [
-    "nvidia geforce rtx 4080",
-    "4080",
-    "4080 geforce nvidia rtx",
-    0,
-    [
-      [
-        1920,
-        1080,
-        144
-      ],
-      [
-        2560,
-        1440,
-        1655
-      ]
-    ]
-  ],
-  [
-    "nvidia geforce rtx 4080 laptop gpu",
-    "4080",
-    "4080 geforce gpu laptop nvidia rtx",
-    0,
-    [
-      [
-        2560,
-        1600,
-        236
       ]
     ]
   ],
   [
     "nvidia geforce rtx 4090",
     "4090",
-    "4090 geforce nvidia rtx",
     0,
     [
       [
         1920,
         1080,
-        945
+        60
       ],
       [
         3840,
@@ -6267,27 +5760,8 @@
     ]
   ],
   [
-    "nvidia geforce rtx 4090 laptop gpu",
-    "4090",
-    "4090 geforce gpu laptop nvidia rtx",
-    0,
-    [
-      [
-        2560,
-        1440,
-        239
-      ],
-      [
-        3840,
-        2160,
-        144
-      ]
-    ]
-  ],
-  [
     "nvidia geforce rtx t10-16",
     "10",
-    "geforce nvidia rtx t10-16",
     0,
     [
       [
@@ -6300,7 +5774,6 @@
   [
     "nvidia geforce rtx t10-8",
     "10",
-    "geforce nvidia rtx t10-8",
     0,
     [
       [
@@ -6313,7 +5786,6 @@
   [
     "nvidia gf100 board - 10220000",
     "100",
-    "- 10220000 board gf100 nvidia",
     0,
     [
       [
@@ -6326,7 +5798,6 @@
   [
     "nvidia gf117",
     "117",
-    "gf117 nvidia",
     0,
     [
       [
@@ -6339,7 +5810,6 @@
   [
     "nvidia gigabyte geforce gt 440",
     "440",
-    "440 geforce gigabyte gt nvidia",
     0,
     [
       [
@@ -6352,7 +5822,6 @@
   [
     "nvidia gigabyte geforce gt 610",
     "610",
-    "610 geforce gigabyte gt nvidia",
     0,
     [
       [
@@ -6365,7 +5834,6 @@
   [
     "nvidia gigabyte geforce gt 630",
     "630",
-    "630 geforce gigabyte gt nvidia",
     0,
     [
       [
@@ -6378,7 +5846,6 @@
   [
     "nvidia gigabyte geforce gt 730",
     "730",
-    "730 geforce gigabyte gt nvidia",
     0,
     [
       [
@@ -6391,7 +5858,6 @@
   [
     "nvidia gigabyte geforce gts 450",
     "450",
-    "450 geforce gigabyte gts nvidia",
     0,
     [
       [
@@ -6404,7 +5870,6 @@
   [
     "nvidia gigabyte geforce gtx 1050 ti",
     "1050",
-    "1050 geforce gigabyte gtx nvidia ti",
     0,
     [
       [
@@ -6417,7 +5882,6 @@
   [
     "nvidia gigabyte geforce gtx 460",
     "460",
-    "460 geforce gigabyte gtx nvidia",
     0,
     [
       [
@@ -6430,7 +5894,6 @@
   [
     "nvidia gigabyte geforce gtx 550 ti",
     "550",
-    "550 geforce gigabyte gtx nvidia ti",
     0,
     [
       [
@@ -6443,7 +5906,6 @@
   [
     "nvidia gigabyte geforce gtx 560 ti",
     "560",
-    "560 geforce gigabyte gtx nvidia ti",
     0,
     [
       [
@@ -6456,7 +5918,6 @@
   [
     "nvidia gigabyte geforce gtx 570 hd",
     "570",
-    "570 geforce gigabyte gtx hd nvidia",
     0,
     [
       [
@@ -6469,7 +5930,6 @@
   [
     "nvidia gigabyte geforce gtx 580",
     "580",
-    "580 geforce gigabyte gtx nvidia",
     0,
     [
       [
@@ -6482,7 +5942,6 @@
   [
     "nvidia gigabyte geforce gtx 650",
     "650",
-    "650 geforce gigabyte gtx nvidia",
     0,
     [
       [
@@ -6495,7 +5954,6 @@
   [
     "nvidia gigabyte geforce gtx 650 ti",
     "650",
-    "650 geforce gigabyte gtx nvidia ti",
     0,
     [
       [
@@ -6508,7 +5966,6 @@
   [
     "nvidia gigabyte geforce gtx 660",
     "660",
-    "660 geforce gigabyte gtx nvidia",
     0,
     [
       [
@@ -6521,7 +5978,6 @@
   [
     "nvidia gigabyte geforce gtx 660 ti",
     "660",
-    "660 geforce gigabyte gtx nvidia ti",
     0,
     [
       [
@@ -6534,7 +5990,6 @@
   [
     "nvidia gigabyte geforce gtx 670",
     "670",
-    "670 geforce gigabyte gtx nvidia",
     0,
     [
       [
@@ -6547,7 +6002,6 @@
   [
     "nvidia gigabyte geforce gtx 750",
     "750",
-    "750 geforce gigabyte gtx nvidia",
     0,
     [
       [
@@ -6560,7 +6014,6 @@
   [
     "nvidia gigabyte geforce gtx 750 ti",
     "750",
-    "750 geforce gigabyte gtx nvidia ti",
     0,
     [
       [
@@ -6573,7 +6026,6 @@
   [
     "nvidia gigabyte geforce gtx 760",
     "760",
-    "760 geforce gigabyte gtx nvidia",
     0,
     [
       [
@@ -6586,7 +6038,6 @@
   [
     "nvidia gigabyte geforce gtx 770",
     "770",
-    "770 geforce gigabyte gtx nvidia",
     0,
     [
       [
@@ -6599,7 +6050,6 @@
   [
     "nvidia gigabyte geforce gtx 780 ti",
     "780",
-    "780 geforce gigabyte gtx nvidia ti",
     0,
     [
       [
@@ -6612,7 +6062,6 @@
   [
     "nvidia gigabyte geforce gtx 960",
     "960",
-    "960 geforce gigabyte gtx nvidia",
     0,
     [
       [
@@ -6630,7 +6079,6 @@
   [
     "nvidia gigabyte geforce gtx 970",
     "970",
-    "970 geforce gigabyte gtx nvidia",
     0,
     [
       [
@@ -6643,7 +6091,6 @@
   [
     "nvidia gigabyte geforce gtx 980",
     "980",
-    "980 geforce gigabyte gtx nvidia",
     0,
     [
       [
@@ -6656,7 +6103,6 @@
   [
     "nvidia gigabyte geforce gtx 980 ti",
     "980",
-    "980 geforce gigabyte gtx nvidia ti",
     0,
     [
       [
@@ -6669,7 +6115,6 @@
   [
     "nvidia gk104 board - 2051b502",
     "104",
-    "- 2051b502 board gk104 nvidia",
     0,
     [
       [
@@ -6682,7 +6127,6 @@
   [
     "nvidia gk104 board - 20530501",
     "104",
-    "- 20530501 board gk104 nvidia",
     0,
     [
       [
@@ -6695,7 +6139,6 @@
   [
     "nvidia gk104gl [grid k2]",
     "104",
-    " gk104gl grid k2 nvidia",
     0,
     [
       [
@@ -6708,7 +6151,6 @@
   [
     "nvidia gk104gl [grid k520]",
     "104",
-    " gk104gl grid k520 nvidia",
     0,
     [
       [
@@ -6721,7 +6163,6 @@
   [
     "nvidia gp102 [titan x]",
     "102",
-    " gp102 nvidia titan x",
     0,
     [
       [
@@ -6734,7 +6175,6 @@
   [
     "nvidia gp102 [titan xp]",
     "102",
-    " gp102 nvidia titan xp",
     0,
     [
       [
@@ -6747,7 +6187,6 @@
   [
     "nvidia gp104",
     "104",
-    "gp104 nvidia",
     0,
     [
       [
@@ -6760,7 +6199,6 @@
   [
     "nvidia gp104gl",
     "104",
-    "gp104gl nvidia",
     0,
     [
       [
@@ -6773,7 +6211,6 @@
   [
     "nvidia gp108",
     "108",
-    "gp108 nvidia",
     0,
     [
       [
@@ -6786,7 +6223,6 @@
   [
     "nvidia graphics device",
     "",
-    "device graphics nvidia",
     0,
     [
       [
@@ -6809,7 +6245,6 @@
   [
     "nvidia grid gtx p40-6",
     "40",
-    "grid gtx nvidia p40-6",
     0,
     [
       [
@@ -6822,7 +6257,6 @@
   [
     "nvidia grid k1",
     "1",
-    "grid k1 nvidia",
     0,
     [
       [
@@ -6840,7 +6274,6 @@
   [
     "nvidia grid k140q vgpu",
     "140",
-    "grid k140q nvidia vgpu",
     0,
     [
       [
@@ -6853,7 +6286,6 @@
   [
     "nvidia grid k160q",
     "160",
-    "grid k160q nvidia",
     0,
     [
       [
@@ -6866,7 +6298,6 @@
   [
     "nvidia grid k180q",
     "180",
-    "grid k180q nvidia",
     0,
     [
       [
@@ -6879,7 +6310,6 @@
   [
     "nvidia grid k2",
     "2",
-    "grid k2 nvidia",
     0,
     [
       [
@@ -6902,7 +6332,6 @@
   [
     "nvidia grid k220q",
     "220",
-    "grid k220q nvidia",
     0,
     [
       [
@@ -6915,7 +6344,6 @@
   [
     "nvidia grid k240q",
     "240",
-    "grid k240q nvidia",
     0,
     [
       [
@@ -6928,7 +6356,6 @@
   [
     "nvidia grid k260q",
     "260",
-    "grid k260q nvidia",
     0,
     [
       [
@@ -6941,7 +6368,6 @@
   [
     "nvidia grid k280q",
     "280",
-    "grid k280q nvidia",
     0,
     [
       [
@@ -6954,7 +6380,6 @@
   [
     "nvidia grid k520",
     "520",
-    "grid k520 nvidia",
     0,
     [
       [
@@ -6967,7 +6392,6 @@
   [
     "nvidia grid m10-1b",
     "10",
-    "grid m10-1b nvidia",
     0,
     [
       [
@@ -6980,7 +6404,6 @@
   [
     "nvidia grid m10-2q",
     "10",
-    "grid m10-2q nvidia",
     0,
     [
       [
@@ -6991,35 +6414,8 @@
     ]
   ],
   [
-    "nvidia grid m10-4q",
-    "10",
-    "grid m10-4q nvidia",
-    0,
-    [
-      [
-        1280,
-        1024,
-        15
-      ]
-    ]
-  ],
-  [
-    "nvidia grid m10-8q",
-    "10",
-    "grid m10-8q nvidia",
-    0,
-    [
-      [
-        1280,
-        1024,
-        15
-      ]
-    ]
-  ],
-  [
     "nvidia grid m6-0b",
     "6",
-    "grid m6-0b nvidia",
     0,
     [
       [
@@ -7032,7 +6428,6 @@
   [
     "nvidia grid m60-1b",
     "60",
-    "grid m60-1b nvidia",
     0,
     [
       [
@@ -7050,7 +6445,6 @@
   [
     "nvidia grid m60-1q",
     "60",
-    "grid m60-1q nvidia",
     0,
     [
       [
@@ -7063,7 +6457,6 @@
   [
     "nvidia grid m60-2q",
     "60",
-    "grid m60-2q nvidia",
     0,
     [
       [
@@ -7076,7 +6469,6 @@
   [
     "nvidia grid m60-4q",
     "60",
-    "grid m60-4q nvidia",
     0,
     [
       [
@@ -7089,7 +6481,6 @@
   [
     "nvidia grid m60-8q",
     "60",
-    "grid m60-8q nvidia",
     0,
     [
       [
@@ -7102,7 +6493,6 @@
   [
     "nvidia grid p100-4q",
     "100",
-    "grid nvidia p100-4q",
     0,
     [
       [
@@ -7113,22 +6503,8 @@
     ]
   ],
   [
-    "nvidia grid p4-1q",
-    "4",
-    "grid nvidia p4-1q",
-    0,
-    [
-      [
-        1920,
-        1080,
-        60
-      ]
-    ]
-  ],
-  [
     "nvidia grid p4-2b",
     "4",
-    "grid nvidia p4-2b",
     0,
     [
       [
@@ -7141,7 +6517,6 @@
   [
     "nvidia grid p4-4q",
     "4",
-    "grid nvidia p4-4q",
     0,
     [
       [
@@ -7154,7 +6529,6 @@
   [
     "nvidia grid p40-2q",
     "40",
-    "grid nvidia p40-2q",
     0,
     [
       [
@@ -7167,7 +6541,6 @@
   [
     "nvidia grid p40-4q",
     "40",
-    "grid nvidia p40-4q",
     0,
     [
       [
@@ -7180,7 +6553,6 @@
   [
     "nvidia grid p40-8q",
     "40",
-    "grid nvidia p40-8q",
     0,
     [
       [
@@ -7193,7 +6565,6 @@
   [
     "nvidia grid rtx6000-2q",
     "6000",
-    "grid nvidia rtx6000-2q",
     0,
     [
       [
@@ -7204,27 +6575,8 @@
     ]
   ],
   [
-    "nvidia grid rtx6000-4q",
-    "6000",
-    "grid nvidia rtx6000-4q",
-    0,
-    [
-      [
-        1874,
-        946,
-        24
-      ],
-      [
-        1920,
-        1080,
-        60
-      ]
-    ]
-  ],
-  [
     "nvidia grid rtx6000p-6",
     "6000",
-    "grid nvidia rtx6000p-6",
     0,
     [
       [
@@ -7237,7 +6589,6 @@
   [
     "nvidia grid t4-16q",
     "4",
-    "grid nvidia t4-16q",
     0,
     [
       [
@@ -7250,7 +6601,6 @@
   [
     "nvidia grid t4-1b",
     "4",
-    "grid nvidia t4-1b",
     0,
     [
       [
@@ -7263,7 +6613,6 @@
   [
     "nvidia grid t4-1q",
     "4",
-    "grid nvidia t4-1q",
     0,
     [
       [
@@ -7276,7 +6625,6 @@
   [
     "nvidia grid t4-2b4",
     "4",
-    "grid nvidia t4-2b4",
     0,
     [
       [
@@ -7289,7 +6637,6 @@
   [
     "nvidia grid t4-2q",
     "4",
-    "grid nvidia t4-2q",
     0,
     [
       [
@@ -7302,7 +6649,6 @@
   [
     "nvidia grid t4-4q",
     "4",
-    "grid nvidia t4-4q",
     0,
     [
       [
@@ -7315,11 +6661,10 @@
   [
     "nvidia grid t4-8q",
     "4",
-    "grid nvidia t4-8q",
     0,
     [
       [
-        1920,
+        2560,
         1080,
         60
       ]
@@ -7328,7 +6673,6 @@
   [
     "nvidia grid v100-1q",
     "100",
-    "grid nvidia v100-1q",
     0,
     [
       [
@@ -7341,7 +6685,6 @@
   [
     "nvidia grid v100-2b",
     "100",
-    "grid nvidia v100-2b",
     0,
     [
       [
@@ -7352,22 +6695,8 @@
     ]
   ],
   [
-    "nvidia grid v100d-2b",
-    "100",
-    "grid nvidia v100d-2b",
-    0,
-    [
-      [
-        1280,
-        1024,
-        45
-      ]
-    ]
-  ],
-  [
     "nvidia grid v100dx-16q",
     "100",
-    "grid nvidia v100dx-16q",
     0,
     [
       [
@@ -7380,7 +6709,6 @@
   [
     "nvidia grid v100dx-1q",
     "100",
-    "grid nvidia v100dx-1q",
     0,
     [
       [
@@ -7393,7 +6721,6 @@
   [
     "nvidia gtx 1060 hl",
     "1060",
-    "1060 gtx hl nvidia",
     0,
     [
       [
@@ -7406,7 +6733,6 @@
   [
     "nvidia gtx 865m by imacgfx",
     "865",
-    "865m by gtx imacgfx nvidia",
     0,
     [
       [
@@ -7419,7 +6745,6 @@
   [
     "nvidia gtx 980m sli",
     "980",
-    "980m gtx nvidia sli",
     0,
     [
       [
@@ -7432,7 +6757,6 @@
   [
     "nvidia gv-n660oc-2gd",
     "660",
-    "gv-n660oc-2gd nvidia",
     0,
     [
       [
@@ -7445,7 +6769,6 @@
   [
     "nvidia gv100",
     "100",
-    "gv100 nvidia",
     0,
     [
       [
@@ -7458,7 +6781,6 @@
   [
     "nvidia gv100 [titan v]",
     "100",
-    " gv100 nvidia titan v",
     0,
     [
       [
@@ -7471,7 +6793,6 @@
   [
     "nvidia gv102",
     "102",
-    "gv102 nvidia",
     0,
     [
       [
@@ -7484,7 +6805,6 @@
   [
     "nvidia hp geforce gt 730",
     "730",
-    "730 geforce gt hp nvidia",
     0,
     [
       [
@@ -7497,7 +6817,6 @@
   [
     "nvidia hp quadro 2000",
     "2000",
-    "2000 hp nvidia quadro",
     0,
     [
       [
@@ -7510,7 +6829,6 @@
   [
     "nvidia hp quadro 4000",
     "4000",
-    "4000 hp nvidia quadro",
     0,
     [
       [
@@ -7523,7 +6841,6 @@
   [
     "nvidia hp quadro 600",
     "600",
-    "600 hp nvidia quadro",
     0,
     [
       [
@@ -7536,7 +6853,6 @@
   [
     "nvidia hp quadro k4000",
     "4000",
-    "hp k4000 nvidia quadro",
     0,
     [
       [
@@ -7549,7 +6865,6 @@
   [
     "nvidia hp quadro k620",
     "620",
-    "hp k620 nvidia quadro",
     0,
     [
       [
@@ -7562,7 +6877,6 @@
   [
     "nvidia inno3d geforce gtx660",
     "3",
-    "geforce gtx660 inno3d nvidia",
     0,
     [
       [
@@ -7575,7 +6889,6 @@
   [
     "nvidia microsoft virtual render driver",
     "",
-    "driver microsoft nvidia render virtual",
     0,
     [
       [
@@ -7588,7 +6901,6 @@
   [
     "nvidia msi geforce gt 610",
     "610",
-    "610 geforce gt msi nvidia",
     0,
     [
       [
@@ -7601,7 +6913,6 @@
   [
     "nvidia msi geforce gt 630",
     "630",
-    "630 geforce gt msi nvidia",
     0,
     [
       [
@@ -7614,7 +6925,6 @@
   [
     "nvidia msi geforce gt 635",
     "635",
-    "635 geforce gt msi nvidia",
     0,
     [
       [
@@ -7627,7 +6937,6 @@
   [
     "nvidia msi geforce gt 710",
     "710",
-    "710 geforce gt msi nvidia",
     0,
     [
       [
@@ -7640,7 +6949,6 @@
   [
     "nvidia msi geforce gt 730",
     "730",
-    "730 geforce gt msi nvidia",
     0,
     [
       [
@@ -7653,7 +6961,6 @@
   [
     "nvidia msi geforce gtx 1050 ti",
     "1050",
-    "1050 geforce gtx msi nvidia ti",
     0,
     [
       [
@@ -7666,7 +6973,6 @@
   [
     "nvidia msi geforce gtx 1060",
     "1060",
-    "1060 geforce gtx msi nvidia",
     0,
     [
       [
@@ -7679,7 +6985,6 @@
   [
     "nvidia msi geforce gtx 1070",
     "1070",
-    "1070 geforce gtx msi nvidia",
     0,
     [
       [
@@ -7692,7 +6997,6 @@
   [
     "nvidia msi geforce gtx 460",
     "460",
-    "460 geforce gtx msi nvidia",
     0,
     [
       [
@@ -7705,7 +7009,6 @@
   [
     "nvidia msi geforce gtx 560 ti",
     "560",
-    "560 geforce gtx msi nvidia ti",
     0,
     [
       [
@@ -7718,7 +7021,6 @@
   [
     "nvidia msi geforce gtx 570 hd",
     "570",
-    "570 geforce gtx hd msi nvidia",
     0,
     [
       [
@@ -7731,7 +7033,6 @@
   [
     "nvidia msi geforce gtx 580",
     "580",
-    "580 geforce gtx msi nvidia",
     0,
     [
       [
@@ -7744,7 +7045,6 @@
   [
     "nvidia msi geforce gtx 650",
     "650",
-    "650 geforce gtx msi nvidia",
     0,
     [
       [
@@ -7757,7 +7057,6 @@
   [
     "nvidia msi geforce gtx 650 ti",
     "650",
-    "650 geforce gtx msi nvidia ti",
     0,
     [
       [
@@ -7770,7 +7069,6 @@
   [
     "nvidia msi geforce gtx 660",
     "660",
-    "660 geforce gtx msi nvidia",
     0,
     [
       [
@@ -7783,7 +7081,6 @@
   [
     "nvidia msi geforce gtx 660 ti",
     "660",
-    "660 geforce gtx msi nvidia ti",
     0,
     [
       [
@@ -7796,7 +7093,6 @@
   [
     "nvidia msi geforce gtx 670",
     "670",
-    "670 geforce gtx msi nvidia",
     0,
     [
       [
@@ -7809,7 +7105,6 @@
   [
     "nvidia msi geforce gtx 745",
     "745",
-    "745 geforce gtx msi nvidia",
     0,
     [
       [
@@ -7822,7 +7117,6 @@
   [
     "nvidia msi geforce gtx 760",
     "760",
-    "760 geforce gtx msi nvidia",
     0,
     [
       [
@@ -7840,7 +7134,6 @@
   [
     "nvidia msi geforce gtx 780",
     "780",
-    "780 geforce gtx msi nvidia",
     0,
     [
       [
@@ -7853,7 +7146,6 @@
   [
     "nvidia msi geforce gtx 950",
     "950",
-    "950 geforce gtx msi nvidia",
     0,
     [
       [
@@ -7866,7 +7158,6 @@
   [
     "nvidia msi geforce gtx 960",
     "960",
-    "960 geforce gtx msi nvidia",
     0,
     [
       [
@@ -7884,7 +7175,6 @@
   [
     "nvidia msi geforce gtx 970",
     "970",
-    "970 geforce gtx msi nvidia",
     0,
     [
       [
@@ -7897,7 +7187,6 @@
   [
     "nvidia msi geforce gtx 980",
     "980",
-    "980 geforce gtx msi nvidia",
     0,
     [
       [
@@ -7915,7 +7204,6 @@
   [
     "nvidia msi geforce gtx 980 ti",
     "980",
-    "980 geforce gtx msi nvidia ti",
     0,
     [
       [
@@ -7928,7 +7216,6 @@
   [
     "nvidia n15e-gt",
     "15",
-    "n15e-gt nvidia",
     0,
     [
       [
@@ -7941,7 +7228,6 @@
   [
     "nvidia null geforce 920a",
     "920",
-    "920a geforce null nvidia",
     0,
     [
       [
@@ -7954,7 +7240,6 @@
   [
     "nvidia null graphics device",
     "",
-    "device graphics null nvidia",
     0,
     [
       [
@@ -7967,7 +7252,6 @@
   [
     "nvidia nvs 310",
     "310",
-    "310 nvidia nvs",
     0,
     [
       [
@@ -7985,7 +7269,6 @@
   [
     "nvidia nvs 3100m",
     "3100",
-    "3100m nvidia nvs",
     0,
     [
       [
@@ -7998,7 +7281,6 @@
   [
     "nvidia nvs 315",
     "315",
-    "315 nvidia nvs",
     0,
     [
       [
@@ -8016,7 +7298,6 @@
   [
     "nvidia nvs 4200m",
     "4200",
-    "4200m nvidia nvs",
     0,
     [
       [
@@ -8029,7 +7310,6 @@
   [
     "nvidia nvs 510",
     "510",
-    "510 nvidia nvs",
     0,
     [
       [
@@ -8057,7 +7337,6 @@
   [
     "nvidia nvs 5200m",
     "5200",
-    "5200m nvidia nvs",
     0,
     [
       [
@@ -8080,7 +7359,6 @@
   [
     "nvidia nvs 5400m",
     "5400",
-    "5400m nvidia nvs",
     0,
     [
       [
@@ -8098,7 +7376,6 @@
   [
     "nvidia p102-100",
     "102",
-    "nvidia p102-100",
     0,
     [
       [
@@ -8111,7 +7388,6 @@
   [
     "nvidia p104-100",
     "104",
-    "nvidia p104-100",
     0,
     [
       [
@@ -8124,14 +7400,8 @@
   [
     "nvidia p106-090",
     "106",
-    "nvidia p106-090",
     0,
     [
-      [
-        1920,
-        1080,
-        99
-      ],
       [
         1920,
         1371,
@@ -8142,7 +7412,6 @@
   [
     "nvidia p106-100",
     "106",
-    "nvidia p106-100",
     0,
     [
       [
@@ -8160,7 +7429,6 @@
   [
     "nvidia p106-100 custom",
     "106",
-    "custom nvidia p106-100",
     0,
     [
       [
@@ -8173,7 +7441,6 @@
   [
     "nvidia palit geforce gtx 650",
     "650",
-    "650 geforce gtx nvidia palit",
     0,
     [
       [
@@ -8186,7 +7453,6 @@
   [
     "nvidia palit geforce gtx 650 ti",
     "650",
-    "650 geforce gtx nvidia palit ti",
     0,
     [
       [
@@ -8199,7 +7465,6 @@
   [
     "nvidia palit geforce gtx 660",
     "660",
-    "660 geforce gtx nvidia palit",
     0,
     [
       [
@@ -8212,7 +7477,6 @@
   [
     "nvidia palit gtx 680 jetstream",
     "680",
-    "680 gtx jetstream nvidia palit",
     0,
     [
       [
@@ -8225,7 +7489,6 @@
   [
     "nvidia pegatron geforce gt 420",
     "420",
-    "420 geforce gt nvidia pegatron",
     0,
     [
       [
@@ -8238,7 +7501,6 @@
   [
     "nvidia pny geforce gt 610",
     "610",
-    "610 geforce gt nvidia pny",
     0,
     [
       [
@@ -8251,7 +7513,6 @@
   [
     "nvidia pny geforce gtx 1060",
     "1060",
-    "1060 geforce gtx nvidia pny",
     0,
     [
       [
@@ -8264,7 +7525,6 @@
   [
     "nvidia pny geforce gtx 460",
     "460",
-    "460 geforce gtx nvidia pny",
     0,
     [
       [
@@ -8277,7 +7537,6 @@
   [
     "nvidia pny geforce gtx 550 ti",
     "550",
-    "550 geforce gtx nvidia pny ti",
     0,
     [
       [
@@ -8290,7 +7549,6 @@
   [
     "nvidia pny geforce gtx 570 hd",
     "570",
-    "570 geforce gtx hd nvidia pny",
     0,
     [
       [
@@ -8303,7 +7561,6 @@
   [
     "nvidia pny geforce gtx 580",
     "580",
-    "580 geforce gtx nvidia pny",
     0,
     [
       [
@@ -8316,7 +7573,6 @@
   [
     "nvidia pny geforce gtx 680",
     "680",
-    "680 geforce gtx nvidia pny",
     0,
     [
       [
@@ -8329,7 +7585,6 @@
   [
     "nvidia pny geforce gtx 750",
     "750",
-    "750 geforce gtx nvidia pny",
     0,
     [
       [
@@ -8342,7 +7597,6 @@
   [
     "nvidia pny geforce gtx 970",
     "970",
-    "970 geforce gtx nvidia pny",
     0,
     [
       [
@@ -8355,7 +7609,6 @@
   [
     "nvidia pny geforce gtx 980",
     "980",
-    "980 geforce gtx nvidia pny",
     0,
     [
       [
@@ -8368,7 +7621,6 @@
   [
     "nvidia point of view geforce gtx 470",
     "470",
-    "470 geforce gtx nvidia of point view",
     0,
     [
       [
@@ -8381,7 +7633,6 @@
   [
     "nvidia point of view geforce gtx 660 ti",
     "660",
-    "660 geforce gtx nvidia of point ti view",
     0,
     [
       [
@@ -8394,7 +7645,6 @@
   [
     "nvidia quadro 1000m",
     "1000",
-    "1000m nvidia quadro",
     0,
     [
       [
@@ -8407,7 +7657,6 @@
   [
     "nvidia quadro 1000m,",
     "1000",
-    " 1000m nvidia quadro",
     0,
     [
       [
@@ -8420,7 +7669,6 @@
   [
     "nvidia quadro 2000",
     "2000",
-    "2000 nvidia quadro",
     0,
     [
       [
@@ -8438,7 +7686,6 @@
   [
     "nvidia quadro 2000d",
     "2000",
-    "2000d nvidia quadro",
     0,
     [
       [
@@ -8451,7 +7698,6 @@
   [
     "nvidia quadro 2000m",
     "2000",
-    "2000m nvidia quadro",
     0,
     [
       [
@@ -8464,7 +7710,6 @@
   [
     "nvidia quadro 3000m",
     "3000",
-    "3000m nvidia quadro",
     0,
     [
       [
@@ -8482,7 +7727,6 @@
   [
     "nvidia quadro 3000m opengl engine",
     "3000",
-    "3000m engine nvidia opengl quadro",
     0,
     [
       [
@@ -8495,7 +7739,6 @@
   [
     "nvidia quadro 4000",
     "4000",
-    "4000 nvidia quadro",
     0,
     [
       [
@@ -8513,7 +7756,6 @@
   [
     "nvidia quadro 4000m",
     "4000",
-    "4000m nvidia quadro",
     0,
     [
       [
@@ -8526,7 +7768,6 @@
   [
     "nvidia quadro 410",
     "410",
-    "410 nvidia quadro",
     0,
     [
       [
@@ -8539,7 +7780,6 @@
   [
     "nvidia quadro 5000",
     "5000",
-    "5000 nvidia quadro",
     0,
     [
       [
@@ -8562,7 +7802,6 @@
   [
     "nvidia quadro 5000 opengl engine",
     "5000",
-    "5000 engine nvidia opengl quadro",
     0,
     [
       [
@@ -8575,7 +7814,6 @@
   [
     "nvidia quadro 5000m",
     "5000",
-    "5000m nvidia quadro",
     0,
     [
       [
@@ -8588,7 +7826,6 @@
   [
     "nvidia quadro 5010m",
     "5010",
-    "5010m nvidia quadro",
     0,
     [
       [
@@ -8601,7 +7838,6 @@
   [
     "nvidia quadro 600",
     "600",
-    "600 nvidia quadro",
     0,
     [
       [
@@ -8619,7 +7855,6 @@
   [
     "nvidia quadro 6000",
     "6000",
-    "6000 nvidia quadro",
     0,
     [
       [
@@ -8637,7 +7872,6 @@
   [
     "nvidia quadro 7000",
     "7000",
-    "7000 nvidia quadro",
     0,
     [
       [
@@ -8650,7 +7884,6 @@
   [
     "nvidia quadro fx 1800m",
     "1800",
-    "1800m fx nvidia quadro",
     0,
     [
       [
@@ -8663,7 +7896,6 @@
   [
     "nvidia quadro fx 2800m",
     "2800",
-    "2800m fx nvidia quadro",
     0,
     [
       [
@@ -8676,7 +7908,6 @@
   [
     "nvidia quadro fx grid k1",
     "1",
-    "fx grid k1 nvidia quadro",
     0,
     [
       [
@@ -8689,7 +7920,6 @@
   [
     "nvidia quadro gp100",
     "100",
-    "gp100 nvidia quadro",
     0,
     [
       [
@@ -8702,7 +7932,6 @@
   [
     "nvidia quadro gv100",
     "100",
-    "gv100 nvidia quadro",
     0,
     [
       [
@@ -8720,7 +7949,6 @@
   [
     "nvidia quadro k1000m",
     "1000",
-    "k1000m nvidia quadro",
     0,
     [
       [
@@ -8733,7 +7961,6 @@
   [
     "nvidia quadro k1000m by nick[d]vb",
     "1000",
-    "by d k1000m nick nvidia quadro vb",
     0,
     [
       [
@@ -8744,22 +7971,8 @@
     ]
   ],
   [
-    "nvidia quadro k1000m by nikey22",
-    "1000",
-    "by k1000m nikey22 nvidia quadro",
-    0,
-    [
-      [
-        2560,
-        1440,
-        22
-      ]
-    ]
-  ],
-  [
     "nvidia quadro k1100m",
     "1100",
-    "k1100m nvidia quadro",
     0,
     [
       [
@@ -8772,7 +7985,6 @@
   [
     "nvidia quadro k1100m by nick[d]vb",
     "1100",
-    "by d k1100m nick nvidia quadro vb",
     0,
     [
       [
@@ -8785,7 +7997,6 @@
   [
     "nvidia quadro k1100m opengl engine",
     "1100",
-    "engine k1100m nvidia opengl quadro",
     0,
     [
       [
@@ -8798,7 +8009,6 @@
   [
     "nvidia quadro k1200",
     "1200",
-    "k1200 nvidia quadro",
     0,
     [
       [
@@ -8821,7 +8031,6 @@
   [
     "nvidia quadro k1200 opengl engine",
     "1200",
-    "engine k1200 nvidia opengl quadro",
     0,
     [
       [
@@ -8834,7 +8043,6 @@
   [
     "nvidia quadro k2000",
     "2000",
-    "k2000 nvidia quadro",
     0,
     [
       [
@@ -8847,7 +8055,6 @@
   [
     "nvidia quadro k2000 opengl engine",
     "2000",
-    "engine k2000 nvidia opengl quadro",
     0,
     [
       [
@@ -8860,7 +8067,6 @@
   [
     "nvidia quadro k2000d",
     "2000",
-    "k2000d nvidia quadro",
     0,
     [
       [
@@ -8883,7 +8089,6 @@
   [
     "nvidia quadro k2000m",
     "2000",
-    "k2000m nvidia quadro",
     0,
     [
       [
@@ -8896,7 +8101,6 @@
   [
     "nvidia quadro k2000m by nick[d]vb",
     "2000",
-    "by d k2000m nick nvidia quadro vb",
     0,
     [
       [
@@ -8909,7 +8113,6 @@
   [
     "nvidia quadro k2000m opengl engine",
     "2000",
-    "engine k2000m nvidia opengl quadro",
     0,
     [
       [
@@ -8922,33 +8125,40 @@
   [
     "nvidia quadro k2100m",
     "2100",
-    "k2100m nvidia quadro",
     0,
     [
       [
         1920,
         1080,
         58
+      ],
+      [
+        2880,
+        1620,
+        39
       ]
     ]
   ],
   [
     "nvidia quadro k2100m by nick[d]vb",
     "2100",
-    "by d k2100m nick nvidia quadro vb",
     0,
     [
       [
         1920,
         1080,
         60
+      ],
+      [
+        2560,
+        1440,
+        54
       ]
     ]
   ],
   [
     "nvidia quadro k2100m by nikey22",
     "2100",
-    "by k2100m nikey22 nvidia quadro",
     0,
     [
       [
@@ -8961,7 +8171,6 @@
   [
     "nvidia quadro k2100m opengl engine",
     "2100",
-    "engine k2100m nvidia opengl quadro",
     0,
     [
       [
@@ -8974,7 +8183,6 @@
   [
     "nvidia quadro k2200",
     "2200",
-    "k2200 nvidia quadro",
     0,
     [
       [
@@ -8997,7 +8205,6 @@
   [
     "nvidia quadro k2200m",
     "2200",
-    "k2200m nvidia quadro",
     0,
     [
       [
@@ -9010,7 +8217,6 @@
   [
     "nvidia quadro k3000m",
     "3000",
-    "k3000m nvidia quadro",
     0,
     [
       [
@@ -9023,7 +8229,6 @@
   [
     "nvidia quadro k3000m by nikey22",
     "3000",
-    "by k3000m nikey22 nvidia quadro",
     0,
     [
       [
@@ -9036,7 +8241,6 @@
   [
     "nvidia quadro k3000m by st3phl3",
     "3000",
-    "by k3000m nvidia quadro st3phl3",
     0,
     [
       [
@@ -9049,7 +8253,6 @@
   [
     "nvidia quadro k3100m",
     "3100",
-    "k3100m nvidia quadro",
     0,
     [
       [
@@ -9062,7 +8265,6 @@
   [
     "nvidia quadro k3100m by nikey22",
     "3100",
-    "by k3100m nikey22 nvidia quadro",
     0,
     [
       [
@@ -9075,7 +8277,6 @@
   [
     "nvidia quadro k3100m opengl engine",
     "3100",
-    "engine k3100m nvidia opengl quadro",
     0,
     [
       [
@@ -9088,7 +8289,6 @@
   [
     "nvidia quadro k4000",
     "4000",
-    "k4000 nvidia quadro",
     0,
     [
       [
@@ -9106,7 +8306,6 @@
   [
     "nvidia quadro k4000 opengl engine",
     "4000",
-    "engine k4000 nvidia opengl quadro",
     0,
     [
       [
@@ -9119,7 +8318,6 @@
   [
     "nvidia quadro k4000m",
     "4000",
-    "k4000m nvidia quadro",
     0,
     [
       [
@@ -9132,7 +8330,6 @@
   [
     "nvidia quadro k4100m",
     "4100",
-    "k4100m nvidia quadro",
     0,
     [
       [
@@ -9145,7 +8342,6 @@
   [
     "nvidia quadro k4100m by nikey22",
     "4100",
-    "by k4100m nikey22 nvidia quadro",
     0,
     [
       [
@@ -9158,7 +8354,6 @@
   [
     "nvidia quadro k420",
     "420",
-    "k420 nvidia quadro",
     0,
     [
       [
@@ -9181,7 +8376,6 @@
   [
     "nvidia quadro k4200",
     "4200",
-    "k4200 nvidia quadro",
     0,
     [
       [
@@ -9204,7 +8398,6 @@
   [
     "nvidia quadro k5000",
     "5000",
-    "k5000 nvidia quadro",
     0,
     [
       [
@@ -9222,7 +8415,6 @@
   [
     "nvidia quadro k5000 opengl engine",
     "5000",
-    "engine k5000 nvidia opengl quadro",
     0,
     [
       [
@@ -9235,7 +8427,6 @@
   [
     "nvidia quadro k5000m",
     "5000",
-    "k5000m nvidia quadro",
     0,
     [
       [
@@ -9253,7 +8444,6 @@
   [
     "nvidia quadro k5000m opengl engine",
     "5000",
-    "engine k5000m nvidia opengl quadro",
     0,
     [
       [
@@ -9266,7 +8456,6 @@
   [
     "nvidia quadro k5100m",
     "5100",
-    "k5100m nvidia quadro",
     0,
     [
       [
@@ -9284,7 +8473,6 @@
   [
     "nvidia quadro k5100m by nikey22",
     "5100",
-    "by k5100m nikey22 nvidia quadro",
     0,
     [
       [
@@ -9297,7 +8485,6 @@
   [
     "nvidia quadro k510m",
     "510",
-    "k510m nvidia quadro",
     0,
     [
       [
@@ -9310,7 +8497,6 @@
   [
     "nvidia quadro k5200",
     "5200",
-    "k5200 nvidia quadro",
     0,
     [
       [
@@ -9328,7 +8514,6 @@
   [
     "nvidia quadro k5200 opengl engine",
     "5200",
-    "engine k5200 nvidia opengl quadro",
     0,
     [
       [
@@ -9341,7 +8526,6 @@
   [
     "nvidia quadro k600",
     "600",
-    "k600 nvidia quadro",
     0,
     [
       [
@@ -9354,7 +8538,6 @@
   [
     "nvidia quadro k600 opengl engine",
     "600",
-    "engine k600 nvidia opengl quadro",
     0,
     [
       [
@@ -9367,7 +8550,6 @@
   [
     "nvidia quadro k6000",
     "6000",
-    "k6000 nvidia quadro",
     0,
     [
       [
@@ -9382,11 +8564,6 @@
       ],
       [
         2560,
-        1080,
-        75
-      ],
-      [
-        2560,
         1440,
         60
       ]
@@ -9395,7 +8572,6 @@
   [
     "nvidia quadro k6000 opengl engine",
     "6000",
-    "engine k6000 nvidia opengl quadro",
     0,
     [
       [
@@ -9408,7 +8584,6 @@
   [
     "nvidia quadro k610m",
     "610",
-    "k610m nvidia quadro",
     0,
     [
       [
@@ -9426,7 +8601,6 @@
   [
     "nvidia quadro k610m by nick[d]vb",
     "610",
-    "by d k610m nick nvidia quadro vb",
     0,
     [
       [
@@ -9439,7 +8613,6 @@
   [
     "nvidia quadro k620",
     "620",
-    "k620 nvidia quadro",
     0,
     [
       [
@@ -9462,7 +8635,6 @@
   [
     "nvidia quadro k620 opengl engine",
     "620",
-    "engine k620 nvidia opengl quadro",
     0,
     [
       [
@@ -9475,7 +8647,6 @@
   [
     "nvidia quadro k620m",
     "620",
-    "k620m nvidia quadro",
     0,
     [
       [
@@ -9493,7 +8664,6 @@
   [
     "nvidia quadro m1000m",
     "1000",
-    "m1000m nvidia quadro",
     0,
     [
       [
@@ -9506,7 +8676,6 @@
   [
     "nvidia quadro m1200",
     "1200",
-    "m1200 nvidia quadro",
     0,
     [
       [
@@ -9524,7 +8693,6 @@
   [
     "nvidia quadro m2000",
     "2000",
-    "m2000 nvidia quadro",
     0,
     [
       [
@@ -9542,7 +8710,6 @@
   [
     "nvidia quadro m2000m",
     "2000",
-    "m2000m nvidia quadro",
     0,
     [
       [
@@ -9555,7 +8722,6 @@
   [
     "nvidia quadro m2000m special",
     "2000",
-    "m2000m nvidia quadro special",
     0,
     [
       [
@@ -9568,7 +8734,6 @@
   [
     "nvidia quadro m2200",
     "2200",
-    "m2200 nvidia quadro",
     0,
     [
       [
@@ -9581,7 +8746,6 @@
   [
     "nvidia quadro m2200 mobile",
     "2200",
-    "m2200 mobile nvidia quadro",
     0,
     [
       [
@@ -9594,7 +8758,6 @@
   [
     "nvidia quadro m3000m",
     "3000",
-    "m3000m nvidia quadro",
     0,
     [
       [
@@ -9607,7 +8770,6 @@
   [
     "nvidia quadro m4000",
     "4000",
-    "m4000 nvidia quadro",
     0,
     [
       [
@@ -9630,7 +8792,6 @@
   [
     "nvidia quadro m4000 opengl engine",
     "4000",
-    "engine m4000 nvidia opengl quadro",
     0,
     [
       [
@@ -9643,25 +8804,18 @@
   [
     "nvidia quadro m4000m",
     "4000",
-    "m4000m nvidia quadro",
     0,
     [
       [
         1920,
         1080,
         60
-      ],
-      [
-        3840,
-        2160,
-        69
       ]
     ]
   ],
   [
     "nvidia quadro m5000",
     "5000",
-    "m5000 nvidia quadro",
     0,
     [
       [
@@ -9684,7 +8838,6 @@
   [
     "nvidia quadro m5000m",
     "5000",
-    "m5000m nvidia quadro",
     0,
     [
       [
@@ -9702,7 +8855,6 @@
   [
     "nvidia quadro m500m",
     "500",
-    "m500m nvidia quadro",
     0,
     [
       [
@@ -9720,7 +8872,6 @@
   [
     "nvidia quadro m520",
     "520",
-    "m520 nvidia quadro",
     0,
     [
       [
@@ -9738,7 +8889,6 @@
   [
     "nvidia quadro m5500",
     "5500",
-    "m5500 nvidia quadro",
     0,
     [
       [
@@ -9751,23 +8901,12 @@
   [
     "nvidia quadro m6000",
     "6000",
-    "m6000 nvidia quadro",
     0,
     [
-      [
-        1680,
-        1050,
-        60
-      ],
       [
         1920,
         1080,
         408
-      ],
-      [
-        1920,
-        1200,
-        60
       ],
       [
         2560,
@@ -9777,9 +8916,25 @@
     ]
   ],
   [
+    "nvidia quadro m6000 24gb",
+    "6000",
+    0,
+    [
+      [
+        1680,
+        1050,
+        60
+      ],
+      [
+        1920,
+        1200,
+        60
+      ]
+    ]
+  ],
+  [
     "nvidia quadro m600m",
     "600",
-    "m600m nvidia quadro",
     0,
     [
       [
@@ -9792,7 +8947,6 @@
   [
     "nvidia quadro m620",
     "620",
-    "m620 nvidia quadro",
     0,
     [
       [
@@ -9805,7 +8959,6 @@
   [
     "nvidia quadro nvs 4200m",
     "4200",
-    "4200m nvidia nvs quadro",
     0,
     [
       [
@@ -9823,7 +8976,6 @@
   [
     "nvidia quadro p1000",
     "1000",
-    "nvidia p1000 quadro",
     0,
     [
       [
@@ -9841,7 +8993,6 @@
   [
     "nvidia quadro p1000 mobile",
     "1000",
-    "mobile nvidia p1000 quadro",
     0,
     [
       [
@@ -9854,7 +9005,6 @@
   [
     "nvidia quadro p2000",
     "2000",
-    "nvidia p2000 quadro",
     0,
     [
       [
@@ -9877,7 +9027,6 @@
   [
     "nvidia quadro p2000 mobile",
     "2000",
-    "mobile nvidia p2000 quadro",
     0,
     [
       [
@@ -9890,7 +9039,6 @@
   [
     "nvidia quadro p2000 opengl engine",
     "2000",
-    "engine nvidia opengl p2000 quadro",
     0,
     [
       [
@@ -9903,7 +9051,6 @@
   [
     "nvidia quadro p2000 with max-q design",
     "2000",
-    "design max-q nvidia p2000 quadro with",
     0,
     [
       [
@@ -9921,7 +9068,6 @@
   [
     "nvidia quadro p2200",
     "2200",
-    "nvidia p2200 quadro",
     0,
     [
       [
@@ -9939,7 +9085,6 @@
   [
     "nvidia quadro p3000",
     "3000",
-    "nvidia p3000 quadro",
     0,
     [
       [
@@ -9952,7 +9097,6 @@
   [
     "nvidia quadro p3200",
     "3200",
-    "nvidia p3200 quadro",
     0,
     [
       [
@@ -9965,7 +9109,6 @@
   [
     "nvidia quadro p3200 mobile",
     "3200",
-    "mobile nvidia p3200 quadro",
     0,
     [
       [
@@ -9978,7 +9121,6 @@
   [
     "nvidia quadro p3200 with max-q design",
     "3200",
-    "design max-q nvidia p3200 quadro with",
     0,
     [
       [
@@ -9991,7 +9133,6 @@
   [
     "nvidia quadro p400",
     "400",
-    "nvidia p400 quadro",
     0,
     [
       [
@@ -10014,7 +9155,6 @@
   [
     "nvidia quadro p4000",
     "4000",
-    "nvidia p4000 quadro",
     0,
     [
       [
@@ -10032,7 +9172,6 @@
   [
     "nvidia quadro p4200",
     "4200",
-    "nvidia p4200 quadro",
     0,
     [
       [
@@ -10050,7 +9189,6 @@
   [
     "nvidia quadro p4200 with max-q design",
     "4200",
-    "design max-q nvidia p4200 quadro with",
     0,
     [
       [
@@ -10063,7 +9201,6 @@
   [
     "nvidia quadro p500",
     "500",
-    "nvidia p500 quadro",
     0,
     [
       [
@@ -10076,7 +9213,6 @@
   [
     "nvidia quadro p5000",
     "5000",
-    "nvidia p5000 quadro",
     0,
     [
       [
@@ -10089,7 +9225,6 @@
   [
     "nvidia quadro p5000 opengl engine",
     "5000",
-    "engine nvidia opengl p5000 quadro",
     0,
     [
       [
@@ -10102,7 +9237,6 @@
   [
     "nvidia quadro p520",
     "520",
-    "nvidia p520 quadro",
     0,
     [
       [
@@ -10115,7 +9249,6 @@
   [
     "nvidia quadro p5200",
     "5200",
-    "nvidia p5200 quadro",
     0,
     [
       [
@@ -10128,7 +9261,6 @@
   [
     "nvidia quadro p600",
     "600",
-    "nvidia p600 quadro",
     0,
     [
       [
@@ -10141,7 +9273,6 @@
   [
     "nvidia quadro p6000",
     "6000",
-    "nvidia p6000 quadro",
     0,
     [
       [
@@ -10151,20 +9282,19 @@
       ],
       [
         2560,
-        1600,
-        411
+        1440,
+        60
       ],
       [
-        3840,
-        2160,
-        47
+        2560,
+        1600,
+        411
       ]
     ]
   ],
   [
     "nvidia quadro p620",
     "620",
-    "nvidia p620 quadro",
     0,
     [
       [
@@ -10177,7 +9307,6 @@
   [
     "nvidia quadro rtx 3000",
     "3000",
-    "3000 nvidia quadro rtx",
     0,
     [
       [
@@ -10190,7 +9319,6 @@
   [
     "nvidia quadro rtx 3000 mobile / max-q",
     "3000",
-    " 3000 max-q mobile nvidia quadro rtx",
     0,
     [
       [
@@ -10203,7 +9331,6 @@
   [
     "nvidia quadro rtx 3000 with max-q design",
     "3000",
-    "3000 design max-q nvidia quadro rtx with",
     0,
     [
       [
@@ -10216,7 +9343,6 @@
   [
     "nvidia quadro rtx 4000",
     "4000",
-    "4000 nvidia quadro rtx",
     0,
     [
       [
@@ -10229,7 +9355,6 @@
   [
     "nvidia quadro rtx 4000 mobile / max-q",
     "4000",
-    " 4000 max-q mobile nvidia quadro rtx",
     0,
     [
       [
@@ -10242,7 +9367,6 @@
   [
     "nvidia quadro rtx 4000 with max-q design",
     "4000",
-    "4000 design max-q nvidia quadro rtx with",
     0,
     [
       [
@@ -10260,7 +9384,6 @@
   [
     "nvidia quadro rtx 5000",
     "5000",
-    "5000 nvidia quadro rtx",
     0,
     [
       [
@@ -10273,7 +9396,6 @@
   [
     "nvidia quadro rtx 5000 mobile / max-q",
     "5000",
-    " 5000 max-q mobile nvidia quadro rtx",
     0,
     [
       [
@@ -10286,7 +9408,6 @@
   [
     "nvidia quadro rtx 5000 with max-q design",
     "5000",
-    "5000 design max-q nvidia quadro rtx with",
     0,
     [
       [
@@ -10304,7 +9425,6 @@
   [
     "nvidia quadro rtx 6000",
     "6000",
-    "6000 nvidia quadro rtx",
     0,
     [
       [
@@ -10322,7 +9442,6 @@
   [
     "nvidia quadro rtx 8000",
     "8000",
-    "8000 nvidia quadro rtx",
     0,
     [
       [
@@ -10334,18 +9453,12 @@
         1920,
         1200,
         60
-      ],
-      [
-        3840,
-        2160,
-        60
       ]
     ]
   ],
   [
     "nvidia quadro t1000",
     "1000",
-    "nvidia quadro t1000",
     0,
     [
       [
@@ -10363,7 +9476,6 @@
   [
     "nvidia quadro t1000 mobile",
     "1000",
-    "mobile nvidia quadro t1000",
     0,
     [
       [
@@ -10376,7 +9488,6 @@
   [
     "nvidia quadro t1000 with max-q design",
     "1000",
-    "design max-q nvidia quadro t1000 with",
     0,
     [
       [
@@ -10389,7 +9500,6 @@
   [
     "nvidia quadro t2000",
     "2000",
-    "nvidia quadro t2000",
     0,
     [
       [
@@ -10402,7 +9512,6 @@
   [
     "nvidia quadro t2000 mobile / max-q",
     "2000",
-    " max-q mobile nvidia quadro t2000",
     0,
     [
       [
@@ -10415,7 +9524,6 @@
   [
     "nvidia quadro t2000 with max-q design",
     "2000",
-    "design max-q nvidia quadro t2000 with",
     0,
     [
       [
@@ -10423,32 +9531,6 @@
         1200,
         60
       ],
-      [
-        3840,
-        2160,
-        60
-      ]
-    ]
-  ],
-  [
-    "nvidia rtx 5000 ada generation laptop gpu",
-    "5000",
-    "5000 ada generation gpu laptop nvidia rtx",
-    0,
-    [
-      [
-        3840,
-        2400,
-        60
-      ]
-    ]
-  ],
-  [
-    "nvidia rtx 6000 ada generation",
-    "6000",
-    "6000 ada generation nvidia rtx",
-    0,
-    [
       [
         3840,
         2160,
@@ -10459,12 +9541,11 @@
   [
     "nvidia rtx a1000 laptop gpu",
     "1000",
-    "a1000 gpu laptop nvidia rtx",
     0,
     [
       [
         1920,
-        1200,
+        1080,
         60
       ]
     ]
@@ -10472,14 +9553,20 @@
   [
     "nvidia rtx a2000",
     "2000",
-    "a2000 nvidia rtx",
     0,
     [
       [
         1920,
         1080,
-        75
-      ],
+        120
+      ]
+    ]
+  ],
+  [
+    "nvidia rtx a2000 12gb",
+    "2000",
+    0,
+    [
       [
         3840,
         2160,
@@ -10490,7 +9577,6 @@
   [
     "nvidia rtx a2000 laptop gpu",
     "2000",
-    "a2000 gpu laptop nvidia rtx",
     0,
     [
       [
@@ -10502,18 +9588,12 @@
         2400,
         1600,
         120
-      ],
-      [
-        2560,
-        1600,
-        120
       ]
     ]
   ],
   [
     "nvidia rtx a3000 laptop gpu",
     "3000",
-    "a3000 gpu laptop nvidia rtx",
     0,
     [
       [
@@ -10531,7 +9611,23 @@
   [
     "nvidia rtx a4000",
     "4000",
-    "a4000 nvidia rtx",
+    0,
+    [
+      [
+        1920,
+        1080,
+        60
+      ],
+      [
+        3840,
+        2160,
+        60
+      ]
+    ]
+  ],
+  [
+    "nvidia rtx a4000 laptop gpu",
+    "4000",
     0,
     [
       [
@@ -10542,22 +9638,8 @@
     ]
   ],
   [
-    "nvidia rtx a4000 laptop gpu",
-    "4000",
-    "a4000 gpu laptop nvidia rtx",
-    0,
-    [
-      [
-        1920,
-        1080,
-        120
-      ]
-    ]
-  ],
-  [
     "nvidia rtx a4500",
     "4500",
-    "a4500 nvidia rtx",
     0,
     [
       [
@@ -10568,61 +9650,8 @@
     ]
   ],
   [
-    "nvidia rtx a4500 embedded gpu",
-    "4500",
-    "a4500 embedded gpu nvidia rtx",
-    0,
-    [
-      [
-        1920,
-        1080,
-        60
-      ]
-    ]
-  ],
-  [
-    "nvidia rtx a4500 laptop gpu",
-    "4500",
-    "a4500 gpu laptop nvidia rtx",
-    0,
-    [
-      [
-        1920,
-        1200,
-        60
-      ]
-    ]
-  ],
-  [
-    "nvidia rtx a500 embedded gpu",
-    "500",
-    "a500 embedded gpu nvidia rtx",
-    0,
-    [
-      [
-        1920,
-        1080,
-        48
-      ]
-    ]
-  ],
-  [
-    "nvidia rtx a500 laptop gpu",
-    "500",
-    "a500 gpu laptop nvidia rtx",
-    0,
-    [
-      [
-        1920,
-        1200,
-        60
-      ]
-    ]
-  ],
-  [
     "nvidia rtx a5000",
     "5000",
-    "a5000 nvidia rtx",
     0,
     [
       [
@@ -10635,7 +9664,6 @@
   [
     "nvidia rtx a5000 laptop gpu",
     "5000",
-    "a5000 gpu laptop nvidia rtx",
     0,
     [
       [
@@ -10648,20 +9676,18 @@
   [
     "nvidia rtx a5500",
     "5500",
-    "a5500 nvidia rtx",
     0,
     [
       [
         1920,
         1080,
-        316
+        60
       ]
     ]
   ],
   [
     "nvidia rtx a5500 laptop gpu",
     "5500",
-    "a5500 gpu laptop nvidia rtx",
     0,
     [
       [
@@ -10674,13 +9700,12 @@
   [
     "nvidia rtx a6000",
     "6000",
-    "a6000 nvidia rtx",
     0,
     [
       [
-        2560,
+        3440,
         1440,
-        60
+        22
       ],
       [
         3840,
@@ -10692,7 +9717,6 @@
   [
     "nvidia sony geforce 410m",
     "410",
-    "410m geforce nvidia sony",
     0,
     [
       [
@@ -10705,7 +9729,6 @@
   [
     "nvidia t1000",
     "1000",
-    "nvidia t1000",
     0,
     [
       [
@@ -10714,7 +9737,36 @@
         43
       ],
       [
+        3840,
+        2160,
+        60
+      ]
+    ]
+  ],
+  [
+    "nvidia t1000 8gb",
+    "1000",
+    0,
+    [
+      [
+        1280,
+        1024,
+        60
+      ],
+      [
         2560,
+        1080,
+        60
+      ]
+    ]
+  ],
+  [
+    "nvidia t1200 laptop gpu",
+    "1200",
+    0,
+    [
+      [
+        1920,
         1080,
         60
       ],
@@ -10726,9 +9778,8 @@
     ]
   ],
   [
-    "nvidia t1200 laptop gpu",
-    "1200",
-    "gpu laptop nvidia t1200",
+    "nvidia t400",
+    "400",
     0,
     [
       [
@@ -10739,22 +9790,8 @@
     ]
   ],
   [
-    "nvidia t400",
-    "400",
-    "nvidia t400",
-    0,
-    [
-      [
-        1920,
-        1080,
-        56
-      ]
-    ]
-  ],
-  [
     "nvidia t500",
     "500",
-    "nvidia t500",
     0,
     [
       [
@@ -10767,17 +9804,11 @@
   [
     "nvidia t550 laptop gpu",
     "550",
-    "gpu laptop nvidia t550",
     0,
     [
       [
         1920,
         1200,
-        60
-      ],
-      [
-        2560,
-        1600,
         60
       ]
     ]
@@ -10785,7 +9816,6 @@
   [
     "nvidia t600",
     "600",
-    "nvidia t600",
     0,
     [
       [
@@ -10798,7 +9828,6 @@
   [
     "nvidia t600 laptop gpu",
     "600",
-    "gpu laptop nvidia t600",
     0,
     [
       [
@@ -10811,7 +9840,6 @@
   [
     "nvidia tesla c2050",
     "2050",
-    "c2050 nvidia tesla",
     0,
     [
       [
@@ -10824,7 +9852,6 @@
   [
     "nvidia tesla c2050 / c2070",
     "2050",
-    " c2050 c2070 nvidia tesla",
     0,
     [
       [
@@ -10837,7 +9864,6 @@
   [
     "nvidia tesla c2070",
     "2070",
-    "c2070 nvidia tesla",
     0,
     [
       [
@@ -10850,7 +9876,6 @@
   [
     "nvidia tesla c2075",
     "2075",
-    "c2075 nvidia tesla",
     0,
     [
       [
@@ -10863,7 +9888,6 @@
   [
     "nvidia tesla k10",
     "10",
-    "k10 nvidia tesla",
     0,
     [
       [
@@ -10876,7 +9900,6 @@
   [
     "nvidia tesla k10.g1.8gb",
     "10",
-    "8gb g1 k10 nvidia tesla",
     0,
     [
       [
@@ -10889,7 +9912,6 @@
   [
     "nvidia tesla k20m",
     "20",
-    "k20m nvidia tesla",
     0,
     [
       [
@@ -10907,7 +9929,6 @@
   [
     "nvidia tesla k20xm",
     "20",
-    "k20xm nvidia tesla",
     0,
     [
       [
@@ -10920,7 +9941,6 @@
   [
     "nvidia tesla k80",
     "80",
-    "k80 nvidia tesla",
     0,
     [
       [
@@ -10938,7 +9958,6 @@
   [
     "nvidia tesla m10",
     "10",
-    "m10 nvidia tesla",
     0,
     [
       [
@@ -10956,7 +9975,6 @@
   [
     "nvidia tesla m40",
     "40",
-    "m40 nvidia tesla",
     0,
     [
       [
@@ -10969,7 +9987,6 @@
   [
     "nvidia tesla m6",
     "6",
-    "m6 nvidia tesla",
     0,
     [
       [
@@ -10982,18 +9999,17 @@
   [
     "nvidia tesla m60",
     "60",
-    "m60 nvidia tesla",
     0,
     [
-      [
-        1366,
-        768,
-        60
-      ],
       [
         1920,
         962,
         61
+      ],
+      [
+        1920,
+        1080,
+        60
       ],
       [
         3840,
@@ -11003,9 +10019,8 @@
     ]
   ],
   [
-    "nvidia tesla p100 pcie",
+    "nvidia tesla p100 pcie 16gb",
     "100",
-    "nvidia p100 pcie tesla",
     0,
     [
       [
@@ -11018,7 +10033,6 @@
   [
     "nvidia tesla p100-pcie-16gb",
     "100",
-    "nvidia p100-pcie-16gb tesla",
     0,
     [
       [
@@ -11031,7 +10045,6 @@
   [
     "nvidia tesla p4",
     "4",
-    "nvidia p4 tesla",
     0,
     [
       [
@@ -11044,18 +10057,12 @@
   [
     "nvidia tesla p40",
     "40",
-    "nvidia p40 tesla",
     0,
     [
       [
         1546,
         877,
         62
-      ],
-      [
-        1920,
-        1080,
-        60
       ],
       [
         1920,
@@ -11067,7 +10074,6 @@
   [
     "nvidia tesla t4",
     "4",
-    "nvidia t4 tesla",
     0,
     [
       [
@@ -11085,7 +10091,6 @@
   [
     "nvidia tesla v100-pcie-16gb",
     "100",
-    "nvidia tesla v100-pcie-16gb",
     0,
     [
       [
@@ -11098,7 +10103,6 @@
   [
     "nvidia tesla v100-pcie-32gb",
     "100",
-    "nvidia tesla v100-pcie-32gb",
     0,
     [
       [
@@ -11111,7 +10115,6 @@
   [
     "nvidia tesla v100-sxm2-16gb",
     "100",
-    "nvidia tesla v100-sxm2-16gb",
     0,
     [
       [
@@ -11124,7 +10127,6 @@
   [
     "nvidia tesla v100-sxm2-32gb",
     "100",
-    "nvidia tesla v100-sxm2-32gb",
     0,
     [
       [
@@ -11142,7 +10144,6 @@
   [
     "nvidia titan rtx",
     "rtx",
-    "nvidia rtx titan",
     0,
     [
       [
@@ -11160,9 +10161,13 @@
   [
     "nvidia titan v",
     "v",
-    "nvidia titan v",
     0,
     [
+      [
+        1920,
+        1080,
+        60
+      ],
       [
         2560,
         1440,
@@ -11178,7 +10183,6 @@
   [
     "nvidia titan x",
     "x",
-    "nvidia titan x",
     0,
     [
       [
@@ -11201,7 +10205,6 @@
   [
     "nvidia titan xp",
     "xp",
-    "nvidia titan xp",
     0,
     [
       [
@@ -11224,7 +10227,6 @@
   [
     "nvidia titan xp collectors",
     "xp",
-    "collectors nvidia titan xp",
     0,
     [
       [
@@ -11247,7 +10249,6 @@
   [
     "nvidia toshiba geforce gt 525m",
     "525",
-    "525m geforce gt nvidia toshiba",
     0,
     [
       [
@@ -11260,7 +10261,6 @@
   [
     "nvidia tu102 [titan rtx]",
     "102",
-    " nvidia rtx titan tu102",
     0,
     [
       [
@@ -11273,7 +10273,6 @@
   [
     "nvidia tu107",
     "107",
-    "nvidia tu107",
     0,
     [
       [
@@ -11286,7 +10285,6 @@
   [
     "nvidia tu117m",
     "117",
-    "nvidia tu117m",
     0,
     [
       [
@@ -11299,7 +10297,6 @@
   [
     "nvidia unknown",
     "",
-    "nvidia unknown",
     0,
     [
       [
@@ -11312,7 +10309,6 @@
   [
     "nvidia zotac geforce gt 430",
     "430",
-    "430 geforce gt nvidia zotac",
     0,
     [
       [
@@ -11325,7 +10321,6 @@
   [
     "nvidia zotac geforce gt 610",
     "610",
-    "610 geforce gt nvidia zotac",
     0,
     [
       [
@@ -11338,7 +10333,6 @@
   [
     "nvidia zotac geforce gt 630",
     "630",
-    "630 geforce gt nvidia zotac",
     0,
     [
       [
@@ -11351,7 +10345,6 @@
   [
     "nvidia zotac geforce gt 740",
     "740",
-    "740 geforce gt nvidia zotac",
     0,
     [
       [
@@ -11364,7 +10357,6 @@
   [
     "nvidia zotac geforce gtx 460",
     "460",
-    "460 geforce gtx nvidia zotac",
     0,
     [
       [
@@ -11377,7 +10369,6 @@
   [
     "nvidia zotac geforce gtx 550 ti",
     "550",
-    "550 geforce gtx nvidia ti zotac",
     0,
     [
       [
@@ -11390,7 +10381,6 @@
   [
     "nvidia zotac geforce gtx 560",
     "560",
-    "560 geforce gtx nvidia zotac",
     0,
     [
       [
@@ -11403,7 +10393,6 @@
   [
     "nvidia zotac geforce gtx 560 ti",
     "560",
-    "560 geforce gtx nvidia ti zotac",
     0,
     [
       [
@@ -11416,7 +10405,6 @@
   [
     "nvidia zotac geforce gtx 580",
     "580",
-    "580 geforce gtx nvidia zotac",
     0,
     [
       [
@@ -11429,7 +10417,6 @@
   [
     "nvidia zotac geforce gtx 650",
     "650",
-    "650 geforce gtx nvidia zotac",
     0,
     [
       [
@@ -11442,7 +10429,6 @@
   [
     "nvidia zotac geforce gtx 650 ti",
     "650",
-    "650 geforce gtx nvidia ti zotac",
     0,
     [
       [
@@ -11455,7 +10441,6 @@
   [
     "nvidia zotac geforce gtx 660",
     "660",
-    "660 geforce gtx nvidia zotac",
     0,
     [
       [
@@ -11468,7 +10453,6 @@
   [
     "nvidia zotac geforce gtx 680",
     "680",
-    "680 geforce gtx nvidia zotac",
     0,
     [
       [
@@ -11481,7 +10465,6 @@
   [
     "nvidia zotac geforce gtx 750",
     "750",
-    "750 geforce gtx nvidia zotac",
     0,
     [
       [
@@ -11499,7 +10482,6 @@
   [
     "nvidia zotac geforce gtx 760",
     "760",
-    "760 geforce gtx nvidia zotac",
     0,
     [
       [
@@ -11512,7 +10494,6 @@
   [
     "nvidia zotac geforce gtx 770",
     "770",
-    "770 geforce gtx nvidia zotac",
     0,
     [
       [
@@ -11525,7 +10506,6 @@
   [
     "nvidia zotac geforce gtx 780",
     "780",
-    "780 geforce gtx nvidia zotac",
     0,
     [
       [
@@ -11538,7 +10518,6 @@
   [
     "nvidia zotac geforce gtx 960",
     "960",
-    "960 geforce gtx nvidia zotac",
     0,
     [
       [
