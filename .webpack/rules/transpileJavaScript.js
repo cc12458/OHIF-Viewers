@@ -16,6 +16,12 @@ function transpileJavaScript(mode) {
           // 'dicom-microscopy-viewer',
           // https://github.com/openlayers/openlayers#supported-browsers
           // 'ol', --> Should be fine
+
+          /**
+           * TODO 使用了 class-static-block ios 16.4 以下不支持 需要 babel
+           * @link https://caniuse.com/mdn-javascript_classes_static_initialization_blocks
+           */
+          '@cornerstonejs',
         ])
       : excludeNodeModulesExcept([]);
 
