@@ -18,6 +18,7 @@ function initDefaultToolGroup(extensionManager, toolGroupService, commandsManage
       {
         toolName: toolNames.Zoom,
         bindings: [{ mouseButton: Enums.MouseBindings.Secondary }],
+        configuration: { pinchToZoom: false },
       },
       { toolName: toolNames.StackScrollMouseWheel, bindings: [] },
     ],
