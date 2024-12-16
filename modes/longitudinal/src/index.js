@@ -1,5 +1,6 @@
 import { hotkeys } from '@ohif/core';
 import toolbarButtons from './toolbarButtons';
+import toolbarAdditionButtons from './toolbarAdditionButtons';
 import { id } from './id';
 import initToolGroups from './initToolGroups';
 
@@ -132,6 +133,12 @@ function modeFactory({ modeConfiguration }) {
       toolbarService.createButtonSection(
         'primary',
         toolbarButtons.map(item => item.id)
+      );
+
+      toolbarService.addButtons(toolbarAdditionButtons);
+      toolbarService.createButtonSection(
+        'addition',
+        toolbarAdditionButtons.map(item => item.id)
       );
 
       customizationService.addModeCustomizations([

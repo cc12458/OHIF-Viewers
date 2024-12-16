@@ -7,6 +7,7 @@ import { useAppConfig } from '@state';
 import ViewerHeader from './ViewerHeader';
 import SidePanelWithServices from '../Components/SidePanelWithServices';
 import { useWindowSize } from '../utils/useWindowSize';
+import Toolbar from '../Toolbar/Toolbar';
 
 function ViewerLayout({
   // From Extension Module Params
@@ -27,6 +28,7 @@ function ViewerLayout({
 
   const { hangingProtocolService } = servicesManager.services;
   const [showLoadingIndicator, setShowLoadingIndicator] = useState(appConfig.showLoadingIndicator);
+  const [showAdditionToolbar] = useState(appConfig.showAdditionToolbar);
 
   /**
    * Set body classes (tailwindcss) that don't allow vertical
@@ -163,6 +165,18 @@ function ViewerLayout({
                   viewportComponents={viewportComponents}
                   commandsManager={commandsManager}
                 />
+                {showAdditionToolbar ? (
+                  <div
+                    id="addition-toolbar"
+                    className="absolute flex"
+                    style={{ bottom: '12px', right: '12px', display: 'none' }}
+                  >
+                    <Toolbar
+                      servicesManager={servicesManager}
+                      type="addition"
+                    />
+                  </div>
+                ) : null}
               </ErrorBoundary>
             </div>
           </div>

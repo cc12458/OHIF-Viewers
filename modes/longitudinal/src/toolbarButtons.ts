@@ -8,6 +8,7 @@ import {
 import { defaults, ToolbarService } from '@ohif/core';
 import type { Button, RunCommand } from '@ohif/core/types';
 import { EVENTS } from '@cornerstonejs/core';
+import { showAdditionToolbar } from './showAdditionToolbar';
 
 const { windowLevelPresets } = defaults;
 
@@ -53,6 +54,7 @@ function _createSetToolActiveCommands(toolName) {
     commandOptions: {
       toolGroupId,
       toolName,
+      additional: toolName === 'Zoom' ? () => showAdditionToolbar() : void 0,
     },
     context: 'CORNERSTONE',
   }));

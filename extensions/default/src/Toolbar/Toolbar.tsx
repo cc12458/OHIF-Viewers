@@ -1,13 +1,13 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import classnames from 'classnames';
 
-export default function Toolbar({ servicesManager }) {
+export default function Toolbar({ servicesManager, type = 'primary' }) {
   const { toolbarService } = servicesManager.services;
   const [toolbarButtons, setToolbarButtons] = useState([]);
 
   useEffect(() => {
     const { unsubscribe } = toolbarService.subscribe(toolbarService.EVENTS.TOOL_BAR_MODIFIED, () =>
-      setToolbarButtons(toolbarService.getButtonSection('primary'))
+      setToolbarButtons(toolbarService.getButtonSection(type))
     );
 
     return () => {

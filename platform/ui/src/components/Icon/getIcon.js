@@ -87,6 +87,8 @@ import notificationsSuccess from './../../assets/icons/notifications-success.svg
 /** Tools */
 import toggleDicomOverlay from './../../assets/icons/toggle-dicom-overlay.svg';
 import toolZoom from './../../assets/icons/tool-zoom.svg';
+import toolZoomUp from '../../assets/icons/tool-zoom-up.svg';
+import toolZoomDown from '../../assets/icons/tool-zoom-down.svg';
 import toolCapture from './../../assets/icons/tool-capture.svg';
 import toolLayout from './../../assets/icons/tool-layout.svg';
 import toolMore from './../../assets/icons/tool-more-menu.svg';
@@ -224,6 +226,8 @@ const ICONS = {
   /** Tools */
   'toggle-dicom-overlay': toggleDicomOverlay,
   'tool-zoom': toolZoom,
+  'tool-zoom-up': toolZoomUp,
+  'tool-zoom-down': toolZoomDown,
   'tool-capture': toolCapture,
   'tool-layout': toolLayout,
   'tool-more-menu': toolMore,

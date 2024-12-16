@@ -64,5 +64,7 @@
   "Themes": "主题",
   "W/L Presets": "窗位预设",
   "Window Level": "窗位",
-  "Zoom": "放大"
+  "Zoom": "放大 / 缩小",
+  "Scale Up View": "放大",
+  "Scale Down View": "缩小"
 }

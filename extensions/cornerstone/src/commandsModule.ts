@@ -19,6 +19,8 @@ import { getFirstAnnotationSelected } from './utils/measurementServiceMappings/u
 import getActiveViewportEnabledElement from './utils/getActiveViewportEnabledElement';
 import { CornerstoneServices } from './types';
 
+let additionalClear: void | (() => void);
+
 function commandsModule({
   servicesManager,
   commandsManager,
@@ -290,7 +292,7 @@ function commandsModule({
     setToolbarToggled: props => {
       toolbarService.setToggled(props.toolId, props.isActive ?? true);
     },
-    setToolActive: ({ toolName, toolGroupId = null, toggledState }) => {
+    setToolActive: ({ toolName, toolGroupId = null, toggledState, additional = null }) => {
       if (toolName === 'Crosshairs') {
         const activeViewportToolGroup = toolGroupService.getToolGroup(null);
 
@@ -357,6 +359,12 @@ function commandsModule({
           },
         ],
       });
+
+      // 执行附加逻辑
+      additionalClear && (additionalClear = additionalClear());
+      if (typeof additional === 'function') {
+        additionalClear = additional(servicesManager);
+      }
     },
     showDownloadViewportModal: () => {
       const { activeViewportId } = viewportGridService.getState();

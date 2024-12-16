@@ -11,6 +11,8 @@ window.config = {
   showWarningMessageForCrossOrigin: true,
   showCPUFallbackMessage: true,
   showLoadingIndicator: true,
+  /* 显示 放大/缩小 指示器 */
+  showAdditionToolbar: true,
   strictZSpacingForVolumeViewport: true,
   maxNumRequests: {
     interaction: 100,
